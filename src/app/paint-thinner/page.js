@@ -81,7 +81,45 @@ const page = () => {
                                             <Link href="contact"> <i className="fa fa-envelope pdf-icon"></i></Link>
                                         </a>
                                     </td>
+                                </tr>
 
+                                <tr>
+                                    <td>
+                                        <div
+                                            className="project-item"
+                                            data-aos="fade-up"
+                                            data-aos-duration={1500}
+                                            data-aos-offset={50}
+                                        >
+                                            <div className="image">
+                                                <img src="assets/images/projects/project-grid2.svg" alt="Product-2" width={300} />
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <h6>
+                                            <div>Safra Pure</div>
+                                        </h6>
+                                        <ul className="icon-list-chemplex mt-20 mb-35">
+                                            <li>
+                                                <i className="fal fa-check" />  Minimizes health hazards caused by vapors with irritating smell/odor.
+                                            </li>
+                                            <li>
+                                                <i className="fal fa-check" />   Improves paint properties not obtained with other thinners or Kerosene, such as
+                                                gloss, flow, durability etc.
+                                            </li>
+                                            <li>
+                                                <i className="fal fa-check" />  Reduces ventilation requirements to minimum unlike when ordinary paint thinners or
+                                                Kerosene are used.
+                                            </li>
+                                        </ul>
+                                        <a>
+                                            <i className="fa fa-file-pdf pdf-icon"></i>
+                                            <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Pure.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                                <Link href="/assets/images/pdfs/Spp/Msds/Safra Pure.pdf" target="_blank"> MSDS </Link></span>
+                                            <Link href="contact"> | <i className="fa fa-envelope pdf-icon"></i></Link>
+                                        </a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -99,6 +137,8 @@ const page = () => {
                                 <Link href="lacquer-thinner">Lacquer Thinner</Link>
                                 <Link href="acrylic-thinner">Acrylic Thinner</Link>
                                 <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
+                                <Link href="polyurethane">Polyurethane</Link>
+                                <Link href="special-thinner">Special Thinner</Link>
                                 <Link href="wood-varnish">Wood Varnish</Link>
                                 <Link href="cpvc-cement">PVC/CPVC Cement</Link>
                                 <Link href="cpvc-cleaner">PVC/CPVC Cleaner</Link>

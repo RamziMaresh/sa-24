@@ -1,10 +1,5 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,25 +11,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/paint-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/paint-thinner/page.js"
+    ],
+    "/wood-varnish/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wood-varnish/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/trading-products/page": [
+    "/acrylic-thinner/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/trading-products/page.js"
+      "static/chunks/app/acrylic-thinner/page.js"
     ],
-    "/contact/page": [
+    "/marketing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/careers/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/careers/page.js"
+      "static/chunks/app/marketing/page.js"
     ],
     "/lacquer-thinner/page": [
       "static/chunks/webpack.js",
@@ -46,50 +51,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/super-acrylic-thinner/page.js"
     ],
-    "/wood-varnish/page": [
+    "/polyurethane/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/wood-varnish/page.js"
+      "static/chunks/app/polyurethane/page.js"
+    ],
+    "/special-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/special-thinner/page.js"
+    ],
+    "/cpvc-cement/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cpvc-cement/page.js"
     ],
     "/cpvc-cleaner/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/cpvc-cleaner/page.js"
-    ],
-    "/aliphatic-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/aliphatic-products/page.js"
-    ],
-    "/aromatic-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/aromatic-products/page.js"
-    ],
-    "/blended-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blended-products/page.js"
-    ],
-    "/paint/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/paint/page.js"
-    ],
-    "/distribution/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/distribution/page.js"
-    ],
-    "/logistics/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/logistics/page.js"
-    ],
-    "/paint-thinner/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/paint-thinner/page.js"
     ]
   }
 }

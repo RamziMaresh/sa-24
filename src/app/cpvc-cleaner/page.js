@@ -114,6 +114,8 @@ const page = () => {
                                 <Link href="lacquer-thinner">Lacquer Thinner</Link>
                                 <Link href="acrylic-thinner">Acrylic Thinner</Link>
                                 <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
+                                <Link href="polyurethane">Polyurethane</Link>
+                                <Link href="special-thinner">Special Thinner</Link>
                                 <Link href="wood-varnish">Wood Varnish</Link>
                                 <Link href="cpvc-cement">PVC/CPVC cement</Link>
                             </div>

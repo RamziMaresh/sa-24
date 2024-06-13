@@ -98,7 +98,7 @@ const page = () => {
                                     </td>
                                     <td>
                                         <h6>
-                                            <div>Safra AutoCryl</div>
+                                            <div>Auto Cryl</div>
                                         </h6>
                                         <a>
                                             <i className="fa fa-file-pdf pdf-icon"></i>
@@ -124,6 +124,8 @@ const page = () => {
                                 <Link href="paint-thinner">paint Thinner</Link>
                                 <Link href="acrylic-thinner">Acrylic Thinner</Link>
                                 <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
+                                <Link href="polyurethane">Polyurethane</Link>
+                                <Link href="special-thinner">Special Thinner</Link>
                                 <Link href="wood-varnish">Wood Varnish</Link>
                                 <Link href="cpvc-cement">PVC/CPVC Cement</Link>
                                 <Link href="cpvc-cleaner">PVC/CPVC Cleaner</Link>

@@ -193,6 +193,12 @@ const Nav = ({
                         <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
                       </li>
                       <li>
+                        <Link href="polyurethane">Polyurethane</Link>
+                      </li>
+                      <li>
+                        <Link href="special-thinner">Special Thinner</Link>
+                      </li>
+                      <li>
                         <Link href="wood-varnish">Wood Varnish</Link>
                       </li>
                       <li>

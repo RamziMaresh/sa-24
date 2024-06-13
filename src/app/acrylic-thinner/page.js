@@ -2,14 +2,12 @@
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import Link from "next/link";
-//
 
 const page = () => {
     return (
         <SafraLayout>
             <PageBanner pageName={"Acrylic Thinner"} />
             {/* News media section one start  */}
-
 
             <section className="blog-details-area py-0 rpy-100">
                 <div className="container">
@@ -96,6 +94,8 @@ const page = () => {
                                 <Link href="paint-thinner">Paint Thinner</Link>
                                 <Link href="lacquer-thinner">Lacquer Thinner</Link>
                                 <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
+                                <Link href="polyurethane">Polyurethane</Link>
+                                <Link href="special-thinner">Special Thinner</Link>
                                 <Link href="wood-varnish">Wood Varnish</Link>
                                 <Link href="cpvc-cement">PVC/CPVC Cement</Link>
                                 <Link href="cpvc-cleaner">PVC/CPVC Cleaner</Link>

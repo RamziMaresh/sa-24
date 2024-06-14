@@ -1,10 +1,9 @@
 {
-  "/super-acrylic-thinner/page": "app/super-acrylic-thinner/page.js",
-  "/polyurethane/page": "app/polyurethane/page.js",
-  "/wood-varnish/page": "app/wood-varnish/page.js",
-  "/cpvc-cement/page": "app/cpvc-cement/page.js",
-  "/not-found": "app/not-found.js",
-  "/cpvc-cleaner/page": "app/cpvc-cleaner/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/about/page": "app/about/page.js",
+  "/paint-thinner/page": "app/paint-thinner/page.js",
+  "/aromatic-products/page": "app/aromatic-products/page.js",
+  "/polyurethane/page": "app/polyurethane/page.js",
+  "/not-found": "app/not-found.js"
 }

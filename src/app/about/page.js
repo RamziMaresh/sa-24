@@ -3,6 +3,7 @@ import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 //
 
 const TestimonialSlider = dynamic(
@@ -399,7 +400,131 @@ const page = () => {
       </section>
       {/* President End */}
 
-      {/* Services Two Area Start */}
+
+      {/* Values Area Start */}
+      <section className="feature-box-area pt-20 rpt-10 pb-60 rpb-40 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-9 col-md-11">
+              <div
+                className="section-title text-center mb-55"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <h3
+                  data-aos="fade-up"
+                  data-aos-delay={50}
+                  data-aos-duration={1500}
+                  data-aos-offset={50}
+                  className="mb-60"
+                >
+                  Corporate <span>Values</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Compliance to Business Principles</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={100}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Customers Orientation</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={200}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Transparency</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Personal Integrity & Hones</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={100}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Corporate Social Responsibility </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={200}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Business Integrity & Hones</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      {/* Values Area End */}
+
+
+      {/* Contact Area Start */}
+      <section
+        className=" bgs-cover py-240 rpy-100"
+        style={{ backgroundImage: "url(assets/images/backgrounds/history.svg)" }}
+      >
+
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-xl-6 col-lg-8">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+      {/* Services Two Area Start 
       <section className="services-two-area pt-20 rpt-40 pb-90 rpb-70 rel z-2">
         <div className="container">
           <div className="row justify-content-center text-center">
@@ -552,114 +677,8 @@ const page = () => {
           </div>
         </div>
       </section>
+      */}
       {/* Services Two Area End */}
-
-
-      {/* Values Area Start */}
-      <section className="feature-box-area pt-20 rpt-10 pb-60 rpb-40 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-9 col-md-11">
-              <div
-                className="section-title text-center mb-55"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <h3
-                  data-aos="fade-up"
-                  data-aos-delay={50}
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
-                  className="mb-60"
-                >
-                  Corporate <span>Values</span>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Compliance to Business Principles</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Customers Orientation</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Transparency</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Personal Integrity & Hones</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Corporate Social Responsibility </h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Business Integrity & Hones</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      {/* Values Area End */}
 
       {/* Business Philosophy Start */}
       <section className="data-analytics-area pt-40 rpt-10 pb-20 rpb-60">
@@ -728,6 +747,7 @@ const page = () => {
       </section>
       {/* Business Philosophy End */}
 
+      
       <section className="hero-area-six pt-40 rpt-20 pb-0 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -737,15 +757,13 @@ const page = () => {
           </div>
         </div>
       </section>
-
+ 
       {/* HeaderStart pt-120*/}
-      <section
-        className="tooltip-area rel pt-40 rpt-10"
-      >
+      <section className="tooltip-area rel pt-40 rpt-10">
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-xl-9 col-lg-11 mb-135 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 mb-40 rmb-80 text-center"
               data-aos="fade-up"
               data-aos-duration={1500}
               data-aos-offset={50}

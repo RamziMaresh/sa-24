@@ -103,7 +103,7 @@ const page = () => {
 
                             <div className="blog-details-content pt-10  pb-40">
                                 <div className="blog-details-content ">
-                                    <h5 className="pt-20 ">A Quick “Image Bite” Of Who And Ahat We Are</h5>
+                                    <h5 className="pt-20 ">A Quick Image Bite Of Who And What We Are</h5>
                                     <p>
                                         The center of marketing gravity for innovation can be anywhere, and what matters is that our
                                         company SAFRA Ltd. is having the ability to bring central focus to bear when it is needed to

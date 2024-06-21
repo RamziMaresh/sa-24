@@ -1,9 +1,8 @@
 {
+  "/contact/page": "app/contact/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/distribution/page": "app/distribution/page.js",
+  "/super-acrylic-thinner/page": "app/super-acrylic-thinner/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/about/page": "app/about/page.js",
-  "/paint-thinner/page": "app/paint-thinner/page.js",
-  "/aromatic-products/page": "app/aromatic-products/page.js",
-  "/polyurethane/page": "app/polyurethane/page.js",
-  "/not-found": "app/not-found.js"
+  "/wood-varnish/page": "app/wood-varnish/page.js"
 }

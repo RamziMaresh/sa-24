@@ -21,20 +21,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/paint-thinner/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/paint-thinner/page.js"
+      "static/chunks/app/contact/page.js"
     ],
-    "/aromatic-products/page": [
+    "/careers/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/aromatic-products/page.js"
+      "static/chunks/app/careers/page.js"
     ],
-    "/polyurethane/page": [
+    "/distribution/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/polyurethane/page.js"
+      "static/chunks/app/distribution/page.js"
+    ],
+    "/super-acrylic-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/super-acrylic-thinner/page.js"
+    ],
+    "/wood-varnish/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/wood-varnish/page.js"
     ]
   }
 }

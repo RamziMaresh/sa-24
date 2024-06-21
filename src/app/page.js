@@ -37,7 +37,6 @@ const Index = () => {
                 <h4 className="pb-20">
                   We Are A world Class Hydrocarbon Player With Viable Framework And Competitive Edge
                 </h4>
-
                 <p>
                   SAFRA Co. Ltd. is committed to Saudi Vision 2030 with ambitious drive and aspiration to contribute for building a broad-based economy
                   for a sustainable future.
@@ -46,9 +45,9 @@ const Index = () => {
                   The company serves industries of paints,adhesives,
                   insecticides & pesticides, thinner, alkyd resins, industrial cleaning, maintenance
                   solvents, dry cleaning ...
-
                 </p>
               </div>
+
               <Link href="about" className="theme-btn">
                 Read More <i className="far fa-arrow-right" />
               </Link>

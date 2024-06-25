@@ -48,7 +48,7 @@ const page = () => {
     <SafraLayout>
       <PageBanner pageName={"Contact Us"} />
 
-      <section className="contact-page py-60 rpy-10 pt-100 rpt-60">
+      <section className="contact-page py-60 rpy-10 pt-60 rpt-60">
         <div className="container">
 
           <div className="row justify-content-center">
@@ -61,10 +61,9 @@ const page = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-
                 </div>
               </div>
-              <div className=" pb-40">
+              <div className=" pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
 

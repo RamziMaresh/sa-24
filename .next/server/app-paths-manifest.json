@@ -1,8 +1,8 @@
 {
-  "/about/page": "app/about/page.js",
   "/contact/page": "app/contact/page.js",
   "/distribution/page": "app/distribution/page.js",
   "/paint-thinner/page": "app/paint-thinner/page.js",
   "/careers/page": "app/careers/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

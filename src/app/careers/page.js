@@ -6,7 +6,7 @@ const page = () => {
     return (
         <SafraLayout>
             <PageBanner pageName={"Careers"} />
-            <section className="services-two-area pt-100 rpt-100 pb-0 rpb-   rel z-2">
+            <section className="services-two-area pt-100 rpt-60 pb-0 rpb-   rel z-2">
                 <div className="container">
 
                     <div className="row justify-content-center">
@@ -36,7 +36,7 @@ const page = () => {
                                 We Give Our People The Opportunity And Support To Achieve More Than They Ever Thought Possible.<br />
                                 <b>UPLOAD YOUR CV</b> 
                             </p>
-                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10">
+                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10 pt-40">
                                 <div className="sign-in-up-wrapper">
                                     <form action="#">
                                         <div className="form-group">

@@ -4888,6 +4888,7 @@ a.theme-btn.style-four:hover {
   margin-right: 15px;
   color: var(--primary-color);
 }
+
 .icon-list-chemplex li {
   display: flex;
   font-weight: 100;
@@ -4898,6 +4899,7 @@ a.theme-btn.style-four:hover {
 .icon-list-chemplex li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .icon-list-chemplex li i {
   flex: none;
   margin-top: 2px;
@@ -7074,7 +7076,7 @@ a.theme-btn.style-four:hover {
 
 .project-item .image {
   max-width: 100%;
-  
+
 }
 
 .project-item img:hover {
@@ -12513,11 +12515,11 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, .4);
   /* background-color: #000000cc; */
 }
 
-.about-products-desc{
+.about-products-desc {
   align-items: center;
   text-align: justify;
 }
@@ -12531,24 +12533,39 @@ video {
 .tag-coulds-pro {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -5px 0; }
-  .tag-coulds-pro a {
-    font-weight: 600;
-    font-size: 14px;
-    padding: 4px 12px;
-    margin: 10px 5px 0;
-    border-radius: 10px;
-    text-transform: capitalize;
-    border: 1px solid var(--border-color); }
-    @media only screen and (max-width: 375px) {
-      .tag-coulds-pro a {
-        font-size: 14px; } }
-    .tag-coulds-pro a:hover {
-      color: white;
-      background: var(--primary-color);
-      border-color: var(--primary-color); }
+  margin: 0 -5px 0;
+}
 
-      .tooltip-area{
-        background-color: #F8FAFC
-        ;
-      }
+.tag-coulds-pro a {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px 12px;
+  margin: 10px 5px 0;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: 1px solid var(--border-color);
+}
+
+@media only screen and (max-width: 375px) {
+  .tag-coulds-pro a {
+    font-size: 14px;
+  }
+}
+
+.tag-coulds-pro a:hover {
+  color: white;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.tooltip-area {
+  background-color: #F8FAFC;
+}
+
+.contact-form .form-contact-btn {
+  font-size: 12px;
+  border-radius: 10px;
+  background: #f1f5f9;
+  padding: 5px 100px;
+  border: 1px solid rgba(15, 17, 15, 0.07);
+}

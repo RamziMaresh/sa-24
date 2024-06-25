@@ -12548,3 +12548,7 @@ video {
       background: var(--primary-color);
       border-color: var(--primary-color); }
 
+      .tooltip-area{
+        background-color: #F8FAFC
+        ;
+      }

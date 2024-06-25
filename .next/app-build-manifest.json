@@ -36,15 +36,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/distribution/page.js"
     ],
-    "/super-acrylic-thinner/page": [
+    "/paint-thinner/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/super-acrylic-thinner/page.js"
-    ],
-    "/wood-varnish/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/wood-varnish/page.js"
+      "static/chunks/app/paint-thinner/page.js"
     ]
   }
 }

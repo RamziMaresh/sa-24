@@ -759,7 +759,7 @@ const page = () => {
       </section>
  
       {/* HeaderStart pt-120*/}
-      <section className="tooltip-area rel pt-40 rpt-10">
+      <section className="tooltip-area-two rel pt-40 rpt-10">
         <div className="container">
           <div className="row justify-content-center">
             <div

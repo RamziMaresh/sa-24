@@ -154,7 +154,7 @@ const Index = () => {
 
       {/* Products Area Start */}
       <section
-        className="tooltip-area bgs-cover rel pt-100 rpt-100"
+        className="tooltip-area-two bgs-cover rel pt-100 rpt-100"
       >
         <div className="container">
           <div className="row justify-content-center">

@@ -613,7 +613,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="ceo-text pt-10 pb-10">
+              <div className="section-title pt-10 pb-10">
                 <h4 className="pb-20">
                   Our products are meeting customers needs from industrial chemicals to consumers products and services
                 </h4>

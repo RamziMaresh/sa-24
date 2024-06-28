@@ -3874,9 +3874,9 @@ a.theme-btn {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
-  padding: 13px 45px;
+  padding: 5px 30px;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
   display: inline-flex;
   justify-content: center;
   font-family: var(--heading-font);
@@ -3902,7 +3902,7 @@ a.theme-btn:hover {
 
   .theme-btn,
   a.theme-btn {
-    padding: 10px 30px;
+    padding: 5px 30px;
   }
 }
 
@@ -4016,6 +4016,12 @@ a.theme-btn.style-four:hover {
   position: relative;
 }
 
+.section-title p{
+  padding: 5px;
+  color: black;
+  text-align: justify;
+  text-align-last: center;
+}
 
 
 .section-title h2 {
@@ -4035,6 +4041,23 @@ a.theme-btn.style-four:hover {
   background-size: 100%;
   padding: 0 15px 15px;
   margin: 0 -15px;
+}
+
+.section-title-sus {
+  margin-top: -8px;
+  position: relative;
+}
+
+.section-title-sus h3 {
+  margin-bottom: 20px;
+  padding: 5px;
+
+}
+
+.section-title-sus p{
+  padding: 5px;
+  color: black;
+  text-align: justify;
 }
 
 .tag-share h4 span {
@@ -12559,7 +12582,7 @@ video {
 }
 
 .tooltip-area {
-  background-color: #F8FAFC;
+  background-color: rgb(248 250 252);
 }
 
 .contact-form .form-contact-btn {

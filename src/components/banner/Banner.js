@@ -20,7 +20,7 @@ const Banner = () => {
         autoPlay
         autobuffer="autobuffer"
         preload="none"
-      />,
+      />
 
       <div className="content-banner">
         <h3

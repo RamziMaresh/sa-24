@@ -17,23 +17,20 @@ const Index = () => {
       </section>
       {/* Hero area End */}
 
-
       {/* HeaderStart pt-120*/}
       <section
         className="tooltip-area bgs-cover rel pt-20 rpt-40"
-        style={{
-          backgroundImage: "url(assets/images/backgrounds/hero-bg-sit.svg)",
-        }}
+
       >
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-xl-9 col-lg-11 mb-135 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 mb-40 pt-40 rmb-80 text-center"
               data-aos="fade-up"
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="section-title pt-40 pb-40">
+              <div className="section-title pb-40">
                 <h4 className="pb-20">
                   We Are A world Class Hydrocarbon Player With Viable Framework And Competitive Edge
                 </h4>
@@ -59,7 +56,7 @@ const Index = () => {
 
 
       {/* Sustainability Area Start */}
-      <section className="data-analytics-area pt-60 rpt-30 pb-90 rpb-60">
+      <section className="data-analytics-area pt-10 rpt-20 pb-10 rpb-20">
         <div className="container">
           <div className="row gap-110 align-items-center">
             <div className="col-lg-6">
@@ -69,9 +66,8 @@ const Index = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="section-title mb-30">
+                <div className="section-title-sus mb-30">
                   <h3>Safra Sustainability</h3>
-                </div>
                 <p>
                   Sustainability for SAFRA goes far beyond just climate protection as this objective will
                   responsibly be achieved by pursuing three dimensional levels; environmental, economic and social.
@@ -80,7 +76,7 @@ const Index = () => {
                   company will totally be committed to achieve sustainable growth via its nurtured
                   localized employees who will achieve exceptional standards of performance, responsible behavior, continuous learning and innovation.
                 </p>
-
+                </div>
               </div>
             </div>
             <div className="col-lg-6">

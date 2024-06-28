@@ -770,7 +770,7 @@ const page = () => {
             >
               <div className="section-title pt-10 pb-10">
                 <h4 className="pb-20">
-                  Our products are meeting customers’ needs from industrial chemicals to consumers products and services
+                  Our products are meeting customers needs from industrial chemicals to consumers products and services
                 </h4>
                 <p className="about-products-desc">
                   We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers.

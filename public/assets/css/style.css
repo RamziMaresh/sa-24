@@ -4202,7 +4202,7 @@ a.theme-btn:hover {
 
   .theme-btn,
   a.theme-btn {
-    padding: 5px 30px;
+    padding: 5px 20px;
   }
 }
 
@@ -12167,12 +12167,7 @@ a.theme-btn.style-four:hover {
   color: black;
 }
 
-@media only screen and (max-width: 479px) {
-  .contact-form {
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-}
+
 
 @media only screen and (max-width: 375px) {
   .contact-form {
@@ -13610,7 +13605,7 @@ a.theme-btn.style-four:hover {
 
 .main-banner {
   width: 100%;
-  height: 55vh;
+  height: 60vh;
 }
 
 video {
@@ -13688,6 +13683,8 @@ video {
 }
 
 .contact-form .form-contact-btn {
+  color: black;
+  font-weight: bold;
   font-size: 12px;
   border-radius: 10px;
   background: #f1f5f9;

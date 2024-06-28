@@ -1,11 +1,6 @@
 {
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/acrylic-thinner/page": "app/acrylic-thinner/page.js",
-  "/logistics/page": "app/logistics/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/tannery/page": "app/tannery/page.js",
   "/contact/page": "app/contact/page.js",
-  "/blended-products/page": "app/blended-products/page.js",
-  "/trading-products/page": "app/trading-products/page.js"
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

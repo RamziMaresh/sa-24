@@ -53,22 +53,15 @@ const page = () => {
 
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
-              <div className="tag-share pt-0 pb-10">
+              <div className="tag-share pt-0 pb-5">
                 <h5>Feel Free to Contact Us, Get InTouch!</h5>
-                <div
-                  className="item"
-                  data-aos="fade-left"
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
-                >
-                </div>
               </div>
               <div className=" pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
 
               <div
-                className="contact-form br-10 rmt-20"
+                className="contact-form  rmt-20"
                 name="contact-form"
                 data-aos="fade-left"
                 data-aos-duration={1500}

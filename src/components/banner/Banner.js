@@ -6,11 +6,8 @@ const Banner = () => {
   return (
     <div
       className='main-banner'
-
     >
       <div className="overlay-banner"></div>
-
-
       <video
         src="assets/images/hero/videoBg.mp4"
         type="video/mp4"

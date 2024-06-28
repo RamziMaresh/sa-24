@@ -25,7 +25,7 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">
               <div
-                className="section-title text-center mb-40"
+                className="section-title text-center mb-20"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
@@ -56,7 +56,10 @@ const page = () => {
                   The production capacity of SAFRA refinery is continuously expanding to meet
                   increasing demand for products while keeping pace with the latest technological
                   developments and simultaneously meeting stringent International standards for
-                  manufacturing solvents.<br />
+                  manufacturing solvents.
+
+                </p>
+                <p>
                   The plant is equipped with necessary technological flexibility and pool of technical
                   experts to produce innovative tailor made products conforming to the customer
                   specifications. It is very well equipped with high capacity solvent filling facility in drums
@@ -188,7 +191,7 @@ const page = () => {
       {/* Solutions Area End */}
 
       {/* Tab Area Start */}
-      <section className="tab-area-two pt-100 rpt-105"
+      <section className="tab-area-two pt-40 rpt-10"
         style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}
 
       >
@@ -350,12 +353,12 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
        */}
-      <section className="artificial-intelligence-area rel pt-60 rpt-80 pb-60 rpb-10 z-2"
+      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-60 rpb-10 z-2"
       >
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="section-title text-center mb-20"
+              className="section-title text-center"
 
             >
               <h3>CEO Message</h3>
@@ -364,11 +367,11 @@ const page = () => {
         </div>
 
         <div className="container container-1070">
-          <div className="row pb-0 rpb-65 gap-100 align-items-center">
+          <div className="row pb-10 rpb-20  align-items-center">
 
             <div className="ceo-text">
               <div
-                className="ai-content mb-40 rmb-0"
+                className="ai-content rmb-0"
 
               >
                 <p>
@@ -402,12 +405,12 @@ const page = () => {
 
 
       {/* Values Area Start */}
-      <section className="feature-box-area pt-20 rpt-10 pb-60 rpb-40 rel z-1">
+      <section className="feature-box-area pt-10 rpt-10 pb-40 rpb-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">
               <div
-                className="section-title text-center mb-55"
+                className="section-title text-center mb-40"
                 data-aos="fade-up"
                 data-aos-duration={1500}
                 data-aos-offset={50}
@@ -417,7 +420,6 @@ const page = () => {
                   data-aos-delay={50}
                   data-aos-duration={1500}
                   data-aos-offset={50}
-                  className="mb-60"
                 >
                   Corporate <span>Values</span>
                 </h3>
@@ -522,7 +524,7 @@ const page = () => {
         </div>
       </section>
 
-    
+
 
       {/* Services Two Area Start 
       <section className="services-two-area pt-20 rpt-40 pb-90 rpb-70 rel z-2">
@@ -747,7 +749,7 @@ const page = () => {
       </section>
       {/* Business Philosophy End */}
 
-      
+
       <section className="hero-area-six pt-40 rpt-20 pb-0 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -757,7 +759,7 @@ const page = () => {
           </div>
         </div>
       </section>
- 
+
       {/* HeaderStart pt-120*/}
       <section className="tooltip-area-two rel pt-40 rpt-10">
         <div className="container">

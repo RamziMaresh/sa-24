@@ -248,7 +248,7 @@ const page = () => {
                 <div className="row align-items-center justify-content-center">
 
                   <div className="col-xl-9 col-lg-9">
-                    <div className="content rmt-55 ">
+                    <div className="ceo-text">
 
                       <p>
                         SAFRA is devoted to diversify its value-added hydrocarbon quality products to
@@ -270,7 +270,7 @@ const page = () => {
                 <div className="row align-items-center justify-content-center">
                   <div className="col-xl-9 col-lg-9">
                     <div
-                      className="content rmb-55"
+                      className="ceo-text"
                       data-aos="fade-left"
                       data-aos-duration={1500}
                       data-aos-offset={50}
@@ -324,7 +324,7 @@ const page = () => {
               <Tab.Pane className="tab-pane fade" eventKey="tabTwo3">
                 <div className="row align-items-center justify-content-center">
                   <div className="col-xl-9 col-lg-9">
-                    <div className="content rmb-55 justify-content-center">
+                    <div className="ceo-text">
 
                       <p>
                         Quality consistency is vital for us as we know there are no shortcuts when it comes to
@@ -525,165 +525,8 @@ const page = () => {
       </section>
 
 
-
-      {/* Services Two Area Start 
-      <section className="services-two-area pt-20 rpt-40 pb-90 rpb-70 rel z-2">
-        <div className="container">
-          <div className="row justify-content-center text-center">
-            <div
-              className="col-xl-8"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div
-                className="section-title text-center mb-20"
-
-              >
-                <h3>Safra History</h3>
-              </div>
-
-            </div>
-          </div>
-          <div className="row pt-45">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-
-                <div className="content">
-                  <h6>
-                    1987 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>SAFRA Company Ltd. was established.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h6>
-                    1990 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>Commercial production started and export activities began.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h6>
-                    1992 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>
-                    SAFRA’s packaged products (SPP) launched.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h6>
-                    1994 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>SPP production went into full speed operation.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h6>
-                    1996 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>SAFRA obtained ISO 9002 certificate. </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four ">
-                <div className="content">
-                  <h6>
-                    1997 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p> SAFRA received the King Fahd Award for “Best Industry”.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four ">
-                <div className="content">
-                  <h6>
-                    1999 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>SAFRA implemented SAP solution.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four ">
-                <div className="content">
-                  <h6>
-                    2023 <i class="fa fa-angle-right"></i>
-                  </h6>
-                  <p>Started the revamp of its refinery, renovated & upgraded its equipment.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      */}
-      {/* Services Two Area End */}
-
       {/* Business Philosophy Start */}
-      <section className="data-analytics-area pt-40 rpt-10 pb-20 rpb-60">
+      <section className="data-analytics-area pt-40 rpt-10 pb-20 rpb-10">
         <div className="container">
           <div className="row gap-110 align-items-center">
             <div className="col-lg-6">
@@ -765,16 +608,16 @@ const page = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-xl-9 col-lg-11 mb-40 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 mb-40 rmb-40 text-center"
               data-aos="fade-up"
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="section-title pt-10 pb-10">
+              <div className="ceo-text pt-10 pb-10">
                 <h4 className="pb-20">
                   Our products are meeting customers needs from industrial chemicals to consumers products and services
                 </h4>
-                <p className="about-products-desc">
+                <p>
                   We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers.
                   We also undertake the blending of various products to meet specific customers chemical and
                   solvents requirements serving industries such as Paints, Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery,

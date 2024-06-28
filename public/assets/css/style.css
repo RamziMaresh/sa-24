@@ -13662,13 +13662,13 @@ video {
 }
 
 .tag-coulds-pro a {
-  font-weight: 600;
   font-size: 14px;
-  padding: 4px 12px;
+  padding: 2px 12px;
   margin: 10px 5px 0;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: capitalize;
   border: 1px solid var(--border-color);
+  color: black;
 }
 
 @media only screen and (max-width: 375px) {

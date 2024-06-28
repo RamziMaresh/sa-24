@@ -50,6 +50,41 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/polyurethane/page.js"
+    ],
+    "/paint-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/paint-thinner/page.js"
+    ],
+    "/lacquer-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/lacquer-thinner/page.js"
+    ],
+    "/acrylic-thinner/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/acrylic-thinner/page.js"
+    ],
+    "/logistics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/logistics/page.js"
+    ],
+    "/tannery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tannery/page.js"
+    ],
+    "/trading-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/trading-products/page.js"
+    ],
+    "/blended-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blended-products/page.js"
     ]
   }
 }

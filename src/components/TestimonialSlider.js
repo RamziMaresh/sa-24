@@ -13,25 +13,45 @@ const TestimonialSlider = () => {
                     <div className="">
                         <img
                             src="assets/images/fancy-box/fancy-box1.jpg"
-                            alt="Fancy Box"
+                            alt=""
                         />
                     </div>
                 </div>
                 <div className="testimonial-item">
-                <div className="">
+                    <div className="">
                         <img
                             src="assets/images/fancy-box/fancy-box2.jpg"
-                            alt="Fancy Box"
+                            alt=""
+                        />
+                    </div>
+                    
+                </div>
+                <div className="testimonial-item">
+                    <div className="">
+                        <img
+                            src="assets/images/fancy-box/fancy-box3.jpg"
+                            alt=" "
                         />
                     </div>
                 </div>
                 <div className="testimonial-item">
-                <div className="">
+                    <div className="">
                         <img
-                            src="assets/images/fancy-box/fancy-box3.jpg"
-                            alt="Fancy Box"
+                            src="assets/images/fancy-box/fancy-box4.jpg"
+                            alt=" "
                         />
                     </div>
+                </div>
+                <div className="testimonial-item">
+                    <div className="">
+                        <img
+                            src="assets/images/fancy-box/fancy-box5.jpg"
+                            alt=" "
+                        />
+                    </div>
+                </div>
+                <div className="testimonial-item">
+
                 </div>
             </Slider>
 

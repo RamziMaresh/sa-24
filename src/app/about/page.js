@@ -3,7 +3,6 @@ import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
 import dynamic from "next/dynamic";
-import Link from "next/link";
 //
 
 const TestimonialSlider = dynamic(
@@ -79,7 +78,7 @@ const page = () => {
 
 
       {/* Testimonials Area Start */}
-      <section className="testimonials-area pt-10 rpt-40 rpb-0 pb-10 rpb-0">
+      <section className="testimonials-area pt-10 rpt-20 rpb-0 pb-20 rpb-0">
         <TestimonialSlider />
       </section>
 

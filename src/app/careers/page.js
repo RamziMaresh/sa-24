@@ -34,9 +34,9 @@ const page = () => {
                         <div className="col-xl-9 col-lg-11">
                             <p className="">
                                 We Give Our People The Opportunity And Support To Achieve More Than They Ever Thought Possible.<br />
-                                <b>UPLOAD YOUR CV</b> 
+                                <b>UPLOAD YOUR CV</b>
                             </p>
-                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10 pt-40">
+                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10 pt-10">
                                 <div className="sign-in-up-wrapper">
                                     <form action="#">
                                         <div className="form-group">
@@ -94,6 +94,16 @@ const page = () => {
                 </div>
             </section>
 
+
+            <section className="hero-area-six rel z-1">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+                            <hr />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* News media section one start  */}
             <section className="blog-details-area py-0 rpy-100">

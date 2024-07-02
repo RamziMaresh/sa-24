@@ -8908,6 +8908,9 @@ a.theme-btn.style-four:hover {
     font-size: 10px;
     line-height: 20px;
   }
+  .management-images{
+    display: none;
+  }
 }
 
 .main-header .logo {

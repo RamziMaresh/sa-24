@@ -56,7 +56,7 @@ const page = () => {
               <div className="tag-share pt-0 pb-5">
                 <h5>Feel Free to Contact Us, Get InTouch!</h5>
               </div>
-              <div className=" pb-20">
+              <div className=" pb-5">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
 
@@ -187,14 +187,14 @@ const page = () => {
               </div>
 
               <section className="hero-area-six pt-40 rpt-20 pb-40 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-xl-9 col-lg-11">
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </section>
 
               <div className="">
                 <div className="contact-info-part">

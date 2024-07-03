@@ -21,15 +21,45 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
+    "/careers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/careers/page.js"
+    ],
     "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
     ],
-    "/careers/page": [
+    "/paint-thinner/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/careers/page.js"
+      "static/chunks/app/paint-thinner/page.js"
+    ],
+    "/resins/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/resins/page.js"
+    ],
+    "/logistics/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/logistics/page.js"
+    ],
+    "/distribution/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/distribution/page.js"
+    ],
+    "/fuel-additives/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/fuel-additives/page.js"
+    ],
+    "/aliphatic-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aliphatic-products/page.js"
     ]
   }
 }

@@ -5,13 +5,6 @@ import { Nav, Tab } from "react-bootstrap";
 import dynamic from "next/dynamic";
 //
 
-const TestimonialSlider = dynamic(
-  () => import("../../components/TestimonialSlider"),
-  {
-    ssr: false,
-  }
-);
-
 const page = () => {
   return (
     <SafraLayout>
@@ -77,14 +70,10 @@ const page = () => {
       {/* About Area End */}
 
 
-      {/* Testimonials Area Start */}
-      <section className="testimonials-area pt-10 rpt-20 rpb-0 pb-20 rpb-0">
-        <TestimonialSlider />
-      </section>
 
 
 
-      {/* Solutions Area End 
+
       <section className="solutions-area pb-40 rpb-70">
         <div className="container">
 
@@ -186,7 +175,6 @@ const page = () => {
           </div>
         </div>
       </section>
-      */}
       {/* Solutions Area End */}
 
       {/* Tab Area Start */}
@@ -352,7 +340,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
        */}
-      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-60 rpb-10 z-2"
+      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -366,7 +354,7 @@ const page = () => {
         </div>
 
         <div className="container container-1070">
-          <div className="row pb-10 rpb-20  align-items-center">
+          <div className="row pb-10 rpb-20 align-items-center">
 
             <div className="ceo-text">
               <div
@@ -394,7 +382,6 @@ const page = () => {
                   a motivating work environment within the guidelines of Islamic ethics and culture.
                 </p>
               </div>
-              <hr />
             </div>
           </div>
 
@@ -402,9 +389,19 @@ const page = () => {
       </section>
       {/* President End */}
 
+      <section className="hero-area-six pt-5 rpt-20 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-9 col-lg-11">
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       {/* Values Area Start */}
-      <section className="feature-box-area pt-10 rpt-10 pb-40 rpb-20 rel z-1">
+      <section className="feature-box-area pt-40 rpt-10 pb-40 rpb-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">

@@ -5204,6 +5204,7 @@ a.theme-btn.style-four:hover {
 /*******************************************************/
 .testimonial-item {
   margin-bottom: 50px;
+  
   font-family: var(--heading-font);
 }
 
@@ -5306,6 +5307,7 @@ a.theme-btn.style-four:hover {
 .testi-slider-left .testimonial-item {
   max-width: 600px;
   margin-left: 50px;
+  
   direction: ltr;
 }
 
@@ -12540,7 +12542,7 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .3);
   /* background-color: #000000cc; */
 }
 
@@ -12578,8 +12580,6 @@ video {
 
 }
 
-
-ceo-text
 
 .tag-coulds-pro a:hover {
   color: white;

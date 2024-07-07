@@ -175,37 +175,9 @@ const Nav = ({
                   <li>
                     <Link href="aromatic-products">{t('Aromatics')}</Link>
                   </li>
-                  <li className="dropdown">
-                    <a>Chemplex </a><i className="fa fa-chevron-right dropdown-btn" width="50px"></i>
-                    <ul>
-                      <li>
-                        <Link href="paint-thinner">Paint Thinner</Link>
-                      </li>
-                      <li>
-                        <Link href="lacquer-thinner">Lacquer Thinner</Link>
-                      </li>
-                      <li>
-                        <Link href="acrylic-thinner">Acrylic Thinner</Link>
-                      </li>
-                      <li>
-                        <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
-                      </li>
-                      <li>
-                        <Link href="polyurethane">Polyurethane</Link>
-                      </li>
-                      <li>
-                        <Link href="special-thinner">Special Thinner</Link>
-                      </li>
-                      <li>
-                        <Link href="wood-varnish">Wood Varnish</Link>
-                      </li>
-                      <li>
-                        <Link href="cpvc-cement">PVC/CPVC Cement</Link>
-                      </li>
-                      <li>
-                        <Link href="cpvc-cleaner">PVC/CPVC Cleaner</Link>
-                      </li>
-                    </ul>
+
+                  <li>
+                    <Link href="packaged-products">{t('Chemplex')}</Link>
                   </li>
                   <li>
                     <Link href="trading-products">{t('Trading')}</Link>
@@ -376,37 +348,8 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
               <li>
                 <Link href="aromatic-products">{t('Aromatics')}</Link>
               </li>
-              <li className="dropdown">
-                <a>Chemplex </a><i className="fa fa-chevron-right dropdown-btn" width="50px"></i>
-                <ul>
-                  <li>
-                    <Link href="paint-thinner">Paint Thinner</Link>
-                  </li>
-                  <li>
-                    <Link href="lacquer-thinner">Lacquer Thinner</Link>
-                  </li>
-                  <li>
-                    <Link href="acrylic-thinner">Acrylic Thinner</Link>
-                  </li>
-                  <li>
-                    <Link href="super-acrylic-thinner">Super Acrylic Thinner</Link>
-                  </li>
-                  <li>
-                    <Link href="polyurethane">Polyurethane</Link>
-                  </li>
-                  <li>
-                    <Link href="special-thinner">Special Thinner</Link>
-                  </li>
-                  <li>
-                    <Link href="wood-varnish">Wood Varnish</Link>
-                  </li>
-                  <li>
-                    <Link href="cpvc-cement">PVC/CPVC Cement</Link>
-                  </li>
-                  <li>
-                    <Link href="cpvc-cleaner">PVC/CPVC Cleaner</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link href="packaged-products">{t('Chemplex')}</Link>
               </li>
               <li>
                 <Link href="trading-products">{t('Trading')}</Link>

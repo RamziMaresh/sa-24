@@ -357,7 +357,7 @@ const PackagedDetails = () => {
                                             data-aos-offset={50}
                                         >
                                             <div className="image">
-                                                <img src="assets/images/projects/project-grid66.svg" alt="Product-Safra-Bond-CPVC-Cleaner" width={300} />
+                                                <img src="assets/images/projects/project-grid10.svg" alt="Product-Safra-Bond-CPVC-Cleaner" width={300} />
                                             </div>
                                         </div>
                                     </td>

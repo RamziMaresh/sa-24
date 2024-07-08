@@ -21,25 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/packaged-products/page": [
+    "/distribution/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/packaged-products/page.js"
+      "static/chunks/app/distribution/page.js"
     ],
-    "/aromatic-products/page": [
+    "/logistics/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/aromatic-products/page.js"
-    ],
-    "/paint/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/paint/page.js"
-    ],
-    "/trading-products/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/trading-products/page.js"
+      "static/chunks/app/logistics/page.js"
     ],
     "/careers/page": [
       "static/chunks/webpack.js",
@@ -50,6 +40,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
+    ],
+    "/aliphatic-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aliphatic-products/page.js"
+    ],
+    "/aromatic-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aromatic-products/page.js"
+    ],
+    "/packaged-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/packaged-products/page.js"
+    ],
+    "/marketing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/marketing/page.js"
     ]
   }
 }

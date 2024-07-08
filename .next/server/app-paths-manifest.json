@@ -1,8 +1,9 @@
 {
-  "/trading-products/page": "app/trading-products/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js",
+  "/packaged-products/page": "app/packaged-products/page.js",
+  "/distribution/page": "app/distribution/page.js",
+  "/marketing/page": "app/marketing/page.js",
+  "/logistics/page": "app/logistics/page.js",
   "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

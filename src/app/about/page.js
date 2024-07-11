@@ -508,14 +508,22 @@ const page = () => {
 
       {/* Contact Area Start */}
       <section
-        className=" bgs-cover py-240 rpy-100"
+        className=" bgs-cover py-240 rpy-100 bgc-primary "
         style={{ backgroundImage: "url(assets/images/backgrounds/history.svg)" }}
       >
 
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-xl-6 col-lg-8">
-            </div>
+        <div className="testimonials-eight-shapes">
+          <div className="shape one">
+            <img
+              src="assets/images/shapes/testimonial-eight1.png"
+              alt="Shape"
+            />
+          </div>
+          <div className="shape two">
+            <img
+              src="assets/images/shapes/testimonial-eight2.png"
+              alt="Shape"
+            />
           </div>
         </div>
       </section>

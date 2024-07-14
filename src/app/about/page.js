@@ -2,7 +2,7 @@
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
-import dynamic from "next/dynamic";
+
 //
 
 const page = () => {
@@ -389,75 +389,19 @@ const page = () => {
       </section>
       {/* President End */}
 
-      <section className="solutions-area pb-40 rpb-70">
-        <div className="container">
 
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box7.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box9.svg"
-                    alt="Safra-images."
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={400}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box8.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
+      {/* History Area Start */}
+      <section
+        className=" bgs-cover py-240 rpy-100 bgc-primary "
+        style={{ backgroundImage: "url(assets/images/backgrounds/history.svg)" }}
+      >
       </section>
 
 
-      <section className="hero-area-six pt-5 rpt-20 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Values Area Start */}
-      <section className="feature-box-area pt-40 rpt-10 pb-40 rpb-20 rel z-1">
+      <section className="feature-box-area pt-80 rpt-10 pb-40 rpb-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">
@@ -561,30 +505,207 @@ const page = () => {
       </section>
       {/* Values Area End */}
 
-      {/* Contact Area Start */}
-      <section
-        className=" bgs-cover py-240 rpy-100 bgc-primary "
-        style={{ backgroundImage: "url(assets/images/backgrounds/history.svg)" }}
-      >
+      <section className="solutions-area pb-40 rpb-70">
+        <div className="container">
 
-        <div className="testimonials-eight-shapes">
-          <div className="shape one">
-            <img
-              src="assets/images/shapes/testimonial-eight1.png"
-              alt="Shape"
-            />
-          </div>
-          <div className="shape two">
-            <img
-              src="assets/images/shapes/testimonial-eight2.png"
-              alt="Shape"
-            />
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box7.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box9.jpg
+                    "
+                    alt="Safra-images."
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={400}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box8.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
+      <section className="hero-area-six pt-5 rpt-20 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-9 col-lg-11">
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
 
-      {/* Business Philosophy Start */}
+      {/* Services Box Area Start */}
+      <section className="services-box-area pb-60 pt-100 rpb-70 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-10">
+              <div
+                className="section-title text-center mb-55"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <h3>Business Philosophy</h3>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-goal" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Proactively deal with all our partners with confidence and pride in a spirit of mutual respect,
+                    trust and openness maintaining highest standards of integrity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={100}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-idea" />
+                </div>
+                <hr />
+                <div className="content">
+                  Introduce innovative quality products and services at competitive cost leading to added economic benefits to all the stakeholders.
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-technology-1" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Improve customer focus through better understanding and anticipating of the priorities
+                    of existing and emerging customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-efficiency" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Serve our customers with accuracy, speed, flexibility, efficiency and effectiveness-based on agreed priorities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={100}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-security" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>Think of safety and act safely at all the times in all our endeavors.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-data" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Be responsible and active corporate player respecting communities and environments in which we operate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      {/* Services Box Area End */}
+
+
+      {/* Business Philosophy Start 
       <section className="data-analytics-area pt-40 rpt-10 pb-20 rpb-10">
         <div className="container">
           <div className="row gap-110 align-items-center">
@@ -649,6 +770,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      */}
       {/* Business Philosophy End */}
 
 

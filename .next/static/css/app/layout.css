@@ -9755,7 +9755,6 @@ a.theme-btn.style-four:hover {
   font-size: 12px;
   margin-top: -2px;
   line-height: 25px;
-  background: var(--navyblue-color);
 }
 
 .hero-content.style-three .icon-list li:not(:last-child) {

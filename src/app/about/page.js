@@ -506,6 +506,63 @@ const page = () => {
       {/* Values Area End */}
 
 
+
+      <section className="solutions-area pb-40 rpb-70">
+        <div className="container">
+
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box7.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box9.jpg"
+                    alt="Safra-images."
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={400}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box8.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+
+            </div>
+            </div>
+            </section>
+
       {/* Contact Area Start */}
       <section
         className=" bgs-cover py-240 rpy-100 bgc-primary "

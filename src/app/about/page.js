@@ -88,7 +88,7 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box1.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
@@ -104,7 +104,7 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box2.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
@@ -120,7 +120,7 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box3.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
@@ -135,14 +135,14 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box4.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
-                className="fancy-box"
+                className="safra-about-cards"
                 data-aos="fade-up"
                 data-aos-delay={200}
                 data-aos-duration={1000}
@@ -151,7 +151,7 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box5.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
@@ -167,7 +167,7 @@ const page = () => {
                 <div className="image">
                   <img
                     src="assets/images/fancy-box/fancy-box6.jpg"
-                    alt="Fancy Box"
+                    alt="safra-about-cards"
                   />
                 </div>
               </div>
@@ -389,6 +389,63 @@ const page = () => {
       </section>
       {/* President End */}
 
+      <section className="solutions-area pb-40 rpb-70">
+        <div className="container">
+
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box7.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box9.svg"
+                    alt="Safra-images."
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={400}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box8.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
       <section className="hero-area-six pt-5 rpt-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -398,7 +455,6 @@ const page = () => {
           </div>
         </div>
       </section>
-
 
       {/* Values Area Start */}
       <section className="feature-box-area pt-40 rpt-10 pb-40 rpb-20 rel z-1">
@@ -504,64 +560,6 @@ const page = () => {
         </div>
       </section>
       {/* Values Area End */}
-
-
-
-      <section className="solutions-area pb-40 rpb-70">
-        <div className="container">
-
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box7.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box9.jpg"
-                    alt="Safra-images."
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={400}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box8.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-
-            </div>
-            </div>
-            </section>
 
       {/* Contact Area Start */}
       <section

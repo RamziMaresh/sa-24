@@ -142,7 +142,7 @@ const page = () => {
             </div>
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
-                className="safra-about-cards"
+                className="fancy-box"
                 data-aos="fade-up"
                 data-aos-delay={200}
                 data-aos-duration={1000}

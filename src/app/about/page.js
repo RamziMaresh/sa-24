@@ -150,7 +150,7 @@ const page = () => {
               >
                 <div className="image">
                   <img
-                    src="assets/images/fancy-box/fancy-box5.jpg"
+                    src="assets/images/fancy-box/fancy-box9.svg"
                     alt="safra-about-cards"
                   />
                 </div>

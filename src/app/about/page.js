@@ -1,8 +1,9 @@
 "use client";
+import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
-
+Link
 //
 
 const page = () => {
@@ -70,10 +71,7 @@ const page = () => {
       {/* About Area End */}
 
 
-
-
-
-
+      {/* Images Banner 01 start*/}
       <section className="solutions-area pb-40 rpb-70">
         <div className="container">
 
@@ -175,13 +173,11 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* Solutions Area End */}
+      {/* Images Banner 01 Ends*/}
 
       {/* Tab Area Start */}
       <section className="tab-area-two pt-40 rpt-10"
-        style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}
-
-      >
+        style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
         <div className="container">
           <div className="row justify-content-center">
             <div
@@ -247,8 +243,6 @@ const page = () => {
                         working environment able to meet and exceed its international B2B & B2C customers’ needs. The company provides its stakeholders with long-term growth and profitability
                         by establishing and maintaining leadership position in the market.
                       </p>
-
-
                     </div>
                   </div>
                 </div>
@@ -302,106 +296,30 @@ const page = () => {
                           petrochemical products.
                         </p>
                       </ul>
-
                     </div>
                   </div>
-
                 </div>
               </Tab.Pane>
               <Tab.Pane className="tab-pane fade" eventKey="tabTwo3">
                 <div className="row align-items-center justify-content-center">
                   <div className="col-xl-9 col-lg-9">
                     <div className="ceo-text">
-
                       <p>
                         Quality consistency is vital for us as we know there are no shortcuts when it comes to
                         providing customers with consistent and reliable, quality products.
                       </p>
-
                     </div>
                   </div>
-
                 </div>
               </Tab.Pane>
-
             </Tab.Content>
           </Tab.Container>
         </div>
       </section>
       {/* Tab Area End */}
 
-
-      {/* President Start
-                      data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-
-                                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-       */}
-      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="section-title text-center"
-
-            >
-              <h3>CEO Message</h3>
-            </div>
-          </div>
-        </div>
-
-        <div className="container container-1070">
-          <div className="row pb-10 rpb-20 align-items-center">
-
-            <div className="ceo-text">
-              <div
-                className="ai-content rmb-0"
-
-              >
-                <p>
-                  People and culture are the biggest assets in Safra, which we continuously cherish and
-                  develop to accomplish our objective of highest levels of customer satisfaction. Through
-                  the history of times, we have experienced that the success of us and that of you as
-                  our partner, lies in the applied transparency, continuous product development and
-                  efficient process implementation, on which our business approach rests. We are
-                  committed to meet variety of customer requirements in the area of industrial chemicals
-                  & solvents, consumer products and related services.
-                </p>
-                <p>
-                  Also, to meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand our
-                  production capabilities, which will further support these industrial sectors with
-                  continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health, we apply highest care to the
-                  quality of products that we produce, together with meeting our business commitments
-                  with accuracy and on-time. We take pride in acknowledging our contribution to the Saudi economy and society by
-                  producing & supplying industrial raw material for growth of local industry and by training
-                  and developing Saudi youth in various fields of business & management, respectively.
-                  We at Safra, believe in empowering and rewarding our intellectual capital and providing
-                  a motivating work environment within the guidelines of Islamic ethics and culture.
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      {/* President End */}
-
-
-      {/* History Area Start */}
-      <section
-        className=" bgs-cover py-240 rpy-100 bgc-primary "
-        style={{ backgroundImage: "url(assets/images/backgrounds/history.svg)" }}
-      >
-      </section>
-
-
-
-
       {/* Values Area Start */}
-      <section className="feature-box-area pt-80 rpt-10 pb-40 rpb-20 rel z-1">
+      <section className="feature-box-area pt-80 rpt-40 pb-40 rpb-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">
@@ -505,9 +423,217 @@ const page = () => {
       </section>
       {/* Values Area End */}
 
-      <section className="solutions-area pb-40 rpb-70">
+      {/* CEO Area Start */}
+      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
+      >
         <div className="container">
+          <div className="row justify-content-center">
+            <div
+              className="section-title text-center"
 
+            >
+              <h3>CEO Message</h3>
+            </div>
+          </div>
+        </div>
+        <div className="container container-1070">
+          <div className="row pb-10 rpb-20 align-items-center">
+            <div className="ceo-text">
+              <div
+                className="ai-content rmb-0"
+
+              >
+                <p>
+                  People and culture are the biggest assets in Safra, which we continuously cherish and
+                  develop to accomplish our objective of highest levels of customer satisfaction. Through
+                  the history of times, we have experienced that the success of us and that of you as
+                  our partner, lies in the applied transparency, continuous product development and
+                  efficient process implementation, on which our business approach rests. We are
+                  committed to meet variety of customer requirements in the area of industrial chemicals
+                  & solvents, consumer products and related services.
+                </p>
+                <p>
+                  Also, to meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand our
+                  production capabilities, which will further support these industrial sectors with
+                  continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health, we apply highest care to the
+                  quality of products that we produce, together with meeting our business commitments
+                  with accuracy and on-time. We take pride in acknowledging our contribution to the Saudi economy and society by
+                  producing & supplying industrial raw material for growth of local industry and by training
+                  and developing Saudi youth in various fields of business & management, respectively.
+                  We at Safra, believe in empowering and rewarding our intellectual capital and providing
+                  a motivating work environment within the guidelines of Islamic ethics and culture.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      {/* CEO Area StEndsart */}
+
+      <section className="hero-area-six pt-5 rpt-20 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-9 col-lg-11">
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Safra History Area Start */}
+      <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
+        <div className="container">
+          <div className="row justify-content-center text-center">
+            <div
+              className="col-xl-8"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title mb-40">
+                <h3>
+                  Safra History
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="row pt-45">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1987</div>
+                  </h5>
+                  <p>SAFRA Company Ltd. was established.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={100}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1990</div>
+                  </h5>
+                  <p>Commercial production started and export activities began.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={200}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1992</div>
+                  </h5>
+                  <p> SAFRA’s packaged products (SPP) launched.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1994</div>
+                  </h5>
+                  <p>SPP production went into full speed operation.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1996</div>
+                  </h5>
+                  <p>SAFRA obtained ISO 9002 certificate.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1997</div>
+                  </h5>
+                  <p>SAFRA received the King Fahd Award for “Best Industry”.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1999</div>
+                  </h5>
+                  <p>SAFRA implemented Systems Applications Products SAP solution.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">2023</div>
+                  </h5>
+                  <p>Started the revamp of its refinery, renovated & upgraded its equipment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Safra History Area End */}
+
+      {/* Banner Area 02 start */}
+      <section className="solutions-area pb-20 rpb-20">
+        <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
@@ -557,10 +683,11 @@ const page = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
+      {/* Banner Area 02 End */}
+
 
       <section className="hero-area-six pt-5 rpt-20 rel z-1">
         <div className="container">
@@ -572,8 +699,8 @@ const page = () => {
         </div>
       </section>
 
-      {/* Services Box Area Start */}
-      <section className="services-box-area pb-60 pt-100 rpb-70 rel z-1">
+      {/*Business Philosophy Area Start */}
+      <section className="services-box-area pb-40 pt-60 rpb-70 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-10">
@@ -702,76 +829,7 @@ const page = () => {
         </div>
 
       </section>
-      {/* Services Box Area End */}
-
-
-      {/* Business Philosophy Start 
-      <section className="data-analytics-area pt-40 rpt-10 pb-20 rpb-10">
-        <div className="container">
-          <div className="row gap-110 align-items-center">
-            <div className="col-lg-6">
-              <div
-                className="data-analytics-content mt-40 rmb-20"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title mb-30">
-                  <h3>Business Philosophy</h3>
-                  <div className="">
-                    <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={250} />
-                  </div>
-                </div>
-
-
-                <ul className="icon-list style-two">
-                  <li>
-                    <i className="fal fa-check" />
-                    Proactively deal with all our partners with confidence
-                    and pride in a spirit of mutual respect, trust and openness maintaining highest standards of integrity.
-                  </li>
-                  <li>
-                    <i className="fal fa-check" />
-                    Think of safety and act safely at all the times in all our endeavors.
-                  </li>
-                  <li>
-                    <i className="fal fa-check" />
-                    Improve customer focus through better understanding and anticipating of the priorities of existing and emerging customers.
-                  </li>
-                  <li>
-                    <i className="fal fa-check" />
-                    Serve our customers with accuracy, speed, flexibility, efficiency and effectiveness-based on agreed priorities.
-                  </li>
-                  <li>
-                    <i className="fal fa-check" />
-                    Introduce innovative quality products and services at competitive cost leading to added economic benefits to all the stakeholders.
-                  </li>
-                  <li>
-                    <i className="fal fa-check" />
-                    Be responsible and active corporate player respecting communities and environments in which we operate.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="management-images float-lg-end "
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img
-                  className="rounded-0"
-                  src="assets/images/about/management-four.svg"
-                  alt="Management"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      */}
-      {/* Business Philosophy End */}
+      {/* Business Philosophy Area End */}
 
 
       <section className="hero-area-six pt-40 rpt-20 pb-0 rel z-1">
@@ -784,7 +842,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* HeaderStart pt-120*/}
+      {/* products area start*/}
       <section className="tooltip-area-two rel pt-40 rpt-10">
         <div className="container">
           <div className="row justify-content-center">
@@ -813,7 +871,7 @@ const page = () => {
 
         </div>
       </section>
-      {/* Header Area End */}
+      {/*products area End */}
     </SafraLayout>
   );
 };

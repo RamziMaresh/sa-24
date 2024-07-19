@@ -13699,3 +13699,8 @@ video {
   padding: 5px 100px;
   border: 1px solid rgba(15, 17, 15, 0.07);
 }
+
+.about-products{
+  text-align: justify;
+  padding: 5px;
+}

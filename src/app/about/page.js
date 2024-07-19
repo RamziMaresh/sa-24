@@ -1,9 +1,9 @@
 "use client";
-import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
-Link
+import { sliderProps } from "../../utility/sliderProps";
+import Slider from "react-slick";
 //
 
 const page = () => {
@@ -422,6 +422,80 @@ const page = () => {
         </div>
       </section>
       {/* Values Area End */}
+
+
+      
+       {/* Testimonials Area Start */}
+       <section className="testimonials-area bgc-primary py-50 rpy-100 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-9 col-md-11">
+              <div
+                className="section-title text-white text-center mb-1"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <h3>Safra Awards </h3>
+              </div>
+            </div>
+          </div>
+          <Slider
+            {...sliderProps.testiSliderSix}
+            className="testi-slider-six text-white"
+            data-aos="fade-up"
+            data-aos-delay={50}
+            data-aos-duration={1500}
+            data-aos-offset={50}
+          >
+            <div>
+              <div className="image">
+                <img
+                  src="assets/images/about/about-seven-two1.png"
+                  alt="Safra-Best-Industry"
+                />
+              </div>
+              <h5 className="text-center">Best Industry In the Chemical Industries 1414/1993</h5>
+            </div>
+            <div>
+              <div className="image">
+                <img
+                  src="assets/images/about/about-seven-two1.png"
+                  alt="Safra-Obtained-ISO"
+                />
+              </div>
+              <h5 className="text-center">Safra Obtained ISO 9200 Certification</h5>
+            </div>
+          </Slider>
+        </div>
+        <div className="testimonials-eight-shapes">
+          <div className="shape one">
+            <img
+              src="assets/images/shapes/testimonial-eight1.png"
+              alt="Shape"
+            />
+          </div>
+          <div className="shape two">
+            <img
+              src="assets/images/shapes/testimonial-eight2.png"
+              alt="Shape"
+            />
+          </div>
+        </div>
+      </section>
+      {/* Testimonials Area End 
+
+
+      <section className="hero-area-six pt-40 rpt-20 pb-0 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-9 col-lg-11">
+              <hr />
+            </div>
+          </div>
+        </div>
+      </section>
+*/}
 
       {/* CEO Area Start */}
       <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"

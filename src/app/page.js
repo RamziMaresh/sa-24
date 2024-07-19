@@ -166,7 +166,7 @@ const Index = () => {
                   Consumers Products And Services
                 </h4>
               </div>
-              <Link href="products-details" className="theme-btn">
+              <Link href="packaged-products" className="theme-btn">
                 Read More <i className="far fa-arrow-right" />
               </Link>
             </div>

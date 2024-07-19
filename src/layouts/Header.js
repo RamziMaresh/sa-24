@@ -44,7 +44,7 @@ const DefaultHeader = ({ onePage }) => {
                 <Link href="/">
                   <img
                     src="assets/images/logos/flogo.gif"
-                    width={120}
+                    width={140}
                     alt="Safra Logo"
                     title="Logo"
                   />
@@ -93,7 +93,7 @@ const HeaderNotFound = ({ onePage }) => {
                 <Link href="/">
                   <img
                     src="/assets/images/logos/flogo.gif"
-                    width={150}
+                    width={140}
                     alt="Logo"
                     title="Logo"
                   />
@@ -249,10 +249,6 @@ const Nav = ({
                     <Link href="distribution">{t('Distribution')}</Link>
                   </li>
                   <li>
-                    <Link href="marketing">{t('News & Media')}</Link>
-                  </li>
-
-                  <li>
                     <Link href="logistics">{t('Logistics')}</Link>
                   </li>
 
@@ -277,7 +273,7 @@ const Nav = ({
           <div className="mobile-logo">
             <Link href="/">
               <img src={logo} alt="Logo" title="Logo"
-                width={150}
+                width={140}
               />
             </Link>
           </div>
@@ -426,9 +422,6 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <ul style={activeLi("Shop")}>
               <li>
                 <Link href="distribution">{t('Distribution')}</Link>
-              </li>
-              <li>
-                <Link href="marketing">{t('News & Media')}</Link>
               </li>
               <li>
                 <Link href="logistics">{t('Logistics')}</Link>

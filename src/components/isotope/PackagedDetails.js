@@ -75,8 +75,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Pine.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Pine.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA PINE TDS  .pdf" target="_blank"> TDS </Link>
                                         </span> |
@@ -119,8 +118,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Pure.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Pure.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA PURE TDS .pdf" target="_blank"> TDS </Link>
                                         </span>
@@ -166,8 +164,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Cryl.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Cryl.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA CRYL TDS.pdf" target="_blank"> TDS </Link>
                                             </span>
@@ -257,8 +254,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Prime.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Prime.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA PRIME TDS.pdf" target="_blank"> TDS </Link>
                                             </span>
@@ -305,8 +301,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Pro.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Pro.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA PRO TDs.pdf" target="_blank"> TDS </Link>
                                             </span>
@@ -354,8 +349,7 @@ const PackagedDetails = () => {
                                         </li>
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Shine.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Shine.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA SHINE TDs.pdf" target="_blank"> TDS </Link>
                                             </span>
@@ -384,8 +378,7 @@ const PackagedDetails = () => {
                                     <ul className="icon-list-chemplex mt-20 mb-35">
                                     </ul>
                                     <a>
-                                        <i className="fa fa-file-pdf pdf-icon"></i>
-                                        <span><Link href="/assets/images/pdfs/Spp/Specs/Safra Bond Cleaner.pdf" target="_blank" > SPECS</Link> | <i className="fa fa-file-pdf pdf-icon"></i>
+                                        <span><i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/Msds/Safra Bond Cleaner msds.pdf" target="_blank"> MSDS </Link> | <i className="fa fa-file-pdf pdf-icon"></i>
                                             <Link href="/assets/images/pdfs/Spp/tds/SAFRA BOND CLEANER- TDS.pdf" target="_blank"> TDS </Link>
                                             </span>

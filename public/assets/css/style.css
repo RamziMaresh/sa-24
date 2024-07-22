@@ -21,6 +21,7 @@
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+
 }
 
 body {
@@ -29,8 +30,8 @@ body {
   line-height: 30px;
   font-size: 16px;
   font-family: var(--base-font);
-  --base-font: 'Inter', sans-serif;
-  --heading-font: 'Work Sans', sans-serif;
+  --base-font: 'Rajdhani', sans-serif;
+  --heading-font: 'Rajdhani', sans-serif;
   --primary-color: rgb(14 116 144);
   --secondary-color: #FEC458;
   --heading-color: #001726;
@@ -4331,7 +4332,7 @@ a.theme-btn.style-four:hover {
   position: relative;
 }
 
-.section-title p{
+.section-title p {
   padding: 5px;
   color: black;
   text-align: justify;
@@ -4368,7 +4369,7 @@ a.theme-btn.style-four:hover {
 
 }
 
-.section-title-sus p{
+.section-title-sus p {
   padding: 5px;
   color: black;
   text-align: justify;
@@ -5625,7 +5626,7 @@ a.theme-btn.style-four:hover {
 /*******************************************************/
 .testimonial-item {
   margin-bottom: 50px;
-  
+
   font-family: var(--heading-font);
 }
 
@@ -5732,7 +5733,7 @@ a.theme-btn.style-four:hover {
 .testi-slider-left .testimonial-item {
   max-width: 600px;
   margin-left: 50px;
-  
+
   direction: ltr;
 }
 
@@ -9661,7 +9662,8 @@ a.theme-btn.style-four:hover {
   .main-header .logo-outer {
     display: none;
   }
-  .ceo-text p{
+
+  .ceo-text p {
     font-size: 10px;
     line-height: 20px;
   }
@@ -13300,8 +13302,10 @@ a.theme-btn.style-four:hover {
 
 .footer-title {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
   margin-bottom: 30px;
+  font-weight: normal;
 }
 
 .widget-links ul li {
@@ -13319,12 +13323,17 @@ a.theme-btn.style-four:hover {
 
 .widget-links ul li:not(:last-child) {
   margin-bottom: 6px;
+  color: white;
+
 }
 
 .widget-contact ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: white;
+  letter-spacing: 1.0px;
+
 }
 
 .widget-contact ul li i {
@@ -13338,7 +13347,8 @@ a.theme-btn.style-four:hover {
 }
 
 .widget-contact ul li a {
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
+  letter-spacing: 1px;
 }
 
 .widget-contact ul li a:hover {
@@ -13477,7 +13487,8 @@ a.theme-btn.style-four:hover {
 
 /* Footer One */
 .main-footer.footer-one {
-  background: rgb(22 78 99);
+  background: rgb(14, 116, 144);
+  background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(22, 78, 99, 1) 100%);
   color: rgba(255, 255, 255, 0.45);
 }
 
@@ -13554,7 +13565,7 @@ a.theme-btn.style-four:hover {
   background-color: transparent;
 }
 
-.ceo-text p{
+.ceo-text p {
   text-align: justify;
   padding: 5px;
   color: black;
@@ -13700,7 +13711,7 @@ video {
   border: 1px solid rgba(15, 17, 15, 0.07);
 }
 
-.about-products{
+.about-products {
   text-align: justify;
   padding: 5px;
 }

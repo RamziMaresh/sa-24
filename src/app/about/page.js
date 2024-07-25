@@ -425,7 +425,7 @@ const page = () => {
 
 
       
-       {/* Testimonials Area Start */}
+       {/* Testimonials Area Start 
        <section className="testimonials-area bgc-primary py-50 rpy-100 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -483,6 +483,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      */}
       {/* Testimonials Area End 
 
 
@@ -543,7 +544,66 @@ const page = () => {
 
         </div>
       </section>
-      {/* CEO Area StEndsart */}
+
+      
+      {/* Banner Area 02 start */}
+      <section className="solutions-area pb-20 rpb-20">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box7.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box9.jpg
+                    "
+                    alt="Safra-images."
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={400}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box8.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Banner Area 02 End */}
+
+      {/* CEO Area StEndsart 
 
       <section className="hero-area-six pt-5 rpt-20 rel z-1">
         <div className="container">
@@ -554,7 +614,7 @@ const page = () => {
           </div>
         </div>
       </section>
-
+*/}
       {/* Safra History Area Start */}
       <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
         <div className="container">
@@ -565,7 +625,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="section-title mb-40">
+              <div className="section-title text-white mb-40">
                 <h3>
                   Safra History
                 </h3>
@@ -584,7 +644,7 @@ const page = () => {
                   <h5>
                     <div className="text-white">1987</div>
                   </h5>
-                  <p>SAFRA Company Ltd. was established.</p>
+                  <p>SAFRA Company Ltd. was established.</p><br/>
                 </div>
               </div>
             </div>
@@ -648,7 +708,7 @@ const page = () => {
                   <h5>
                     <div className="text-white">1996</div>
                   </h5>
-                  <p>SAFRA obtained ISO 9002 certificate.</p>
+                  <p>SAFRA obtained ISO 9002 certificate.</p><br />
                 </div>
               </div>
             </div>
@@ -703,65 +763,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* Safra History Area End */}
-
-      {/* Banner Area 02 start */}
-      <section className="solutions-area pb-20 rpb-20">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box7.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box9.jpg
-                    "
-                    alt="Safra-images."
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={400}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box8.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Banner Area 02 End */}
-
+      {/* Safra History Area End 
 
       <section className="hero-area-six pt-5 rpt-20 rel z-1">
         <div className="container">
@@ -772,6 +774,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      */}
 
       {/*Business Philosophy Area Start */}
       <section className="services-box-area pb-40 pt-60 rpb-70 rel z-1">

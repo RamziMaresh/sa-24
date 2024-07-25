@@ -7,7 +7,7 @@ const paint = () => {
         <SafraLayout>
             <PageBanner pageName={"Tannery "} />
 
-            <section className="services-two-area pt-100 rpt-100 pb-10 rpb-   rel z-2">
+            <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
                 <div className="container">
 
                     <div className="row justify-content-center">

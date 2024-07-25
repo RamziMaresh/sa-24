@@ -8,7 +8,7 @@ const page = () => {
             <PageBanner pageName={"Logistics"} />
 
 
-            <section className="services-two-area pt-100 rpt-100 pb-10 rpb-   rel z-2">
+            <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
                 <div className="container">
 
                     <div className="row justify-content-center">
@@ -59,7 +59,7 @@ const page = () => {
                             data-aos-offset={50}
                         >
                             <img
-                                src="assets/images/backgrounds/map-locations.gif"
+                                src="assets/images/backgrounds/map-locations.png"
                                 alt="Map Locations"
                             />
                         </div>

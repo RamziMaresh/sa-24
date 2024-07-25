@@ -6,7 +6,7 @@ const page = () => {
     return (
         <SafraLayout>
             <PageBanner pageName={"Careers"} />
-            <section className="services-two-area pt-60 rpt-60 pb-0 rpb-   rel z-2">
+            <section className="services-two-area-l pt-60 rpt-60 pb-0 rpb-   rel z-2">
                 <div className="container">
 
                     <div className="row justify-content-center">

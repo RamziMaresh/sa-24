@@ -1,14 +1,6 @@
 {
-  "/resins/page": "app/resins/page.js",
   "/page": "app/page.js",
-  "/Industrial-Cleaning/page": "app/Industrial-Cleaning/page.js",
-  "/dry-Cleaning/page": "app/dry-Cleaning/page.js",
-  "/household-products/page": "app/household-products/page.js",
-  "/fuel-additives/page": "app/fuel-additives/page.js",
-  "/oil-fields/page": "app/oil-fields/page.js",
-  "/bitumen/page": "app/bitumen/page.js",
-  "/aliphatic-products/page": "app/aliphatic-products/page.js",
-  "/aromatic-products/page": "app/aromatic-products/page.js",
   "/packaged-products/page": "app/packaged-products/page.js",
+  "/logistics/page": "app/logistics/page.js",
   "/about/page": "app/about/page.js"
 }

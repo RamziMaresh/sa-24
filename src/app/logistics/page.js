@@ -59,7 +59,7 @@ const page = () => {
                             data-aos-offset={50}
                         >
                             <img
-                                src="assets/images/backgrounds/map-locations.png"
+                                src="assets/images/backgrounds/map-locations.gif"
                                 alt="Map Locations"
                             />
                         </div>

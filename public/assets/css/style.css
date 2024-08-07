@@ -13309,6 +13309,7 @@ a.theme-btn.style-four:hover {
   font-weight: normal;
 }
 
+
 .widget-links ul li {
   font-size: 14px;
   line-height: 1.5;
@@ -13334,10 +13335,12 @@ a.theme-btn.style-four:hover {
   display: flex;
   color: white;
   letter-spacing: 1.0px;
+  font-size: 12px;
 
 }
 
 .widget-contact ul li i {
+  font-size: 12px;
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
@@ -13345,11 +13348,13 @@ a.theme-btn.style-four:hover {
   color: white;
   margin-top: 10px;
   margin-right: 10px;
+  letter-spacing: 1px;
+
 }
 
 .widget-contact ul li a {
   color: white;
-  letter-spacing: 1px;
+  font-size: 12px;
 }
 
 .widget-contact ul li a:hover {

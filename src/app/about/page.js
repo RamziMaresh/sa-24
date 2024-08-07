@@ -2,8 +2,6 @@
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
-import { sliderProps } from "../../utility/sliderProps";
-import Slider from "react-slick";
 //
 
 const page = () => {
@@ -908,89 +906,40 @@ const page = () => {
       </section>
       {/* Business Philosophy Area End */}
 
+            {/* HeaderStart pt-120*/}
+            <section
+        className="tooltip-area bgs-cover rel pt-20 rpt-40"
 
-      <section className="hero-area-six pt-10 rpt-0 pb-0 rel z-1">
+      >
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-       {/* Why Choose Us area start */}
-       <section className="why-choose-us pt-60 rpt-40">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6">
-              <div
-                className="why-choose-us-content mb-30"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title pb-10">
-                  <h4>
-                  Our Products Are Meeting Customers Needs From Industrial Chemicals To Consumers Products And Services.
-                  </h4>
-                </div>
-                <p className="about-products">
-                We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best 
-                fill the needs of all customers. We also undertake the blending of various products to meet specific 
-                customers chemical and solvents requirements serving industries such as Paints, Adhesives, Insecticides & Pesticides, 
-                Thinner, Ink, printing, Tannery, Resins, Industrial Cleaning and Maintenance, 
-                Dry Cleaning, Spot Removing, Wood Protection and varnishes, Construction Chemicals, Oil Fields Chemicals, Bitumen Based Products, etc.
-                </p>
-
-                <p className="about-products">
+            <div
+              className="col-xl-9 col-lg-11 mb-40 pt-40 rmb-80 text-center"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title pb-40">
+                <h4 className="pb-20">
+                Our Products Are Meeting Customers Needs From Industrial Chemicals To Consumers Products And Services
+                </h4>
+                <p>
+                We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers. 
+                We also undertake the blending of various products to meet specific customers chemical and solvents requirements serving 
+                industries such as Paints, Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery, Resins, Industrial Cleaning and Maintenance, 
+                Dry Cleaning, Spot Removing, Wood Protection and varnishes, Construction Chemicals, Oil Fields Chemicals, Bitumen Based Products, etc. 
                 We have privilege of producing odorless (aromatic free) solvents for various applications especially oil-drilling, 
-                aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance. 
-                We aim to enhance market leadership via our products/services, establish new manufacturing facilities and trading division.
+                aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance. We aim to enhance market leadership via our 
+                products/services, establish new manufacturing facilities and trading division.
                 </p>
-
-              </div>
-            </div>
-            <div className="col-xl-6">
-              <div
-                className="about-four-images ms-xl-auto mb-30"
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="row gap-20">
-                  <div className="col-6">
-                    <img
-                      src="assets/images/about/why-cu1.jpg"
-                      alt="Why Choose Us"
-                    />
-                    <img
-                      src="assets/images/about/why-cu2.jpg"
-                      alt="Why Choose Us"
-                    />
-                  </div>
-                  <div className="col-6">
-                    <img
-                      src="assets/images/about/why-cu3.jpg"
-                      alt="Why Choose Us"
-                    />
-                    <img
-                      src="assets/images/about/why-cu4.jpg"
-                      alt="Why Choose Us"
-                    />
-                    <img
-                      src="assets/images/about/why-cu5.jpg"
-                      alt="Why Choose Us"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* Why Choose Us area End */}
+      {/* Header Area End */}
+
+
 
 
       {/* products area start

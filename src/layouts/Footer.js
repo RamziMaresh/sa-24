@@ -13,6 +13,7 @@ const Footer = ({ footer }) => {
 };
 export default Footer;
 
+
 const DefaultFooter = () => {
   return (
     <footer className="main-footer footer-one rel z-1 mt-300">
@@ -132,9 +133,7 @@ const DefaultFooter = () => {
           <div className="row justify-content-center text-center">
             <div className="col-xl-4">
               <div
-                className="copyright-text pt-10 text-lg-start text-center"
-
-              >
+                className="copyright-text pt-10 text-lg-start text-center">
                 <p>
                   © 2024 All rights reserved | Safra Co. Ltd.
                 </p>

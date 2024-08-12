@@ -41,7 +41,6 @@ const TradingDetails = () => {
                     <div className="col-xl-9 col-lg-11">
                         <div className="tag-share pt-0 pb-10">
                             <h4>TRADING PRODUCTS</h4>
-
                             <div
                                 className="item"
                                 data-aos="fade-left"

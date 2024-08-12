@@ -131,18 +131,11 @@ const DefaultFooter = () => {
         </div>
         <div className="footer-bottom mt-30 py-15">
           <div className="row justify-content-center text-center">
-            <div className="col-xl-4">
-              <div
-                className="copyright-text pt-10 text-lg-start text-center">
                 <p>
-                  © 2024 All rights reserved | Safra Co. Ltd.
+                  © 2024 All rights reserved | Safra Company Limited
                 </p>
               </div>
             </div>
-          </div>
-
-
-        </div>
       </div>
     </footer>
   );

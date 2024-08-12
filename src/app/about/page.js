@@ -327,14 +327,14 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3
+                <h4
                   data-aos="fade-up"
                   data-aos-delay={50}
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
                   Corporate <span>Values</span>
-                </h3>
+                </h4>
               </div>
             </div>
           </div>
@@ -421,81 +421,6 @@ const page = () => {
       </section>
       {/* Values Area End */}
 
-
-      
-       {/* Testimonials Area Start 
-       <section className="testimonials-area bgc-primary py-50 rpy-100 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-9 col-md-11">
-              <div
-                className="section-title text-white text-center mb-1"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <h3>Safra Awards </h3>
-              </div>
-            </div>
-          </div>
-          <Slider
-            {...sliderProps.testiSliderSix}
-            className="testi-slider-six text-white"
-            data-aos="fade-up"
-            data-aos-delay={50}
-            data-aos-duration={1500}
-            data-aos-offset={50}
-          >
-            <div>
-              <div className="image">
-                <img
-                  src="assets/images/about/about-seven-two1.png"
-                  alt="Safra-Best-Industry"
-                />
-              </div>
-              <h5 className="text-center">Best Industry In the Chemical Industries 1414/1993</h5>
-            </div>
-            <div>
-              <div className="image">
-                <img
-                  src="assets/images/about/about-seven-two1.png"
-                  alt="Safra-Obtained-ISO"
-                />
-              </div>
-              <h5 className="text-center">Safra Obtained ISO 9200 Certification</h5>
-            </div>
-          </Slider>
-        </div>
-        <div className="testimonials-eight-shapes">
-          <div className="shape one">
-            <img
-              src="assets/images/shapes/testimonial-eight1.png"
-              alt="Shape"
-            />
-          </div>
-          <div className="shape two">
-            <img
-              src="assets/images/shapes/testimonial-eight2.png"
-              alt="Shape"
-            />
-          </div>
-        </div>
-      </section>
-      */}
-      {/* Testimonials Area End 
-
-
-      <section className="hero-area-six pt-40 rpt-20 pb-0 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
-*/}
-
       {/* CEO Area Start */}
       <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
       >
@@ -505,7 +430,7 @@ const page = () => {
               className="section-title text-center"
 
             >
-              <h3>CEO Message</h3>
+              <h4>CEO Message</h4>
             </div>
           </div>
         </div>
@@ -624,9 +549,9 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="section-title text-white mb-40">
-                <h3>
+                <h4>
                   Safra History
-                </h3>
+                </h4>
               </div>
             </div>
           </div>
@@ -785,7 +710,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3>Business Philosophy</h3>
+                <h4>Business Philosophy</h4>
               </div>
             </div>
           </div>
@@ -914,15 +839,15 @@ const page = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="col-xl-9 col-lg-11 mb-40 pt-40 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 mb-20 pt-40 rmb-80 text-center"
               data-aos="fade-up"
               data-aos-duration={1500}
               data-aos-offset={50}
             >
               <div className="section-title pb-40">
-                <h4 className="pb-20">
+                <h5 className="pb-20">
                 Our Products Are Meeting Customers Needs From Industrial Chemicals To Consumers Products And Services
-                </h4>
+                </h5>
                 <p>
                 We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers. 
                 We also undertake the blending of various products to meet specific customers chemical and solvents requirements serving 
@@ -940,39 +865,6 @@ const page = () => {
       {/* Header Area End */}
 
 
-
-
-      {/* products area start
-      <section className="tooltip-area-two rel pt-40 rpt-10">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="col-xl-9 col-lg-11 mb-40 rmb-40 text-center"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="section-title pt-10 pb-10">
-                <h4 className="pb-20">
-                  Our products are meeting customers needs from industrial chemicals to consumers products and services
-                </h4>
-                <p>
-                  We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers.
-                  We also undertake the blending of various products to meet specific customers chemical and
-                  solvents requirements serving industries such as Paints, Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery,
-                  Resins, Industrial Cleaning and Maintenance, Dry Cleaning, Spot Removing, Wood Protection and varnishes, Construction Chemicals,
-                  Oil Fields Chemicals, Bitumen Based Products, etc. We have privilege of producing odorless (aromatic free) solvents for various
-                  applications especially oil-drilling, aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance.
-                  We aim to enhance market leadership via our products/services, establish new manufacturing facilities and trading division.
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      */}
-      {/*products area End */}
     </SafraLayout>
   );
 };

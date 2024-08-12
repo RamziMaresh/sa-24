@@ -12472,6 +12472,13 @@ a.theme-btn.style-four:hover {
   background-color: transparent;
 }
 
+.ceo-text{
+  max-width: 1100px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
 .ceo-text p {
   text-align: justify;
   padding: 5px;
@@ -12489,15 +12496,11 @@ a.theme-btn.style-four:hover {
   color: #c41d23;
 }
 
-
 .alert-contact-form {
   background-color: #14B8A6;
   border-radius: 5px;
   color: white;
-
 }
-
-
 
 .iconic-box-contact.style-four {
   background: var(--primary-color);

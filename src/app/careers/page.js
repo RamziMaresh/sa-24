@@ -34,9 +34,11 @@ const page = () => {
                         <div className="col-xl-9 col-lg-11">
                             <p className="">
                                 We Give Our People The Opportunity And Support To Achieve More Than They Ever Thought Possible.<br />
-                                <b>UPLOAD YOUR CV</b>
                             </p>
-                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10 pt-10">
+                            <p className="pt-20">
+                            <b>Upload Your CV!</b>
+                            </p>
+                            <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10">
                                 <div className="sign-in-up-wrapper">
                                     <form action="#">
                                         <div className="form-group">
@@ -112,14 +114,14 @@ const page = () => {
                         <div className="col-xl-9 col-lg-11">
 
                             <div className="blog-details-content pt-10  pb-40">
-                                <div className="blog-details-content ">
-                                    <h5 className="pt-20 ">A Quick Image Bite Of Who And What We Are</h5>
+                                <div className="blog-details-content">
+                                    <h6 className="pt-20 ">A Quick Image Bite Of Who And What We Are</h6>
                                     <p>
                                         The center of marketing gravity for innovation can be anywhere, and what matters is that our
                                         company SAFRA Ltd. is having the ability to bring central focus to bear when it is needed to
                                         drive economies of scale, efficiencies, and experience.
                                     </p>
-                                    <h5 className="pt-20">Knowledge Dissemination</h5>
+                                    <h6 className="pt-20">Knowledge Dissemination</h6>
                                     <p>
                                         Capturing, retaining and disseminating knowledge is crucial. A strategic dimension for us is to
                                         make it our priority at corporate level to define and rationalize our portfolio and then invest in
@@ -133,13 +135,13 @@ const page = () => {
                                         well.
                                     </p>
 
-                                    <h5 className="pt-20 ">SAFRA’s Managers</h5>
+                                    <h6 className="pt-20 ">Safra Managers</h6>
                                     <p>
                                         We now have a cadre of some good managers. Every one of the team expects to work in
                                         teams where you can enter a new market with all possible speed.
                                     </p>
 
-                                    <h5 className="pt-20 ">How SAFRA To Compete</h5>
+                                    <h6 className="pt-20 ">How Safra To Compete</h6>
                                     <p>
                                         Once we get into a new market, we shall compete with our existing products and maintain a
                                         steady stream of new, state off the art products. Innovation will be at the top of everyone’s
@@ -148,7 +150,7 @@ const page = () => {
                                         focused, and never for its own sake to show how clever we are.
                                     </p>
 
-                                    <h5 className="pt-20">Anyone Can Innovate</h5>
+                                    <h6 className="pt-20">Anyone Can Innovate</h6>
                                     <p>
                                         Any one of these new product ideas can start anywhere in the company, and they frequently
                                         do. We are ready and able to see the glimpse of a possibility – and then act on it. Fine polish
@@ -156,7 +158,7 @@ const page = () => {
                                     </p>
 
 
-                                    <h5 className="pt-20">Project Initiation</h5>
+                                    <h6 className="pt-20">Project Initiation</h6>
                                     <ul className="icon-list mt-20 mb-35">
                                         <li>
                                             <i className="fal fa-check" /> Audit to find where we truly are. If we do not, life is full of surprises!.

@@ -30,7 +30,7 @@ const page = () => {
 
                     <div className="row justify-content-center pb-40">
                         <div className="col-xl-9 col-lg-11">
-                            <h5 className="">Customer Satisfaction Index</h5>
+                            <h6 className="">Customer Satisfaction Index</h6>
 
 <p>
   Safra maintains a Customer Satisfaction Index to have a formal report of customer’s
@@ -41,7 +41,7 @@ const page = () => {
   customer services and ensuring higher satisfaction.
 </p>
 
-<h5 className="pt-20">Sales & Marketing</h5>
+<h6 className="pt-20">Sales And Marketing</h6>
 
 <p>
   Safra meets the requirements of wide spectrum of market segments by producing high
@@ -90,7 +90,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title mb-20">
-                  <h3>Customer Service</h3>
+                  <h4>Customer Service</h4>
 
                 </div>
                 <p>

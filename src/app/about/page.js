@@ -21,7 +21,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <h3>At a Glance</h3>
+                <h4>At a Glance</h4>
               </div>
             </div>
           </div>
@@ -42,13 +42,11 @@ const page = () => {
                   The company serves industries of paints,adhesives, insecticides & pesticides, thinner, alkyd resins,
                   industrial cleaning, maintenance solvents, dry cleaning, spot removing, wood protection, varnishes, construction chemicals,
                   oil field chemicals, and Bitumen based products.
-                </p>
-                <p>
+                  <br />
                   The production capacity of SAFRA refinery is continuously expanding to meet
                   increasing demand for products while keeping pace with the latest technological
                   developments and simultaneously meeting stringent International standards for
                   manufacturing solvents.
-
                 </p>
                 <p>
                   The plant is equipped with necessary technological flexibility and pool of technical

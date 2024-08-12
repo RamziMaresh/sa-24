@@ -31,9 +31,9 @@ const Index = () => {
               data-aos-offset={50}
             >
               <div className="section-title pb-40">
-                <h4 className="pb-20">
+                <h5 className="pb-20">
                   We Are A world Class Hydrocarbon Player With Viable Framework And Competitive Edge
-                </h4>
+                </h5>
                 <p>
                   SAFRA Co. Ltd. is committed to Saudi Vision 2030 with ambitious drive and aspiration to contribute for building a broad-based economy
                   for a sustainable future.

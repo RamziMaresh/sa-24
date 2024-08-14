@@ -22,6 +22,7 @@ const SafraLayout = ({ children, header, footer, bodyClass, onePage }) => {
   return (
     <Fragment>
       <div className="page-wrapper">
+
         <Header header={header} onePage={onePage} />
         {children}
         <Footer footer={footer} />

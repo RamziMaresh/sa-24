@@ -1,14 +1,8 @@
 "use client";
-
 import Link from "next/link";
 
-
 const PackagedDetails = () => {
-
-
-
     return (
-
         <section className="blog-details-area py-0 rpy-100">
             <div className="container">
                 <div className="row">

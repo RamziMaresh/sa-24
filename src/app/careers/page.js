@@ -13,16 +13,6 @@ const page = () => {
                         <div className="col-xl-9 col-lg-11">
                             <div className="tag-share pt-0 pb-10">
                                 <h5>Eager to join us!</h5>
-                                <div
-                                    className="item"
-                                    data-aos="fade-left"
-                                    data-aos-duration={1500}
-                                    data-aos-offset={50}
-                                >
-                                    <div className="tag-coulds">
-                                        <Link href="/">Home Page <i class="fa fa-angle-right"></i> </Link>
-                                    </div>
-                                </div>
                             </div>
                             <div className="pb-40">
                                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />

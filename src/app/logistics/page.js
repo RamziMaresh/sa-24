@@ -13,18 +13,9 @@ const page = () => {
 
                     <div className="row justify-content-center">
                         <div className="col-xl-9 col-lg-11">
+                            
                             <div className="tag-share pt-0 pb-10">
                                 <h4>Logistics</h4>
-                                <div
-                                    className="item"
-                                    data-aos="fade-left"
-                                    data-aos-duration={1500}
-                                    data-aos-offset={50}
-                                >
-                                    <div className="tag-coulds">
-                                        <Link href="/">Home Page <i class="fa fa-angle-right"></i> </Link>
-                                    </div>
-                                </div>
                             </div>
                             <div className="pb-20">
                                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
@@ -73,3 +64,17 @@ const page = () => {
     );
 };
 export default page;
+
+
+/* 
+                                <div
+                                    className="item"
+                                    data-aos="fade-left"
+                                    data-aos-duration={1500}
+                                    data-aos-offset={50}
+                                >
+                                    <div className="tag-coulds">
+                                        <Link href="/">Home Page <i class="fa fa-angle-right"></i> </Link>
+                                    </div>
+                                </div>
+*/

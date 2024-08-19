@@ -49,9 +49,7 @@ const AliphaticDetails = () => {
                                     data-aos-duration={1500}
                                     data-aos-offset={50}
                                 >
-                                    <div className="tag-coulds">
-                                        <Link href="/">Home Page <i class="fa fa-angle-right"></i> </Link>
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="pb-40">

@@ -28,7 +28,7 @@ const Banner = () => {
           data-aos-duration={1500}
           data-aos-offset={50}
         >
-          Solutions For Better Living
+          Safra Provides Better Solutions   
         </h3>
         <div
           className="hero-btns"

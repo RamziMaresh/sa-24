@@ -30,32 +30,23 @@ const page = () => {
 
                     <div className="row justify-content-center pb-40">
                         <div className="col-xl-9 col-lg-11">
-                            <h6 className="">Customer Satisfaction Index</h6>
+                            <h6 className="">Sales</h6>
 
 <p>
-  Safra maintains a Customer Satisfaction Index to have a formal report of customer’s
-  perceptions about our performance and know more about the concerns and
-  expectations of our esteemed customers.
-  Safra “CSI” gives our customers an opportunity to evaluate our performance and make
-  suggestions. The feedback helps us to respond effectively in the direction of improving
-  customer services and ensuring higher satisfaction.
+Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant. 
+It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
+<br />
+Safra undertake deliveries anywhere in the world. The products are supplied in bulk/vessel, containers, 
+ISO Tanks, road tankers, and road trailers in accordance with the requirements of our customers under International Shipping Code. 
+Using various packing such as new and reconditioned drums while adhering to global safety standards.
 </p>
 
-<h6 className="pt-20">Sales And Marketing</h6>
+<h6 className="pt-20">Marketing</h6>
 
 <p>
-  Safra meets the requirements of wide spectrum of market segments by producing high
-  quality solvents in the most modern and fully automated plant. It’s expertise in
-  understanding the needs and dynamics of local and regional industrial markets further
-  attributes to serve better than competitors.<br />
-  Safra undertake deliveries anywhere in the world. The products are supplied in
-  bulk/vessel, containers, ISO Tanks, road tankers, and road trailers in accordance with
-  the requirements of our customers under International Shipping Code. Using various
-  packing such as new and reconditioned drums while adhering to global safety
-  standards.
-  Safra aims to further fulfill the needs of customers with higher levels of satisfaction by
-  producing the best quality of solvents and its distribution in the local, regional and
-  international.
+Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality 
+of solvents and its distribution in the local, regional and international markets.
+
 </p>
 <hr />
 
@@ -95,7 +86,12 @@ const page = () => {
                 </div>
                 <p>
                   There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
-                  We also ship container shipments (Drums) or Iso-Tanks internationally...
+                  We also ship container shipments (Drums) or Iso-Tanks internationally.
+                </p>
+                <p>
+                  <b>
+                  Safra offers a full package of support to their Customers including the following:
+                  </b>
                 </p>
                 <ul className="icon-list style-two mt-40 mb-40">
                   <li>

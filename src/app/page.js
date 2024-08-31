@@ -35,13 +35,12 @@ const Index = () => {
                   We Are A world Class Hydrocarbon Player With Viable Framework And Competitive Edge
                 </h5>
                 <p>
-                  SAFRA Co. Ltd. is committed to Saudi Vision 2030 with ambitious drive and aspiration to contribute for building a broad-based economy
-                  for a sustainable future.
-                  SAFRA is a manufacturer and distributor of hydrocarbon solvents having a fully
-                  automated refinery located at Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
-                  The company serves industries of paints,adhesives,
-                  insecticides & pesticides, thinner, alkyd resins, industrial cleaning, maintenance
-                  solvents, dry cleaning ...
+
+                SAFRA is a manufacturer and distributor of hydrocarbon solvents having a fully automated refinery located at
+                  Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
+                  The company serves industries of paints,adhesives, insecticides & pesticides, thinner, alkyd resins,
+                  industrial cleaning, maintenance solvents, spot removing, wood protection, varnishes, construction chemicals,
+                  oil field chemicals, and Bitumen based products.
                 </p>
               </div>
 
@@ -55,7 +54,66 @@ const Index = () => {
       {/* Header Area End */}
 
 
-      {/* Sustainability Area Start */}
+      
+      {/* Banner Area 02 start 
+      <section className="solutions-area pb-20 rpb-20 pt-100">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box7.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box9.jpg
+                    "
+                    alt="Safra-images."
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-10">
+              <div
+                className="fancy-box"
+                data-aos="fade-up"
+                data-aos-delay={400}
+                data-aos-duration={1000}
+                data-aos-offset={50}
+              >
+                <div className="image">
+                  <img
+                    src="assets/images/fancy-box/fancy-box8.jpg"
+                    alt="Fancy Box"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>*/}
+      {/* Banner Area 02 End */}
+
+
+
       <section className="data-analytics-area pt-10 rpt-20 pb-10 rpb-20">
         <div className="container">
           <div className="row gap-110 align-items-center">
@@ -67,14 +125,13 @@ const Index = () => {
                 data-aos-offset={50}
               >
                 <div className="section-title-sus mb-30">
-                  <h3>Safra Sustainability</h3>
+                  <h3>CEO Message</h3>
                 <p>
-                  Sustainability for SAFRA goes far beyond just climate protection as this objective will
-                  responsibly be achieved by pursuing three dimensional levels; environmental, economic and social.
-                  SAFRA sustainable growth will provide the basis for more
-                  investments and value creation for stakeholders in both short and long term. The
-                  company will totally be committed to achieve sustainable growth via its nurtured
-                  localized employees who will achieve exceptional standards of performance, responsible behavior, continuous learning and innovation.
+                People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish 
+                our objective of highest levels of customer satisfaction. Through the history of times, we have experienced that 
+                the success of us and that of you as our partner, lies in the applied transparency, continuous product development 
+                and efficient process implementation, on which our business approach rests. We are committed to 
+                meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.
                 </p>
                 </div>
               </div>
@@ -91,14 +148,14 @@ const Index = () => {
                   src="assets/images/about/sustainability-1.svg"
                   alt="sustainability-1"
                 />
-
               </div>
-
             </div>
           </div>
         </div>
       </section>
+      
       {/* SustainabilityArea End */}
+
 
       {/* Contact Area Start */}
       <section
@@ -116,7 +173,7 @@ const Index = () => {
               >
                 <div className="section-title mb-40">
                   <span className="subtitle d-block mb-10">
-                    Safta Team
+                    Safra Team
                   </span>
                   <h3>We Are Ready To Serve You <br />And Answer Your Inquiries !</h3>
                 </div>

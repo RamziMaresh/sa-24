@@ -1,7 +1,9 @@
 "use client";
+import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
+
 //
 
 const page = () => {
@@ -37,18 +39,11 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  SAFRA is a manufacturer and distributor of hydrocarbon solvents having a fully automated refinery located at
-                  Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
-                  The company serves industries of paints,adhesives, insecticides & pesticides, thinner, alkyd resins,
-                  industrial cleaning, maintenance solvents, dry cleaning, spot removing, wood protection, varnishes, construction chemicals,
-                  oil field chemicals, and Bitumen based products.
-                  <br />
                   The production capacity of SAFRA refinery is continuously expanding to meet
                   increasing demand for products while keeping pace with the latest technological
                   developments and simultaneously meeting stringent International standards for
-                  manufacturing solvents.
-                </p>
-                <p>
+                  manufacturing solvents.<br />
+
                   The plant is equipped with necessary technological flexibility and pool of technical
                   experts to produce innovative tailor made products conforming to the customer
                   specifications. It is very well equipped with high capacity solvent filling facility in drums
@@ -58,6 +53,7 @@ const page = () => {
                   Our environmental friendly solvents comply with international quality and safety
                   standards. Our fully integrated production, sales & distribution processes ensures on time deliveries to the regional and international industrial partners
                   for further down- streaming quality products.
+                  SAFRA has an ambitious drive and aspiration to contribute for to Saudi Vision 2030. 
                 </p>
               </div>
             </div>
@@ -103,6 +99,7 @@ const page = () => {
                 </div>
               </div>
             </div>
+            {/*
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
                 className="fancy-box"
@@ -119,6 +116,8 @@ const page = () => {
                 </div>
               </div>
             </div>
+
+           
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
                 className="fancy-box"
@@ -150,6 +149,8 @@ const page = () => {
                 </div>
               </div>
             </div>
+                         */}
+
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
                 className="fancy-box"
@@ -175,6 +176,8 @@ const page = () => {
       <section className="tab-area-two pt-40 rpt-10"
         style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
         <div className="container">
+
+          {/* 
           <div className="row justify-content-center">
             <div
               className="col-xl-7 col-lg-9 col-md-11"
@@ -190,6 +193,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          */}
           <Tab.Container defaultActiveKey={"tabTwo1"}>
             <div
               className="row justify-content-center"
@@ -205,45 +209,20 @@ const page = () => {
                 >
                   <Nav.Item as={"li"}>
                     <Nav.Link as={"button"} eventKey="tabTwo1">
-                      Mission
+                      Vision 
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item as={"li"}>
                     <Nav.Link as={"button"} eventKey="tabTwo2">
-                      Vision
+                      Mission
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item as={"li"}>
-                    <Nav.Link as={"button"} eventKey="tabTwo3">
-                      Quality
-                    </Nav.Link>
-                  </Nav.Item>
+
                 </Nav>
               </div>
             </div>
             <Tab.Content className="tab-content">
-
               <Tab.Pane className="tab-pane fade" eventKey="tabTwo1">
-                <div className="row align-items-center justify-content-center">
-
-                  <div className="col-xl-9 col-lg-9">
-                    <div className="ceo-text">
-
-                      <p>
-                        SAFRA is devoted to diversify its value-added hydrocarbon quality products to
-                        its customers worldwide, capitalizing on its R&D and transnational culture.
-                      </p>
-                      <p>
-                        SAFRA is to be recognized as a world-class producer of hydrocarbon products and
-                        services supplied worldwide. Its purpose is achieved through an organization and
-                        working environment able to meet and exceed its international B2B & B2C customers’ needs. The company provides its stakeholders with long-term growth and profitability
-                        by establishing and maintaining leadership position in the market.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="tabTwo2">
                 <div className="row align-items-center justify-content-center">
                   <div className="col-xl-9 col-lg-9">
                     <div
@@ -253,11 +232,12 @@ const page = () => {
                       data-aos-offset={50}
                     >
                       <p>
-                        We are stepping up our execution to deliver improved performance.
+                        <b>
                         To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and nurturing localization.
+                        </b>
                       </p>
                       <ul className="icon-list style-two my-35">
-                        <li>
+                        <li className="">
                           <i className="fal fa-check" /> Being a World Class Hydrocarbon Key Player.
                         </li>
                         <p>
@@ -277,7 +257,13 @@ const page = () => {
                           <i className="fal fa-check" /> Cultivating Sustainability, Creating Value, and Nurturing Localization.
                         </li>
                         <p>
-                          Employees and other stakeholders will have huge opportunity to be part of a successful
+                        Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved 
+                        by pursuing three dimensional levels; environmental, economic and social. SAFRA sustainable growth will provide 
+                        the basis for more investments and value creation for stakeholders in both short and long term. 
+                        The company will totally be committed to achieve sustainable growth via its nurtured localized employees 
+                        who will achieve exceptional standards of performance, responsible behavior, 
+                        continuous learning and innovation. <br />
+                        Employees and other stakeholders will have huge opportunity to be part of a successful
                           enterprise. Moreover, SAFRA will emphasize on the importance of how its employees
                           work with each other and how they behave. Employees empowerment will increasingly
                           be emphasized for exceptional performance that will make the employees perform the
@@ -291,19 +277,34 @@ const page = () => {
                           competitively to their needs through its diversified portfolio. quality hydrocarbon and
                           petrochemical products.
                         </p>
+                        <p>
+
+                        </p>
                       </ul>
                     </div>
                   </div>
                 </div>
               </Tab.Pane>
-              <Tab.Pane className="tab-pane fade" eventKey="tabTwo3">
+
+              <Tab.Pane className="tab-pane fade" eventKey="tabTwo2">
                 <div className="row align-items-center justify-content-center">
+
                   <div className="col-xl-9 col-lg-9">
                     <div className="ceo-text">
+
                       <p>
-                        Quality consistency is vital for us as we know there are no shortcuts when it comes to
-                        providing customers with consistent and reliable, quality products.
+                        <b>
+                        SAFRA is devoted to diversify its value-added hydrocarbon quality products to
+                        its customers worldwide, capitalizing on its R&D and transnational culture.
+                        </b>
                       </p>
+                      <p>
+                        SAFRA is to be recognized as a world-class producer of hydrocarbon products and
+                        services supplied worldwide. Its purpose is achieved through an organization and
+                        working environment able to meet and exceed its international B2B & B2C customers’ needs. The company provides its stakeholders with long-term growth and profitability
+                        by establishing and maintaining leadership position in the market.<br />
+                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -321,16 +322,9 @@ const page = () => {
             <div className="col-xl-7 col-lg-9 col-md-11">
               <div
                 className="section-title text-center mb-40"
-                data-aos="fade-up"
-                data-aos-duration={1500}
-                data-aos-offset={50}
+
               >
-                <h4
-                  data-aos="fade-up"
-                  data-aos-delay={50}
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
-                >
+                <h4>
                   Corporate <span>Values</span>
                 </h4>
               </div>
@@ -339,9 +333,6 @@ const page = () => {
           <div className="row">
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -351,10 +342,6 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -364,10 +351,6 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -377,9 +360,6 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -389,10 +369,6 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -402,10 +378,6 @@ const page = () => {
             </div>
             <div
               className="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-seven">
                 <div className="content">
@@ -419,110 +391,50 @@ const page = () => {
       </section>
       {/* Values Area End */}
 
-      {/* CEO Area Start */}
-      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
-      >
+
+
+      {/* Sustainability Area Start}
+      <section className="data-analytics-area pt-10 rpt-20 pb-10 rpb-20">
         <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="section-title text-center"
-
-            >
-              <h4>CEO Message</h4>
-            </div>
-          </div>
-        </div>
-        <div className="container container-1070">
-          <div className="row pb-10 rpb-20 align-items-center">
-            <div className="ceo-text">
+          <div className="row gap-110 align-items-center">
+            <div className="col-lg-6">
               <div
-                className="ai-content rmb-0"
-
+                className="about-content mt-40 rmb-20"
+                data-aos="fade-left"
+                data-aos-duration={1500}
+                data-aos-offset={50}
               >
+                <div className="section-title-sus mb-30">
+                  <h3>CEO Message</h3>
                 <p>
-                  People and culture are the biggest assets in Safra, which we continuously cherish and
-                  develop to accomplish our objective of highest levels of customer satisfaction. Through
-                  the history of times, we have experienced that the success of us and that of you as
-                  our partner, lies in the applied transparency, continuous product development and
-                  efficient process implementation, on which our business approach rests. We are
-                  committed to meet variety of customer requirements in the area of industrial chemicals
-                  & solvents, consumer products and related services.
+                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
                 </p>
-                <p>
-                  Also, to meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand our
-                  production capabilities, which will further support these industrial sectors with
-                  continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health, we apply highest care to the
-                  quality of products that we produce, together with meeting our business commitments
-                  with accuracy and on-time. We take pride in acknowledging our contribution to the Saudi economy and society by
-                  producing & supplying industrial raw material for growth of local industry and by training
-                  and developing Saudi youth in various fields of business & management, respectively.
-                  We at Safra, believe in empowering and rewarding our intellectual capital and providing
-                  a motivating work environment within the guidelines of Islamic ethics and culture.
-                </p>
+                </div>
               </div>
             </div>
-          </div>
+            <div className="col-lg-6">
+              <div
+                className="management-images float-lg-end "
+                data-aos="fade-right"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <img
+                  className="rounded-0"
+                  src="assets/images/about/sustainability-1.svg"
+                  alt="sustainability-1"
+                />
 
+              </div>
+
+            </div>
+          </div>
         </div>
       </section>
-
       
-      {/* Banner Area 02 start */}
-      <section className="solutions-area pb-20 rpb-20">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box7.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box9.jpg
-                    "
-                    alt="Safra-images."
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={400}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box8.jpg"
-                    alt="Fancy Box"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Banner Area 02 End */}
+      {/* SustainabilityArea End */}
+
+
 
       {/* CEO Area StEndsart 
 
@@ -536,6 +448,40 @@ const page = () => {
         </div>
       </section>
 */}
+
+
+      {/* Products Area Start */}
+      <section
+        className="tooltip-area-two bgs-cover rel pt-100 rpt-100"
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+
+            <div
+              className="col-xl-9 col-lg-11 rmb-80 text-center"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title pb-60">
+
+              <h4 className="pb-40">
+                  Safra <span>Quality</span>
+                </h4>
+
+
+                <h5 className="pb-40">
+                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
+                </h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Products Area End */}
+
+      
       {/* Safra History Area Start */}
       <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
         <div className="container">
@@ -697,6 +643,58 @@ const page = () => {
       </section>
       */}
 
+
+
+
+            {/* CEO Area Start */}
+            <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div
+              className="section-title text-center"
+
+            >
+              <h4>CEO Message</h4>
+            </div>
+          </div>
+        </div>
+        <div className="container container-1070">
+          <div className="row pb-10 rpb-20 align-items-center">
+            <div className="ceo-text">
+              <div
+                className="ai-content rmb-0"
+
+              >
+
+<p>
+                People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish 
+                our objective of highest levels of customer satisfaction. Through the history of times, we have experienced that 
+                the success of us and that of you as our partner, lies in the applied transparency, continuous product development 
+                and efficient process implementation, on which our business approach rests. We are committed to 
+                meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.
+<br />
+                  To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand our
+                  production capabilities, which will further support these industrial sectors with
+                  continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health, we apply highest care to the
+                  quality of products that we produce, together with meeting our business commitments
+                  with accuracy and on-time. We take pride in acknowledging our contribution to the Saudi economy and society by
+                  producing & supplying industrial raw material for growth of local industry and by training
+                  and developing Saudi youth in various fields of business & management, respectively.
+                  We at Safra, believe in empowering and rewarding our intellectual capital and providing
+                  a motivating work environment within the guidelines of Islamic ethics and culture.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
       {/*Business Philosophy Area Start */}
       <section className="services-box-area pb-40 pt-60 rpb-70 rel z-1">
         <div className="container">
@@ -829,7 +827,7 @@ const page = () => {
       </section>
       {/* Business Philosophy Area End */}
 
-            {/* HeaderStart pt-120*/}
+            {/* HeaderStart pt-120
             <section
         className="tooltip-area bgs-cover rel pt-20 rpt-40"
 
@@ -859,7 +857,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       {/* Header Area End */}
 
 

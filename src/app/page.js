@@ -132,6 +132,18 @@ const Index = () => {
                 the success of us and that of you as our partner, lies in the applied transparency, continuous product development 
                 and efficient process implementation, on which our business approach rests. We are committed to 
                 meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.
+
+                <br />
+                Also, to meet the growing needs of industrial & decorative paints, home care products, 
+                agricultural pesticides and other end-user products, we are dedicated to expand our production capabilities, 
+                which will further support these industrial sectors with continuous and reliable supply of their raw material requirements. 
+                <br />
+                Without any compromise on the environmental health, we apply highest care to the quality of products that we produce, 
+                together with meeting our business commitments with accuracy and on-time. We take pride in acknowledging our
+                 contribution to the Saudi economy and society by producing & supplying industrial raw material for growth of 
+                 local industry and by training and developing Saudi youth in various fields of business & management, respectively. 
+                 We at Safra, believe in empowering and rewarding our intellectual capital and providing a motivating work environment 
+                 within the guidelines of Islamic ethics and culture.
                 </p>
                 </div>
               </div>

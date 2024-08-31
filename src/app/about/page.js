@@ -386,6 +386,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          <hr />
 
         </div>
       </section>
@@ -452,7 +453,7 @@ const page = () => {
 
       {/* Products Area Start */}
       <section
-        className="tooltip-area-two bgs-cover rel pt-100 rpt-100"
+        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -646,7 +647,7 @@ const page = () => {
 
 
 
-            {/* CEO Area Start */}
+            {/* CEO Area Start
             <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
       >
         <div className="container">
@@ -664,7 +665,6 @@ const page = () => {
             <div className="ceo-text">
               <div
                 className="ai-content rmb-0"
-
               >
 
 <p>
@@ -692,7 +692,7 @@ const page = () => {
       </section>
 
 
-
+ */}
 
 
       {/*Business Philosophy Area Start */}

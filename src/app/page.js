@@ -113,6 +113,140 @@ const Index = () => {
       {/* Banner Area 02 End */}
 
 
+      {/*Business Philosophy Area Start */}
+      <section className="services-box-area pb-100 pt-100 rpb-70 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-10">
+              <div
+                className="section-title text-center mb-55"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <h4>Safra Business Philosophy</h4>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-goal" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Proactively deal with all our partners with confidence and pride in a spirit of mutual respect,
+                    trust and openness maintaining highest standards of integrity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={100}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-idea" />
+                </div>
+                <hr />
+                <div className="content">
+                  Introduce innovative quality products and services at competitive cost leading to added economic benefits to all the stakeholders.
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-technology-1" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Improve customer focus through better understanding and anticipating of the priorities
+                    of existing and emerging customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-efficiency" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Serve our customers with accuracy, speed, flexibility, efficiency and effectiveness-based on agreed priorities.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={100}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-security" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>Think of safety and act safely at all the times in all our endeavors.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6">
+              <div
+                className="iconic-box style-eight"
+                data-aos="fade-up"
+                data-aos-delay={200}
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <div className="icon">
+                  <i className="flaticon-data" />
+                </div>
+                <hr />
+                <div className="content">
+                  <p>
+                    Be responsible and active corporate player respecting communities and environments in which we operate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      {/* Business Philosophy Area End */}
+      
+
+      {/* 
 
       <section className="data-analytics-area pt-10 rpt-20 pb-10 rpb-20">
         <div className="container">
@@ -165,7 +299,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+      */}
       {/* SustainabilityArea End */}
 
 

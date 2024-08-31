@@ -1,13 +1,9 @@
 {
   "/page": "app/page.js",
   "/products/page": "app/products/page.js",
-  "/packaged-products/page": "app/packaged-products/page.js",
-  "/blended-products/page": "app/blended-products/page.js",
   "/about/page": "app/about/page.js",
-  "/trading-products/page": "app/trading-products/page.js",
-  "/distribution/page": "app/distribution/page.js",
   "/logistics/page": "app/logistics/page.js",
-  "/contact/page": "app/contact/page.js",
   "/careers/page": "app/careers/page.js",
+  "/distribution/page": "app/distribution/page.js",
   "/aliphatic-products/page": "app/aliphatic-products/page.js"
 }

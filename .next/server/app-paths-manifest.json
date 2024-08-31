@@ -1,9 +1,4 @@
 {
   "/page": "app/page.js",
-  "/products/page": "app/products/page.js",
-  "/about/page": "app/about/page.js",
-  "/logistics/page": "app/logistics/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/distribution/page": "app/distribution/page.js",
-  "/aliphatic-products/page": "app/aliphatic-products/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

@@ -10,27 +10,11 @@ const page = () => {
       {/* News media section one start  */}
       <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-9 col-lg-11">
-                            <div className="tag-share pt-0 pb-10">
-                            <h4>Distribution Page</h4>
-                            <div
-                                    className="item"
-                                    data-aos="fade-left"
-                                    data-aos-duration={1500}
-                                    data-aos-offset={50}
-                                >
-                                </div>
-                            </div>
-                            <div className="pb-20">
-                                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div className="row justify-content-center pb-40">
                         <div className="col-xl-9 col-lg-11">
-                            <h6 className="">Sales</h6>
+                            <h5 className="">Sales</h5>
 
 <p>
 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant. 
@@ -41,7 +25,7 @@ ISO Tanks, road tankers, and road trailers in accordance with the requirements o
 Using various packing such as new and reconditioned drums while adhering to global safety standards.
 </p>
 
-<h6 className="pt-20">Marketing</h6>
+<h5 className="pt-20">Marketing</h5>
 
 <p>
 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality 

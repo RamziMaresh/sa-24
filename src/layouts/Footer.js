@@ -21,9 +21,6 @@ const DefaultFooter = () => {
           <div className="col-xl-2 col-lg-4 col-sm-6 mt-50 ">
             <div
               className="footer-widget widget-about"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="logo-outer">
                 <div className="logo mb-20">
@@ -59,10 +56,6 @@ const DefaultFooter = () => {
               <div className="col-sm-4 col-6">
                 <div
                   className="footer-widget widget-contact"
-                  data-aos="fade-up"
-                  data-aos-delay={300}
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
                 >
                   <h6 className="footer-title">Head Office</h6>
                   <ul>
@@ -84,10 +77,7 @@ const DefaultFooter = () => {
               <div className="col-sm-4 col-6">
                 <div
                   className="footer-widget widget-contact"
-                  data-aos="fade-up"
-                  data-aos-delay={300}
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
+
                 >
                   <h6 className="footer-title">Chemplex </h6>
                   <ul>
@@ -105,10 +95,7 @@ const DefaultFooter = () => {
               <div className="col-sm-4 col-6">
                 <div
                   className="footer-widget widget-contact"
-                  data-aos="fade-up"
-                  data-aos-delay={300}
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
+
                 >
                   <h6 className="footer-title">Plant (Yanbu)</h6>
                   <ul>

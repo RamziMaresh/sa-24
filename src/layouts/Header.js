@@ -222,9 +222,7 @@ const Nav = ({
                   <li>
                     <Link href="Industrial-Cleaning">{t('Industrial Cleaning and Maintenance')}</Link>
                   </li>
-                  <li>
-                    <Link href="dry-Cleaning">{t('Dry Cleaning')}</Link>
-                  </li>
+
                   <li>
                     <Link href="household-products">{t('Household Products')}</Link>
                   </li>
@@ -394,9 +392,7 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
               <li>
                 <Link href="Industrial-Cleaning">{t('Industrial Cleaning & Maintenance')}</Link>
               </li>
-              <li>
-                <Link href="dry-Cleaning">{t('Dry Cleaning')}</Link>
-              </li>
+
               <li>
                 <Link href="household-products">{t('Household Products')}</Link>
               </li>

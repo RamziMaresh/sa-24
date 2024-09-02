@@ -504,15 +504,14 @@ const page = () => {
                   <div className="col-xl-9 col-lg-9">
                     <div
                       className="ceo-text"
-                      data-aos="fade-left"
+                     data-aos="fade-left"
                       data-aos-duration={1500}
-                      data-aos-offset={50}
+                      data-aos-offset={50} 
                     >
-                      <p>
-                        <b>
+                      <p className="vision-teaxt-header">
                         To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and nurturing localization.
-                        </b>
                       </p>
+
                       <ul className="icon-list style-two my-35">
                         <li className="">
                           <i className="fal fa-check" /> Being a World Class Hydrocarbon Key Player.
@@ -569,11 +568,9 @@ const page = () => {
                   <div className="col-xl-9 col-lg-9">
                     <div className="ceo-text">
 
-                      <p>
-                        <b>
+                      <p className="vision-teaxt-header">
                         SAFRA is devoted to diversify its value-added hydrocarbon quality products to
                         its customers worldwide, capitalizing on its R&D and transnational culture.
-                        </b>
                       </p>
                       <p>
                         SAFRA is to be recognized as a world-class producer of hydrocarbon products and
@@ -665,7 +662,7 @@ const page = () => {
               <div className="section-title pb-60">
 
               <h4 className="pb-40">
-              Quality<span> Assurance</span>
+              Quality<span> Consistency</span>
                 </h4>
 
 

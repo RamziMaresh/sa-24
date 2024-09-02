@@ -660,15 +660,30 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="section-title pb-60">
-
               <h4 className="pb-40">
-              Quality<span> Consistency</span>
+              Quality Consistency
                 </h4>
-
-
                 <h5 className="pb-40">
                 Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products
                 </h5>
+                <div >
+              <div
+                className=""
+                data-aos="fade-right"
+                data-aos-duration={1500}
+                data-aos-offset={50}
+              >
+                <img
+                  className="rounded-0"
+                  src="assets/images/about/sustainability-1.svg"
+                  alt="sustainability-1"
+                />
+
+              </div>
+
+            </div>
+
+                
               </div>
 
             </div>

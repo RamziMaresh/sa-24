@@ -6,7 +6,7 @@ import SafraLayout from "../../layouts/SafraLayout";
 const page = () => {
   return (
     <SafraLayout>
-      <PageBanner pageName={"Distribution"} />
+      <PageBanner pageName={"SCM & Narketing"} />
       {/* News media section one start  */}
       <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
                 <div className="container">

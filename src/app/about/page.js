@@ -220,6 +220,37 @@ const page = () => {
         </div>
       </section>
 
+
+      {/* Products Area Start */}
+      <section
+        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+
+            <div
+              className="col-xl-9 col-lg-11 rmb-80 text-center"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title pb-60">
+              <h4 className="pb-40">
+              Leadership
+                </h4>
+                <h5 className="pb-40">
+                Our Board of Directors drive our company, guide our strategy and lead our people
+                                </h5>                
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Products Area End */}
+
+
+
+
        {/* Safra History Area Start */}
        <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
         <div className="container">
@@ -232,7 +263,7 @@ const page = () => {
             >
               <div className="section-title text-white mb-40">
                 <h4>
-                  Safra History
+                   History
                 </h4>
               </div>
             </div>
@@ -369,82 +400,6 @@ const page = () => {
         </div>
       </section>
 
-      {/* Values Area Start */}
-      <section className="feature-box-area pt-80 rpt-40 pb-40 rpb-20 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-9 col-md-11">
-              <div
-                className="section-title text-center mb-40"
-
-              >
-                <h4>
-                  Corporate <span>Values</span>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Compliance to Business Principles</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Customers Orientation</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Transparency</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Personal Integrity & Hones</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Corporate Social Responsibility </h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Business Integrity & Hones</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      {/* Values Area End */}
-
 
 
 
@@ -534,7 +489,7 @@ const page = () => {
                         </li>
                         <p>
                         Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved 
-                        by pursuing three dimensional levels; environmental, economic and social. SAFRA sustainable growth will provide 
+                        by pursuing three dimensional levels; environmental, economic and social. SAFRA’s sustainable growth will provide 
                         the basis for more investments and value creation for stakeholders in both short and long term. 
                         The company will totally be committed to achieve sustainable growth via its nurtured localized employees 
                         who will achieve exceptional standards of performance, responsible behavior, 
@@ -543,11 +498,11 @@ const page = () => {
                           enterprise. Moreover, SAFRA will emphasize on the importance of how its employees
                           work with each other and how they behave. Employees empowerment will increasingly
                           be emphasized for exceptional performance that will make the employees perform the
-                          best of their capabilities and in turn help SAFRA Vision turns into reality.
+                          best of their capabilities and in turn help SAFRA’s Vision turns into reality.
                           Entrepreneurial drives, teamwork orientation, outstanding ethical behaviors, learning
-                          organization, and practical creativity are crucial to SAFRA success. Focus on
+                          organization, and practical creativity are crucial to SAFRA’s success. Focus on
                           customers is also essential so that the company constantly keep them at the center of
-                          its attention. The company will competitively anticipate and meet customers changing
+                          its attention. The company will competitively anticipate and meet customers’ changing
                           needs, aspirations and expectations from hydrocarbon products. It will serve its
                           customers through its wealth of knowledge and operational experience and respond
                           competitively to their needs through its diversified portfolio. quality hydrocarbon and
@@ -645,6 +600,82 @@ const page = () => {
         </div>
       </section>
 */}
+
+      {/* Values Area Start */}
+      <section className="feature-box-area pt-80 rpt-40 pb-40 rpb-20 rel z-1">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-7 col-lg-9 col-md-11">
+              <div
+                className="section-title text-center mb-40"
+
+              >
+                <h4>
+                  Corporate <span>Values</span>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Compliance to Business Principles</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Customers Orientation</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Transparency</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Personal Integrity & Hones</h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Corporate Social Responsibility </h5>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="iconic-box style-seven">
+                <div className="content">
+                  <h5>Business Integrity & Hones</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      {/* Values Area End */}
 
 
       {/* Products Area Start */}

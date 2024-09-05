@@ -12637,5 +12637,7 @@ video {
   background: rgb(14,116,144);
 background: linear-gradient(90deg, rgba(14,116,144,1) 0%, rgba(22,78,99,1) 100%);
 }
-
+.text-link{
+  color: rgb(14,116,144);
+}
 

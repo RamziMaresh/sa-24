@@ -14,7 +14,9 @@ const page = () => {
 
                     <div className="row justify-content-center pb-40">
                         <div className="col-xl-9 col-lg-11">
-                            <h5 className="">Sales</h5>
+                        <div className="tag-share pt-0 pb-10">
+                                <h6>Sales</h6>
+                            </div>
 
 <p>
 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant. 
@@ -24,15 +26,16 @@ Safra undertake deliveries anywhere in the world. The products are supplied in b
 ISO Tanks, road tankers, and road trailers in accordance with the requirements of our customers under International Shipping Code. 
 Using various packing such as new and reconditioned drums while adhering to global safety standards.
 </p>
-
-<h5 className="pt-20">Marketing</h5>
+<hr />
+<div className="tag-share pt-0 pb-10">
+                                <h6>Marketing</h6>
+                            </div>
 
 <p>
 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality 
 of solvents and its distribution in the local, regional and international markets.
-
 </p>
-<hr />
+<hr/>
 
                         </div>
                     </div>
@@ -64,14 +67,15 @@ of solvents and its distribution in the local, regional and international market
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="section-title mb-20">
-                  <h4>Customer Service</h4>
 
-                </div>
-                <p>
-                  There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
-                  We also ship container shipments (Drums) or Iso-Tanks internationally.
-                </p>
+<div className="tag-share pt-0 pb-10">
+                                <h4>Customer Service</h4>
+                            </div>
+                            <div className="pb-20">
+                                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                            </div>
+
+
                 <p>
                   <b>
                   Safra offers a full package of support to their Customers including the following:
@@ -94,13 +98,67 @@ of solvents and its distribution in the local, regional and international market
                     <i className="fal fa-check" />  Producing Innovative Products To Cater Specific Needs Of Customers.
                   </li>
                 </ul>
-
+                <p>
+                  There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
+                  We also ship container shipments (Drums) or Iso-Tanks internationally.
+                </p>
               </div>
             </div>
           </div>
-
+<hr />
         </div>
       </section>
+
+
+      <section className="services-two-area-l pt-10 rpt-100 pb-10 rpb-   rel z-2">
+                <div className="container">
+
+                    <div className="row justify-content-center">
+                        <div className="col-xl-9 col-lg-11">
+                            
+                            <div className="tag-share pt-0 pb-10">
+                                <h6>Logistics</h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div className="row justify-content-center pb-40">
+                        <div className="col-xl-9 col-lg-11">
+                            <p>
+                                We have added a full-fledged logistics department to our customer service team
+                                to achieve on-time delivery and to ensure our objective of meeting the various
+                                packaging mode requirements of customers.
+                            </p>
+                            <p>
+                                We have secured long-term agreements with some of the best service providers
+                                in the international logistic markets, who give our requirements the utmost
+                                priority, in line with our strict performance evaluation techniques.
+                                We provide customers with the option of requesting different modes of
+                                packaging such as: drums, tankers, ISO-tanks, bulk ships and small packages,
+                                depending on the nature of the customer's business.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div className="container">
+                        <div
+                            className="image mt-40 text-center"
+                            data-aos="zoom-in"
+                            data-aos-duration={1500}
+                            data-aos-offset={50}
+                        >
+                            <img
+                                src="assets/images/backgrounds/map-locations.gif"
+                                alt="Map Locations"
+                            />
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
       {/* About Area End 
 
 

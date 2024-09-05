@@ -49,23 +49,23 @@ const page = () => {
                                     </h6>
                                     <br />
 
-                                    <a> <Link href="aliphatic-products" className="">  - Aliphatics Solvents </Link>
+                                    <a> <Link href="aliphatic-products" className="text-link">  - Aliphatics Solvents </Link>
                                         <hr />
                                     </a>
 
-                                    <a> <Link href="aromatic-products" >  - Aromatics Solvents </Link>
+                                    <a> <Link href="aromatic-products" className="text-link">  - Aromatics Solvents </Link>
                                         <hr />
                                     </a>
 
-                                    <a> <Link href="packaged-products" >  - Chemplex Products </Link>
+                                    <a> <Link href="packaged-products" className="text-link">  - Chemplex Products </Link>
                                         <hr />
                                     </a>
 
-                                    <a> <Link href="trading-products" >  - Trading Products </Link>
+                                    <a> <Link href="trading-products" className="text-link">  - Trading Products </Link>
                                         <hr />
                                     </a>
 
-                                    <a> <Link href="blended-products" >  - Blended Products </Link>
+                                    <a> <Link href="blended-products" className="text-link">  - Blended Products </Link>
                                     </a>
                                     </div>
                                     <br />

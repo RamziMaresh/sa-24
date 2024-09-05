@@ -241,19 +241,8 @@ const Nav = ({
                 </div>
               </li>
               <li className="dropdown">
-                <a>{t('Marketing')}</a>
-                <ul>
-                  <li>
-                    <Link href="distribution">{t('Distribution')}</Link>
-                  </li>
-                  <li>
-                    <Link href="logistics">{t('Logistics')}</Link>
-                  </li>
+                <Link href="distribution">{t('SCM & Marketing')}</Link>
 
-                </ul>
-                <div className="dropdown-btn">
-                  &nbsp;<span className="far fa-angle-down" />
-                </div>
               </li>
               <li className="dropdown">
                 <Link href="careers">{t('Careers')}</Link>
@@ -414,7 +403,7 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
 
 
           <li className="dropdown">
-            <a>{t('Marketing')}</a>
+            <a>{t('SCM & Marketing')}</a>
             <ul style={activeLi("Shop")}>
               <li>
                 <Link href="distribution">{t('Distribution')}</Link>

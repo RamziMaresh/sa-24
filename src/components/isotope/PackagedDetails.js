@@ -16,6 +16,10 @@ const PackagedDetails = () => {
                     </div>
                 </div>
 
+                <p className="pb-40 text-black">
+                Mainly provides retail products to customers and ,marketed in smaller packaging including paint thinner, lacquer thinner, wood varnish, charcoal lighter, linseed oil and CPVC cleacners and other products.
+                </p>
+
                 <div
                     className="shoping-table mb-50"
                     data-aos="fade-up"
@@ -23,12 +27,14 @@ const PackagedDetails = () => {
                     data-aos-offset={50}
                 >
                     <table>
+                        {/* 
                         <thead>
                             <tr>
                                 <th>Image</th>
                                 <th>Description</th>
                             </tr>
                         </thead>
+                        */}
                         <tbody>
                             <tr>
                                 <td>

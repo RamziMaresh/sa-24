@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/scm-marketing/page": "app/scm-marketing/page.js",
-  "/not-found": "app/not-found.js"
+  "/scm-marketing/page": "app/scm-marketing/page.js"
 }

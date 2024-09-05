@@ -58,7 +58,7 @@ const TradingDetails = () => {
                 <div className="row justify-content-center">
                     <div className="col-xl-9 col-lg-11">
                         <p>
-                            Blended Products that are customized to meet the diversified customers’ requirements.<br /> Safra aims to further expand its manufacturing capacities and diversify its
+                            Blended Products that are customized to meet the diversified customers’ requirements.<br /> <br />SAFRA aims to further expand its manufacturing capacities and diversify its
                             mainstream product portfolio and other packaged SKUs to meet other various
                             applications and specifications.
                         </p>

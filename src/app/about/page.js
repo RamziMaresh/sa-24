@@ -238,7 +238,7 @@ const page = () => {
               Leadership
                 </h4>
                 <h5 className="pb-40">
-                Our Board of Directors drive our company, guide our strategy and lead our people
+                Our Board of Directors drive our company, guide our strategy and lead our people.
                                 </h5>                
               </div>
 
@@ -695,7 +695,7 @@ const page = () => {
               Quality Consistency
                 </h4>
                 <h5 className="pb-40">
-                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products
+                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
                 </h5>
                 <div >
               <div

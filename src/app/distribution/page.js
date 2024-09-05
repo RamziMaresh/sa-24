@@ -100,7 +100,8 @@ of solvents and its distribution in the local, regional and international market
                 </ul>
                 <p>
                   There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
-                  We also ship container shipments (Drums) or Iso-Tanks internationally.
+                  We also ship container shipments (Drums) or Iso-Tanks internationally.<br/>
+                  Finally we move the bulk quantities via vessels to different parts of the world.
                 </p>
               </div>
             </div>

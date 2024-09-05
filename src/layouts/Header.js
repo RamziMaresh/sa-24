@@ -406,7 +406,7 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <a>{t('SCM & Marketing')}</a>
             <ul style={activeLi("Shop")}>
               <li>
-                <Link href="scm-marketing">{t('SCM & Marketing')}</Link>
+                <Link href="scm-marketing">{t('Distribution')}</Link>
               </li>
               <li>
                 <Link href="logistics">{t('Logistics')}</Link>

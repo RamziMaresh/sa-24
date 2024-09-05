@@ -16,10 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/distribution/page": [
+    "/scm-marketing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/distribution/page.js"
+      "static/chunks/app/scm-marketing/page.js"
     ]
   }
 }

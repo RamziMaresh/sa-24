@@ -241,7 +241,7 @@ const Nav = ({
                 </div>
               </li>
               <li className="dropdown">
-                <Link href="distribution">{t('SCM & Marketing')}</Link>
+                <Link href="scm-marketing">{t('SCM & Marketing')}</Link>
 
               </li>
               <li className="dropdown">
@@ -406,7 +406,7 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <a>{t('SCM & Marketing')}</a>
             <ul style={activeLi("Shop")}>
               <li>
-                <Link href="distribution">{t('Distribution')}</Link>
+                <Link href="scm-marketing">{t('SCM & Marketing')}</Link>
               </li>
               <li>
                 <Link href="logistics">{t('Logistics')}</Link>

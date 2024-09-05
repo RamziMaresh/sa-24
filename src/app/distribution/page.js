@@ -21,7 +21,7 @@ const page = () => {
 <p>
 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant. 
 It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
-<br />
+<br /><br/>
 Safra undertake deliveries anywhere in the world. The products are supplied in bulk/vessel, containers, 
 ISO Tanks, road tankers, and road trailers in accordance with the requirements of our customers under International Shipping Code. 
 Using various packing such as new and reconditioned drums while adhering to global safety standards.
@@ -100,7 +100,7 @@ of solvents and its distribution in the local, regional and international market
                 </ul>
                 <p>
                   There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
-                  We also ship container shipments (Drums) or Iso-Tanks internationally.<br/>
+                  We also ship container shipments (Drums) or Iso-Tanks internationally.<br/><br/>
                   Finally we move the bulk quantities via vessels to different parts of the world.
                 </p>
               </div>

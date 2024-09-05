@@ -17,7 +17,7 @@ const PackagedDetails = () => {
                 </div>
 
                 <p className="pb-40 text-black">
-                Mainly provides retail products to customers and ,marketed in smaller packaging including paint thinner, lacquer thinner, wood varnish, charcoal lighter, linseed oil and CPVC cleacners and other products.
+                Chemplex mainly provides retail products to customers and marketed in smaller packaging including paint thinner, lacquer thinner, wood varnish, charcoal lighter, linseed oil and CPVC cleacners and other products.
                 </p>
 
                 <div

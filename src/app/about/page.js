@@ -554,9 +554,7 @@ const page = () => {
                 <div >
               <div
                 className=""
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
+
               >
                 <img
                   className="rounded-0"
@@ -584,9 +582,6 @@ const page = () => {
           <div className="row justify-content-center text-center">
             <div
               className="col-xl-8"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="section-title text-white mb-40">
                 <h4>
@@ -598,9 +593,6 @@ const page = () => {
           <div className="row pt-45">
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -613,10 +605,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -629,10 +618,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -645,10 +631,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -661,10 +644,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -677,10 +657,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -693,10 +670,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">
@@ -709,10 +683,7 @@ const page = () => {
             </div>
             <div
               className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
+
             >
               <div className="iconic-box style-four">
                 <div className="content">

@@ -16,10 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/scm-marketing/page": [
+    "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/scm-marketing/page.js"
+      "static/chunks/app/about/page.js"
+    ],
+    "/ink/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/ink/page.js"
+    ],
+    "/packaged-products/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/packaged-products/page.js"
     ]
   }
 }

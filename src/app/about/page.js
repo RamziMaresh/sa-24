@@ -176,6 +176,34 @@ const page = () => {
       {/* Images Banner 01 Ends*/}
 
 
+      {/* Products Area Start */}
+      <section
+        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+
+            <div
+              className="col-xl-9 col-lg-11 rmb-80 text-center"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title pb-60">
+              <h4 className="pb-40">
+              Leadership
+                </h4>
+                <h5 className="pb-40">
+                Our Board of Directors drive our company, guide our strategy and lead our people.
+                                </h5>                
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Products Area End */}
+
+
 
       <section className="artificial-intelligence-area rel pt-0 rpt-30 pb-20 rpb-10 z-2"
       >
@@ -221,185 +249,11 @@ const page = () => {
       </section>
 
 
-      {/* Products Area Start */}
-      <section
-        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-
-            <div
-              className="col-xl-9 col-lg-11 rmb-80 text-center"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="section-title pb-60">
-              <h4 className="pb-40">
-              Leadership
-                </h4>
-                <h5 className="pb-40">
-                Our Board of Directors drive our company, guide our strategy and lead our people.
-                                </h5>                
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Products Area End */}
 
 
 
 
-       {/* Safra History Area Start */}
-       <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
-        <div className="container">
-          <div className="row justify-content-center text-center">
-            <div
-              className="col-xl-8"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="section-title text-white mb-40">
-                <h4>
-                   History
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div className="row pt-45">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1987</div>
-                  </h5>
-                  <p>SAFRA Company Ltd. was established.</p><br/>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={100}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1990</div>
-                  </h5>
-                  <p>Commercial production started and export activities began.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={200}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1992</div>
-                  </h5>
-                  <p> SAFRA’s packaged products (SPP) launched.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1994</div>
-                  </h5>
-                  <p>SPP production went into full speed operation.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1996</div>
-                  </h5>
-                  <p>SAFRA obtained ISO 9002 certificate.</p><br />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1997</div>
-                  </h5>
-                  <p>SAFRA received the King Fahd Award for “Best Industry”.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1999</div>
-                  </h5>
-                  <p>SAFRA implemented Systems Applications Products SAP solution.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay={300}
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">2023</div>
-                  </h5>
-                  <p>Started the revamp of its refinery, renovated & upgraded its equipment.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
 
 
 
@@ -724,7 +578,155 @@ const page = () => {
       {/* Products Area End */}
 
       
-     
+       {/* Safra History Area Start */}
+       <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
+        <div className="container">
+          <div className="row justify-content-center text-center">
+            <div
+              className="col-xl-8"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="section-title text-white mb-40">
+                <h4>
+                   History
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="row pt-45">
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1987</div>
+                  </h5>
+                  <p>SAFRA Company Ltd. was established.</p><br/>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={100}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1990</div>
+                  </h5>
+                  <p>Commercial production started and export activities began.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={200}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1992</div>
+                  </h5>
+                  <p> SAFRA’s packaged products (SPP) launched.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1994</div>
+                  </h5>
+                  <p>SPP production went into full speed operation.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1996</div>
+                  </h5>
+                  <p>SAFRA obtained ISO 9002 certificate.</p><br />
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1997</div>
+                  </h5>
+                  <p>SAFRA received the King Fahd Award for “Best Industry”.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">1999</div>
+                  </h5>
+                  <p>SAFRA implemented Systems Applications Products SAP solution.</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-3 col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay={300}
+              data-aos-duration={1500}
+              data-aos-offset={50}
+            >
+              <div className="iconic-box style-four">
+                <div className="content">
+                  <h5>
+                    <div className="text-white">2023</div>
+                  </h5>
+                  <p>Started the revamp of its refinery, renovated & upgraded its equipment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Safra History Area End 
 
       <section className="hero-area-six pt-5 rpt-20 rel z-1">

@@ -76,6 +76,13 @@ of solvents and its distribution in the local, regional and international market
                             </div>
 
 
+   
+                <p>
+                  There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
+                  We also ship container shipments (Drums) or Iso-Tanks internationally.<br/><br/>
+                  Finally we move the bulk quantities via vessels to different parts of the world.
+                </p>
+
                 <p>
                   <b>
                   Safra offers a full package of support to their Customers including the following:
@@ -98,11 +105,6 @@ of solvents and its distribution in the local, regional and international market
                     <i className="fal fa-check" />  Producing Innovative Products To Cater Specific Needs Of Customers.
                   </li>
                 </ul>
-                <p>
-                  There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
-                  We also ship container shipments (Drums) or Iso-Tanks internationally.<br/><br/>
-                  Finally we move the bulk quantities via vessels to different parts of the world.
-                </p>
               </div>
             </div>
           </div>

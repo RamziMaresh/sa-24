@@ -167,7 +167,7 @@ const Nav = ({
                 <Link href="about">{t('About Us')}</Link>
               </li>
               <li className="dropdown">
-                <a>{t('Products')}</a>
+                <Link href="products">{t('Products')}</Link>
                 <ul>
                   <li>
                     <Link href="aliphatic-products">{t('Aliphatics')}</Link>
@@ -322,8 +322,8 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <Link href="/about">{t('About Us')}</Link>
           </li>
           <li className="dropdown">
-            <a>{t('Products')}</a>
-            <ul style={activeLi("Services")}>
+          <Link href="products">{t('Products')}</Link>
+          <ul style={activeLi("Services")}>
               <li>
                 <Link href="aliphatic-products">{t('Aliphatics')}</Link>
               </li>

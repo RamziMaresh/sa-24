@@ -13,8 +13,8 @@ import '@emailjs/browser';
 
 export const metadata = {
   title: {
-    template: "Safra -Solutions For Better Living",
-    default: "Safra - Solutions For Better Living", // a default is required when creating a template
+    template: "Safra - Safra provides better solutions",
+    default: "Safra - Safra provides better solutions", // a default is required when creating a template
   },
   description: "",
 };

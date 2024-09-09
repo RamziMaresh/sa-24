@@ -503,7 +503,7 @@ const page = () => {
             >
               <div className="iconic-box style-seven">
                 <div className="content">
-                  <h5>Personal Integrity & Hones</h5>
+                  <h5>Integrity & Honesty</h5>
                 </div>
               </div>
             </div>
@@ -516,15 +516,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-4 col-md-6"
-            >
-              <div className="iconic-box style-seven">
-                <div className="content">
-                  <h5>Business Integrity & Hones</h5>
-                </div>
-              </div>
-            </div>
+
           </div>
 
         </div>
@@ -576,7 +568,7 @@ const page = () => {
       {/* Products Area End */}
 
       
-       {/* Safra History Area Start */}
+       {/* Safra History Area Start
        <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
         <div className="container">
           <div className="row justify-content-center text-center">
@@ -697,7 +689,7 @@ const page = () => {
           </div>
         </div>
       </section>
-
+ */}
       {/* Safra History Area End 
 
       <section className="hero-area-six pt-5 rpt-20 rel z-1">

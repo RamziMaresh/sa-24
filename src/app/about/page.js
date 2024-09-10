@@ -50,8 +50,8 @@ const page = () => {
                   tankers, containers and ISO tank. It also has a pipeline linked to the sea-terminal
                   facilitating excellent freight economics to our esteemed customers owing to the efficient
                   port facilities for shipment of products in large vessels.
-                  Our environmentaly friendly solvents comply with international quality and safety
-                  standards. Our fully integrated production, sales & distribution processes ensures on time deliveries to the regional and international partners
+                  Our environmentally friendly solvents comply with international quality and safety
+                  standards. Our fully integrated production, sales & distribution processes ensure on time deliveries to the regional and international partners
                   for further down-streaming quality products.
                   SAFRA has an ambitious drive and aspiration to contribute to Saudi Vision 2030. 
                 </p>

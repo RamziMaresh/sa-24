@@ -39,20 +39,20 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <p>
-                  The production capacity of SAFRA refinery is continuously expanding to meet
+                The production capacity of SAFRA refinery is continuously expanding to meet
                   increasing demand for products while keeping pace with the latest technological
-                  developments and simultaneously meeting stringent International standards for
+                  developments and simultaneously meeting stringent international standards for
                   manufacturing solvents.<br />
 
                   The plant is equipped with necessary technological flexibility and pool of technical
                   experts to produce innovative tailor made products conforming to the customer
-                  specifications. It is very well equipped with high capacity solvent filling facility in drums
-                  and tankers for road deliveries. It also has a pipeline linked to the sea-terminal
+                  specifications. It is very well equipped with high capacity solvent filling facility in drums,
+                  tankers, containers and ISO tank. It also has a pipeline linked to the sea-terminal
                   facilitating excellent freight economics to our esteemed customers owing to the efficient
-                  port facilities for shipment of products in large vessels, ISO tanks and containers.
-                  Our environmental friendly solvents comply with international quality and safety
-                  standards. Our fully integrated production, sales & distribution processes ensures on time deliveries to the regional and international industrial partners
-                  for further down- streaming quality products.
+                  port facilities for shipment of products in large vessels.
+                  Our environmentaly friendly solvents comply with international quality and safety
+                  standards. Our fully integrated production, sales & distribution processes ensures on time deliveries to the regional and international partners
+                  for further down-streaming quality products.
                   SAFRA has an ambitious drive and aspiration to contribute to Saudi Vision 2030. 
                 </p>
               </div>
@@ -470,7 +470,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row justify-content-center">
             <div
               className="col-xl-4 col-md-6"
             >
@@ -489,6 +489,8 @@ const page = () => {
                 </div>
               </div>
             </div>
+            </div>
+            <div className="row">
             <div
               className="col-xl-4 col-md-6"
             >

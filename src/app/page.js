@@ -32,7 +32,7 @@ const Index = () => {
             >
               <div className="section-title pb-40">
                 <h5 className="pb-20">
-                  We Are A world Class Hydrocarbon Player With Viable Framework And Competitive Edge
+                  Safra, A world Class Hydrocarbon Producer
                 </h5>
                 <p>
 
@@ -40,7 +40,7 @@ const Index = () => {
                   Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
                   The company serves industries of paints,adhesives, insecticides & pesticides, thinner, alkyd resins,
                   industrial cleaning, maintenance solvents, spot removing, wood protection, varnishes, construction chemicals,
-                  oil field chemicals, and Bitumen based products.
+                  oil field chemicals, oil drilling fluid and Bitumen based products.
                 </p>
               </div>
 

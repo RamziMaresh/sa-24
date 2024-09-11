@@ -318,7 +318,7 @@ const page = () => {
                       data-aos-offset={50} 
                     >
                       <p className="vision-teaxt-header">
-                        To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and nurturing localization.
+                        To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and disseminating knowledge.
                       </p>
 
                       <ul className="icon-list style-two my-35">
@@ -339,7 +339,7 @@ const page = () => {
                           of capital and growing the business.
                         </p>
                         <li>
-                          <i className="fal fa-check" /> Cultivating Sustainability, Creating Value, and Nurturing Localization.
+                          <i className="fal fa-check" /> Cultivating Sustainability, Creating Value, and Disseminating Knowledge.
                         </li>
                         <p>
                         Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved 
@@ -347,7 +347,7 @@ const page = () => {
                         the basis for more investments and value creation for stakeholders in both short and long term. 
                         The company will totally be committed to achieve sustainable growth via its nurtured localized employees 
                         who will achieve exceptional standards of performance, responsible behavior, 
-                        continuous learning and innovation. <br />
+                        continuous learning and disseminating knowledge. <br />
                         Employees and other stakeholders will have huge opportunity to be part of a successful
                           enterprise. Moreover, SAFRA will emphasize on the importance of how its employees
                           work with each other and how they behave. Employees empowerment will increasingly

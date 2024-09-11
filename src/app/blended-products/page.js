@@ -14,7 +14,7 @@ const BlendedDetails= dynamic(
 const page = () => {
     return (
         <SafraLayout>
-            <PageBanner pageName={"Blended Products"} />
+            <PageBanner pageName={"Blended"} />
             <BlendedDetails />
         </SafraLayout>
     );

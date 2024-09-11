@@ -14,7 +14,7 @@ const TradingDetails = dynamic(
 const page = () => {
   return (
     <SafraLayout>
-      <PageBanner pageName={"Trading Products"} />
+      <PageBanner pageName={"Trading"} />
       <TradingDetails />
     </SafraLayout>
   );

@@ -13,7 +13,7 @@ const AromaticDetails = dynamic(
 const page = () => {
   return (
     <SafraLayout>
-      <PageBanner pageName={"Aromatic Solvents"} />
+      <PageBanner pageName={"Aromatic"} />
       <AromaticDetails />
     </SafraLayout>
   );

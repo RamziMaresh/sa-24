@@ -11,7 +11,7 @@ const PackagedDetails = dynamic(
 const page = () => {
   return (
     <SafraLayout>
-      <PageBanner pageName={"Chemplex Products"} />
+      <PageBanner pageName={"Chemplex"} />
       <PackagedDetails />
     </SafraLayout>
   );

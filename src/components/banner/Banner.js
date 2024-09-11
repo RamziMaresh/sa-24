@@ -5,25 +5,20 @@ import Link from 'next/link'
 
 const Banner = () => {
   return (
+    <>
     <div
-      className='main-banner'
-    >
+      className='main-banner'>
 
+      <div className="overlay-banner" ></div>
 
-      <div className="overlay-banner"  dangerouslySetInnerHTML={{ __html: `
       <video
-        src="assets/images/hero/videoBg.mp4"
-        type="video/mp4"
+        autoPlay
         muted
         loop
+        src="assets/images/hero/videoBg.mp4"
+        type="video/mp4"
         playsInline
-        autoPlay
-        autobuffer="autobuffer"
-        preload="none"
-      />,
-            ` }}></div>
-
-
+      />
       <div className="content-banner">
         <h3
           className='text-white'
@@ -57,6 +52,7 @@ const Banner = () => {
 
       
     </div>
+    </>
   )
 }
 

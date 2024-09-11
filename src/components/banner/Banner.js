@@ -8,7 +8,9 @@ const Banner = () => {
     <div
       className='main-banner'
     >
-      <div className="overlay-banner"></div>
+
+
+      <div className="overlay-banner"  dangerouslySetInnerHTML={{ __html: `
       <video
         src="assets/images/hero/videoBg.mp4"
         type="video/mp4"
@@ -18,7 +20,9 @@ const Banner = () => {
         autoPlay
         autobuffer="autobuffer"
         preload="none"
-      />
+      />,
+            ` }}></div>
+
 
       <div className="content-banner">
         <h3

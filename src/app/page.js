@@ -36,7 +36,7 @@ const Index = () => {
                 </h5>
                 <p>
 
-                Since 1990 SAFRA is a manufacturer of hydrocarbon solvents having a fully automated refinery located at
+                Since 1990, SAFRA is a manufacturer of hydrocarbon solvents having a fully automated refinery located at
                   Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
                   The company serves industries of paints, adhesives, insecticides & pesticides, thinner, alkyd resins,
                   industrial cleaning, maintenance solvents, spot removing, wood protection, varnishes, construction chemicals,

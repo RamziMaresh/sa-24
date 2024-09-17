@@ -1,11 +1,39 @@
 "use client";
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import Select from "react-select";
 
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import Link from "next/link";
 //
+
+
+
+const CountrySelect = () => {
+  const [countries, setCountries] = useState([]);
+  const [selectedCountry, setSelectedCountry] = useState({});
+
+  useEffect(() => {
+    fetch(
+      "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setCountries(data.countries);
+        setSelectedCountry(data.userSelectValue);
+      });
+  }, []);
+  return (
+    <Select
+      options={countries}
+      value={selectedCountry}
+      onChange={(selectedOption) => setSelectedCountry(selectedOption)}
+    />
+  );
+};
+
+
 
 const page = () => {
   const [status, setStatus] = useState('');
@@ -111,19 +139,18 @@ const page = () => {
                         <div className="help-block with-errors" />
                       </div>
                     </div>
-
                     <div className="col-md-6">
                       <div className="form-group">
-                        <label>Country</label>
+                        <label>Subject</label>
                         <input
-                          autoComplete='off'
                           type="text"
-                          id="user_country"
-                          name="user_country"
+                          id="user_subject"
+                          name="user_subject"
+                          autoComplete='off'
                           className="form-control"
-                          placeholder="Ex: Saudi Arabia"
+                          placeholder="I like to discussed"
                           required
-                          data-error="Please enter your Name"
+                          data-error="Please enter your Subject"
                         />
                         <div className="help-block with-errors" />
                       </div>
@@ -147,20 +174,22 @@ const page = () => {
 
                     <div className="col-md-12">
                       <div className="form-group">
-                        <label>Subject</label>
-                        <input
-                          type="text"
-                          id="user_subject"
-                          name="user_subject"
-                          autoComplete='off'
-                          className="form-control"
-                          placeholder="I like to discussed"
-                          required
-                          data-error="Please enter your Subject"
-                        />
+                      <label>Select Your Country</label>
+                      <CountrySelect 
+                                             autoComplete='off'
+                                             type="text"
+                                             id="user_country"
+                                             name="user_country"
+                                             className="form-control"
+                                             placeholder="Ex: Saudi Arabia"
+                                             required
+                                             data-error="Please enter your Name"
+                      />
                         <div className="help-block with-errors" />
                       </div>
                     </div>
+
+
                     <div className="col-md-12">
                       <div className="form-group">
                         <label>Message</label>

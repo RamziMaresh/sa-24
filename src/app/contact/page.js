@@ -26,6 +26,11 @@ const CountrySelect = () => {
   }, []);
   return (
     <Select
+    className="form-control"
+    id="user_country"
+    name="user_country"
+    required
+    type="select"
       options={countries}
       value={selectedCountry}
       onChange={(selectedOption) => setSelectedCountry(selectedOption)}
@@ -172,11 +177,8 @@ const page = () => {
                       </div>
                     </div>
 
-                    {/**      <CountrySelect /> */}
-                    <div className="col-md-12">
-                      <div className="form-group">
-                      <label>Select Your Country</label>
-                      <input 
+                    {/**      <CountrySelect /> 
+                     *                        <input 
                                                                    autoComplete='off'
                                                                    type="text"
                                                                    id="user_country"
@@ -186,6 +188,19 @@ const page = () => {
                                                                    required
                                                                    data-error="Please enter your Name"
                       />
+                     * 
+                     * 
+                    */}
+                    <div className="col-md-12">
+                      <div className="form-group">
+                      <label>Country</label>
+                      <CountrySelect 
+                      id="user_country"
+                      name="user_country"
+                      className="form-control"
+                      required
+                      />                     
+
                         <div className="help-block with-errors" />
                       </div>
                     </div>

@@ -172,18 +172,19 @@ const page = () => {
                       </div>
                     </div>
 
+                    {/**      <CountrySelect /> */}
                     <div className="col-md-12">
                       <div className="form-group">
                       <label>Select Your Country</label>
-                      <CountrySelect 
-                                             autoComplete='off'
-                                             type="text"
-                                             id="user_country"
-                                             name="user_country"
-                                             className="form-control"
-                                             placeholder="Ex: Saudi Arabia"
-                                             required
-                                             data-error="Please enter your Name"
+                      <input 
+                                                                   autoComplete='off'
+                                                                   type="text"
+                                                                   id="user_country"
+                                                                   name="user_country"
+                                                                   className="form-control"
+                                                                   placeholder="Ex: Saudi Arabia"
+                                                                   required
+                                                                   data-error="Please enter your Name"
                       />
                         <div className="help-block with-errors" />
                       </div>

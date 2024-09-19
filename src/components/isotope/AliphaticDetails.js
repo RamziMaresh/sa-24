@@ -49,7 +49,6 @@ const AliphaticDetails = () => {
                                     data-aos-duration={1500}
                                     data-aos-offset={50}
                                 >
-
                                 </div>
                             </div>
                             <div className="pb-40">

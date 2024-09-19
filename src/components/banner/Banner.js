@@ -8,9 +8,7 @@ const Banner = () => {
     <>
     <div
       className='main-banner'>
-
       <div className="overlay-banner" ></div>
-
       <video
         autoPlay
         muted
@@ -47,10 +45,7 @@ const Banner = () => {
             </a>
           </Link>
         </div>
-      </div>
-
-
-      
+      </div>      
     </div>
     </>
   )

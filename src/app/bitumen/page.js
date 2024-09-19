@@ -6,10 +6,8 @@ const paint = () => {
     return (
         <SafraLayout>
             <PageBanner pageName={"Bitumen Based Products"} />
-
             <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
                 <div className="container">
-
                     <div className="row justify-content-center">
                         <div className="col-xl-9 col-lg-11">
                             <div className="tag-share pt-0 pb-10">

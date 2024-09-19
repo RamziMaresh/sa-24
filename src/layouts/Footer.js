@@ -42,7 +42,7 @@ const DefaultFooter = () => {
                 <a target="_blank" href="https://www.facebook.com/p/Safra-Co-Ltd-100063547352403/?locale=ar_AR">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a href="mailto:ramzi_maresh@outlook.com" >
+                <a href="mailto:info@safraco.com" >
                   <i className="far fa-envelope" />
                 </a>
 

@@ -39,7 +39,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <p>
-                The production capacity of SAFRA refinery is continuously expanding to meet
+                  The production capacity of SAFRA refinery is continuously expanding to meet
                   increasing demand for products while keeping pace with the latest technological
                   developments and simultaneously meeting stringent international standards for
                   manufacturing solvents.<br />
@@ -53,7 +53,7 @@ const page = () => {
                   Our environmentally friendly solvents comply with international quality and safety
                   standards. Our fully integrated production, sales & distribution processes ensure on time deliveries to the regional and international partners
                   for further down-streaming quality products.
-                  SAFRA has an ambitious drive and aspiration to contribute to Saudi Vision 2030. 
+                  SAFRA has an ambitious drive and aspiration to contribute to Saudi Vision 2030.
                 </p>
               </div>
             </div>
@@ -167,9 +167,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-
             <hr />
-
           </div>
         </div>
       </section>
@@ -189,12 +187,12 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="section-title pb-60">
-              <h4 className="pb-40">
-              Leadership
+                <h4 className="pb-40">
+                  Leadership
                 </h4>
                 <h5 className="pb-40">
-                Our Board of Directors drive our company, guide our strategy and lead our people.
-                                </h5>                
+                  Our Board of Directors drive our company, guide our strategy and lead our people.
+                </h5>
               </div>
 
             </div>
@@ -224,13 +222,13 @@ const page = () => {
                 className="ai-content rmb-0"
               >
 
-<p>
-                People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish 
-                our objective of highest levels of customer satisfaction. Through the history of times, we have experienced that 
-                the success of us and that of you as our partner, lies in the applied transparency, continuous product development 
-                and efficient process implementation, on which our business approach rests. We are committed to 
-                meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.
-<br />
+                <p>
+                  People and culture are the biggest assets in Safra, which we continuously cherish and develop to accomplish
+                  our objective of highest levels of customer satisfaction. Through the history of times, we have experienced that
+                  the success of us and that of you as our partner, lies in the applied transparency, continuous product development
+                  and efficient process implementation, on which our business approach rests. We are committed to
+                  meet variety of customer requirements in the area of industrial chemicals & solvents, consumer products and related services.
+                  <br />
                   To meet the growing needs of industrial & decorative paints, home care products, agricultural pesticides and other end-user products, we are dedicated to expand our
                   production capabilities, which will further support these industrial sectors with
                   continuous and reliable supply of their raw material requirements. Without any compromise on the environmental health, we apply highest care to the
@@ -253,7 +251,7 @@ const page = () => {
 
 
 
-     
+
 
 
 
@@ -295,7 +293,7 @@ const page = () => {
                 >
                   <Nav.Item as={"li"}>
                     <Nav.Link as={"button"} eventKey="tabTwo1">
-                      Vision 
+                      Vision
                     </Nav.Link>
                   </Nav.Item>
                   <Nav.Item as={"li"}>
@@ -313,9 +311,9 @@ const page = () => {
                   <div className="col-xl-9 col-lg-9">
                     <div
                       className="ceo-text"
-                     data-aos="fade-left"
+                      data-aos="fade-left"
                       data-aos-duration={1500}
-                      data-aos-offset={50} 
+                      data-aos-offset={50}
                     >
                       <p className="vision-teaxt-header">
                         To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and disseminating knowledge.
@@ -342,13 +340,13 @@ const page = () => {
                           <i className="fal fa-check" /> Cultivating Sustainability, Creating Value, and Disseminating Knowledge.
                         </li>
                         <p>
-                        Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved 
-                        by pursuing three dimensional levels; environmental, economic and social. SAFRA’s sustainable growth will provide 
-                        the basis for more investments and value creation for stakeholders in both short and long term. 
-                        The company will totally be committed to achieve sustainable growth via its nurtured localized employees 
-                        who will achieve exceptional standards of performance, responsible behavior, 
-                        continuous learning and disseminating knowledge. <br />
-                        Employees and other stakeholders will have huge opportunity to be part of a successful
+                          Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved
+                          by pursuing three dimensional levels; environmental, economic and social. SAFRA’s sustainable growth will provide
+                          the basis for more investments and value creation for stakeholders in both short and long term.
+                          The company will totally be committed to achieve sustainable growth via its nurtured localized employees
+                          who will achieve exceptional standards of performance, responsible behavior,
+                          continuous learning and disseminating knowledge. <br />
+                          Employees and other stakeholders will have huge opportunity to be part of a successful
                           enterprise. Moreover, SAFRA will emphasize on the importance of how its employees
                           work with each other and how they behave. Employees empowerment will increasingly
                           be emphasized for exceptional performance that will make the employees perform the
@@ -489,8 +487,8 @@ const page = () => {
                 </div>
               </div>
             </div>
-            </div>
-            <div className="row">
+          </div>
+          <div className="row">
             <div
               className="col-xl-4 col-md-6"
             >
@@ -539,28 +537,28 @@ const page = () => {
               data-aos-offset={50}
             >
               <div className="section-title pb-60">
-              <h4 className="pb-40">
-              Quality Consistency
+                <h4 className="pb-40">
+                  Quality Consistency
                 </h4>
                 <h5 className="pb-40">
-                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
+                  Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
                 </h5>
                 <div >
-              <div
-                className=""
+                  <div
+                    className=""
 
-              >
-                <img
-                  className="rounded-0"
-                  src="assets/images/about/sustainability-1.svg"
-                  alt="sustainability-1"
-                />
+                  >
+                    <img
+                      className="rounded-0"
+                      src="assets/images/about/sustainability-1.svg"
+                      alt="sustainability-1"
+                    />
 
-              </div>
+                  </div>
 
-            </div>
+                </div>
 
-                
+
               </div>
 
             </div>
@@ -569,8 +567,8 @@ const page = () => {
       </section>
       {/* Products Area End */}
 
-      
-       {/* Safra History Area Start
+
+      {/* Safra History Area Start
        <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
         <div className="container">
           <div className="row justify-content-center text-center">
@@ -712,7 +710,7 @@ const page = () => {
 
 
 
-            {/* HeaderStart pt-120
+      {/* HeaderStart pt-120
             <section
         className="tooltip-area bgs-cover rel pt-20 rpt-40"
 

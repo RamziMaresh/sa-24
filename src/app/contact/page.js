@@ -44,7 +44,6 @@ const page = () => {
   const [status, setStatus] = useState('');
   const form = useRef(null);
 
-{/** 
   const sendEmail = (e) => {
     event.preventDefault();
     if (
@@ -83,7 +82,7 @@ const page = () => {
       e.target.reset()
     }
   };
-*/}
+{/** 
 
 const [result, setResult] = React.useState("");
 
@@ -121,6 +120,7 @@ const onSubmit = async (event) => {
   }
 };
 
+*/}
 
   return (
     <SafraLayout>
@@ -150,7 +150,7 @@ const onSubmit = async (event) => {
                 {status && renderAlert()}
                 <form
                   ref={form}
-                  onSubmit={onSubmit}
+                  onSubmit={sendEmail}
                   className="contact-form"
                   name="contactForm"
                 >

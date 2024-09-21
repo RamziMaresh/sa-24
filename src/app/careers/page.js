@@ -1,8 +1,57 @@
+"use client";
+import React, { useRef, useState, useEffect } from 'react';
+import emailjs from '@emailjs/browser';
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
+import Swal from 'sweetalert2';
+
 import Link from "next/link";
 
 const page = () => {
+{/**
+    const [status, setStatus] = useState('');
+    const form = useRef(null);
+
+    const sendEmail = (e) => {
+        event.preventDefault();
+        if (
+            process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID &&
+            process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_CAREER &&
+            process.env.NEXT_PUBLIC_EMAILJS_USER_ID &&
+            form.current
+        ) {
+            emailjs
+                .sendForm(
+                    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_CAREER,
+                    form.current,
+                    process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+                )
+                .then(
+                    (result) => {
+                        setStatus('SUCCESS')
+                        Swal.fire({
+                            title: "Successfully Sent",
+                            text: "Your message sent successfully to sfra support team, You got an alert in your email.",
+                            icon: "success"
+                        })
+                    },
+                    (error) => {
+                        setStatus('FAILED... ', error.text)
+                        Swal.fire({
+                            title: "Failed !",
+                            text: "Try again, or contact safra support team to assest you.",
+                            icon: "failed"
+                        })
+
+
+                    },
+                );
+            e.target.reset()
+        }
+    };
+
+ */}
     return (
         <SafraLayout>
             <PageBanner pageName={"Careers"} />
@@ -24,28 +73,52 @@ const page = () => {
                         <div className="col-xl-9 col-lg-11">
                             <p className="">
                                 We Give Our People The Opportunity And Support To Achieve More Than They Ever Thought Possible.<br />
+                                <p className="pt-20">
+                                <p className='text-black'>If you are Interested send your resume & cover letter to <Link a href="mailto:safrahr@safraco.com"><b>safrahr@safraco.com</b></Link></p>
                             </p>
+                            </p>
+                            {/** 
                             <p className="pt-20">
-                            <b>Upload Your CV!</b>
+                                <b>Upload Your CV!</b>
                             </p>
                             <div className="col-xl-5 col-lg-6 col-md-8 col-sm-10">
                                 <div className="sign-in-up-wrapper">
-                                    <form action="#">
+
+
+                                    <form
+                                        ref={form}
+                                        onSubmit={sendEmail}
+                                        className="contact-form"
+                                        name="contactForm"
+                                    >
                                         <div className="form-group">
                                             <label htmlFor="Your Name">
                                                 <i className="far fa-user" />
                                             </label>
-                                            <input id="username" type="text" placeholder="Name" required />
+                                            <input
+                                                type="text"
+                                                autoComplete='off'
+                                                id="user_name_career"
+                                                name="user_name_career"
+                                                className="form-control"
+                                                placeholder="Name"
+                                                required
+                                                data-error="Please enter your Name"
+                                            />
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="email">
                                                 <i className="far fa-envelope" />
                                             </label>
                                             <input
-                                                id="email"
                                                 type="email"
-                                                placeholder="Email Address"
+                                                autoComplete='off'
+                                                id="user_email_career"
+                                                name="user_email_career"
+                                                className="form-control"
+                                                placeholder="Your Email"
                                                 required
+                                                data-error="Please enter your Email"
                                             />
                                         </div>
                                         <div className="form-group">
@@ -53,33 +126,45 @@ const page = () => {
                                                 <i className="far fa-lock" />
                                             </label>
                                             <input
-                                                id="subject"
                                                 type="text"
-                                                placeholder="Subject"
+                                                id="user_subject_career"
+                                                name="user_subject_career"
+                                                autoComplete='off'
+                                                className="form-control"
+                                                placeholder="I like to discussed"
                                                 required
+                                                data-error="Please enter your Subject"
 
                                             />
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="confirm-password">
-                                                <i className="far fa-file" />
+                                            <label htmlFor="Subject">
+                                                <i className="far fa-lock" />
                                             </label>
                                             <input
-                                                id="Select File"
                                                 type="file"
-                                                placeholder="Upload Your CV                                                "
+                                                id="user_file"
+                                                name="user_file"
+                                                autoComplete='off'
+                                                className="form-control"
+                                                placeholder="I like to discussed"
                                                 required
+                                                data-error="Please enter your Subject"
 
                                             />
                                         </div>
+                                        
+
                                         <div className="form-group">
-                                            <button className="theme-btn-careers w-100" type="submit">
+                                            <button className="theme-btn-careers w-100" type="submit" value="Send" >
                                                 Send
                                             </button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
+                                                                **/}
+
                         </div>
                     </div>
 
@@ -190,4 +275,13 @@ const page = () => {
         </SafraLayout>
     );
 };
+
+const renderAlert = () => (
+    <div
+      className='alert-contact-form'
+    >
+      <p className='p-10 '>Successfully Sent!</p>
+    </div>
+  )
+
 export default page;

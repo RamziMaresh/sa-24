@@ -82,7 +82,9 @@ const page = () => {
       e.target.reset()
     }
   };
-{/** 
+
+  {/** 
+
 
 const [result, setResult] = React.useState("");
 
@@ -111,11 +113,11 @@ const onSubmit = async (event) => {
     event.target.reset();
   } else {
     console.log("Error", data);
-    Swal.fire({
-      title:"Failed !",
-      text:"Try again, or contact safra support team to assest you.",
-      icon:"failed"
-    })
+                Swal.fire({
+              title:"Failed !",
+              text:"Try again, or contact safra support team to assest you.",
+              icon:"failed"
+            })
     setResult(data.message);
   }
 };

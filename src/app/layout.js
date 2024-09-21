@@ -16,7 +16,7 @@ export const metadata = {
     template: "Safra - Safra provides better solutions",
     default: "Safra - Safra provides better solutions", // a default is required when creating a template
   },
-  description: "",
+  description: "Since 1990, SAFRA is a manufacturer of hydrocarbon solvents having a fully automated refinery located at Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah. ",
 };
 
 export default function RootLayout({ children }) {

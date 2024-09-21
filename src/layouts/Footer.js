@@ -61,7 +61,7 @@ const DefaultFooter = () => {
                   <ul>
                     <li>
                       <i className="fal fa-envelope" />
-                      <a href="mailto:support@safraco.com">info@safraco.com</a>
+                      <a href="mailto:info@safraco.com">info@safraco.com</a>
                     </li>
                     <li>
                       <i className="fal fa-phone" />
@@ -83,7 +83,7 @@ const DefaultFooter = () => {
                   <ul>
                     <li>
                       <i className="fal fa-envelope" />
-                      <a href="mailto:support@safraco.com">info@safraco.com</a>
+                      <a href="mailto:info@safraco.com">info@safraco.com</a>
                     </li>
                     <li>
                       <i className="fal fa-phone" />
@@ -101,7 +101,7 @@ const DefaultFooter = () => {
                   <ul>
                     <li>
                       <i className="fal fa-envelope" />
-                      <a href="mailto:support@safraco.com">info@safraco.com</a>
+                      <a href="mailto:info@safraco.com">info@safraco.com</a>
                     </li>
                     <li>
                       <i className="fal fa-phone" />

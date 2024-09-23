@@ -20,13 +20,6 @@ const e404 = () => {
                     alt="404 Error"
                   />
                 </div>
-                <h4
-                  data-aos="fade-up"
-                  data-aos-duration={1500}
-                  data-aos-offset={50}
-                >
-                  OPPS !
-                </h4>
 
                 <p
                   data-aos="fade-up"
@@ -34,7 +27,7 @@ const e404 = () => {
                   data-aos-duration={1500}
                   data-aos-offset={50}
                 >
-                  Page not found
+                  Page not found...!
                 </p>
               </div>
             </div>

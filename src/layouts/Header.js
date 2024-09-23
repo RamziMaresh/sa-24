@@ -110,7 +110,7 @@ const HeaderNotFound = ({ onePage }) => {
 
             {/* Menu Button */}
             <div className="menu-btns ms-lg-auto d-none d-xl-flex">
-              <Locals />
+              {/** <Locals />*/}
             </div>
           </div>
         </div>

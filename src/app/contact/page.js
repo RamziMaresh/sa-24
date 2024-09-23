@@ -73,7 +73,7 @@ const page = () => {
           (error) => {
             setStatus('FAILED... ', error.text)
             Swal.fire({
-              title:"Failed !",
+              title:"Failed...!",
               text:"Try again, or contact safra support team to assest you.",
               icon:"failed"
             })
@@ -85,46 +85,6 @@ const page = () => {
     }
   };
 
-  {/** 
-
-
-const [result, setResult] = React.useState("");
-
-const onSubmit = async (event) => {
-  event.preventDefault();
-  setResult("Sending....");
-  const formData = new FormData(event.target);
-
-  formData.append("access_key", "3f5795cd-8249-46ac-9af5-052ada10ab89");
-
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    body: formData
-  });
-
-  const data = await response.json();
-
-  if (data.success) {
-    setResult("Form Submitted Successfully");
-    setStatus('SUCCESS')
-    Swal.fire({
-      title:"Successfully Sent",
-      text:"Your message sent successfully to sfra support team, You got an alert in your email.",
-      icon:"success"
-    })
-    event.target.reset();
-  } else {
-    console.log("Error", data);
-                Swal.fire({
-              title:"Failed !",
-              text:"Try again, or contact safra support team to assest you.",
-              icon:"failed"
-            })
-    setResult(data.message);
-  }
-};
-
-*/}
 
   return (
     <SafraLayout>

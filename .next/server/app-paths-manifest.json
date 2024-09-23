@@ -1,11 +1,5 @@
 {
-  "/careers/page": "app/careers/page.js",
-  "/page": "app/page.js",
-  "/aliphatic-products/page": "app/aliphatic-products/page.js",
-  "/products/page": "app/products/page.js",
-  "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/about/page": "app/about/page.js",
   "/contact/page": "app/contact/page.js",
-  "/Water-Treatment/page": "app/Water-Treatment/page.js",
+  "/careers/page": "app/careers/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

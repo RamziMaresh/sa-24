@@ -13,10 +13,11 @@ import Swal from 'sweetalert2';
 const CountrySelect = () => {
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState({});
-
+{/**      "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
+ */}
   useEffect(() => {
     fetch(
-      "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
+      "https://valid.layercode.workers.dev/list/countries?format=select"
     )
       .then((response) => response.json())
       .then((data) => {
@@ -29,6 +30,7 @@ const CountrySelect = () => {
     className="form-control"
     id="user_country"
     name="user_country"
+    layout="first"
     required
     type="select"
       options={countries}

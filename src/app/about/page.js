@@ -1,10 +1,7 @@
 "use client";
-import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
-
-//
 
 const page = () => {
   return (
@@ -99,57 +96,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            {/*
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={400}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box3.jpg"
-                    alt="safra-about-cards"
-                  />
-                </div>
-              </div>
-            </div>
-
-           
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box4.jpg"
-                    alt="safra-about-cards"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-10">
-              <div
-                className="fancy-box"
-                data-aos="fade-up"
-                data-aos-delay={200}
-                data-aos-duration={1000}
-                data-aos-offset={50}
-              >
-                <div className="image">
-                  <img
-                    src="assets/images/fancy-box/fancy-box9.svg"
-                    alt="safra-about-cards"
-                  />
-                </div>
-              </div>
-            </div>
-                         */}
+          
 
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
@@ -247,37 +194,10 @@ const page = () => {
       </section>
 
 
-
-
-
-
-
-
-
-
-
       {/* Tab Area Start */}
       <section className="tab-area-two pt-40 rpt-10"
         style={{ backgroundImage: "url(assets/images/backgrounds/tolltip.svg)" }}>
         <div className="container">
-
-          {/* 
-          <div className="row justify-content-center">
-            <div
-              className="col-xl-7 col-lg-9 col-md-11"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="section-title text-center mb-35">
-
-                <h4>
-                  Add More Quality Into Your Life
-                </h4>
-              </div>
-            </div>
-          </div>
-          */}
           <Tab.Container defaultActiveKey={"tabTwo1"}>
             <div
               className="row justify-content-center"
@@ -397,62 +317,6 @@ const page = () => {
       {/* Tab Area End */}
 
 
-      {/* Sustainability Area Start}
-      <section className="data-analytics-area pt-10 rpt-20 pb-10 rpb-20">
-        <div className="container">
-          <div className="row gap-110 align-items-center">
-            <div className="col-lg-6">
-              <div
-                className="about-content mt-40 rmb-20"
-                data-aos="fade-left"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <div className="section-title-sus mb-30">
-                  <h3>CEO Message</h3>
-                <p>
-                Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
-                </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div
-                className="management-images float-lg-end "
-                data-aos="fade-right"
-                data-aos-duration={1500}
-                data-aos-offset={50}
-              >
-                <img
-                  className="rounded-0"
-                  src="assets/images/about/sustainability-1.svg"
-                  alt="sustainability-1"
-                />
-
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* SustainabilityArea End */}
-
-
-
-      {/* CEO Area StEndsart 
-
-      <section className="hero-area-six pt-5 rpt-20 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
-*/}
-
       {/* Values Area Start */}
       <section className="feature-box-area pt-80 rpt-40 pb-40 rpb-20 rel z-1">
         <div className="container">
@@ -568,179 +432,6 @@ const page = () => {
       {/* Products Area End */}
 
 
-      {/* Safra History Area Start
-       <section className="services-two-area pt-60 rpt-40 pb-100 rpb-40 rel z-2">
-        <div className="container">
-          <div className="row justify-content-center text-center">
-            <div
-              className="col-xl-8"
-            >
-              <div className="section-title text-white mb-40">
-                <h4>
-                   History
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div className="row pt-45">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1987</div>
-                  </h5>
-                  <p>SAFRA Company Ltd. was established.</p><br/>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1990</div>
-                  </h5>
-                  <p>Commercial production started and export activities began.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1992</div>
-                  </h5>
-                  <p> SAFRA’s packaged products (SPP) launched.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1994</div>
-                  </h5>
-                  <p>SPP production went into full speed operation.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1996</div>
-                  </h5>
-                  <p>SAFRA obtained ISO 9002 certificate.</p><br />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1997</div>
-                  </h5>
-                  <p>SAFRA received the King Fahd Award for “Best Industry”.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">1999</div>
-                  </h5>
-                  <p>SAFRA implemented Systems Applications Products SAP solution.</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6"
-
-            >
-              <div className="iconic-box style-four">
-                <div className="content">
-                  <h5>
-                    <div className="text-white">2023</div>
-                  </h5>
-                  <p>Started the revamp of its refinery, renovated & upgraded its equipment.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- */}
-      {/* Safra History Area End 
-
-      <section className="hero-area-six pt-5 rpt-20 rel z-1">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-9 col-lg-11">
-              <hr />
-            </div>
-          </div>
-        </div>
-      </section>
-      */}
-
-
-
-
-
-
-
-
-      {/* HeaderStart pt-120
-            <section
-        className="tooltip-area bgs-cover rel pt-20 rpt-40"
-
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="col-xl-9 col-lg-11 mb-20 pt-40 rmb-80 text-center"
-              data-aos="fade-up"
-              data-aos-duration={1500}
-              data-aos-offset={50}
-            >
-              <div className="section-title pb-40">
-                <h5 className="pb-20">
-                Our Products Are Meeting Customers Needs From Industrial Chemicals To Consumers Products And Services
-                </h5>
-                <p>
-                We currently manufacture two product groups, Aliphatics and Aromatics of superior quality to best fill the needs of all customers. 
-                We also undertake the blending of various products to meet specific customers chemical and solvents requirements serving 
-                industries such as Paints, Adhesives, Insecticides & Pesticides, Thinner, Ink, printing, Tannery, Resins, Industrial Cleaning and Maintenance, 
-                Dry Cleaning, Spot Removing, Wood Protection and varnishes, Construction Chemicals, Oil Fields Chemicals, Bitumen Based Products, etc. 
-                We have privilege of producing odorless (aromatic free) solvents for various applications especially oil-drilling, 
-                aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance. We aim to enhance market leadership via our 
-                products/services, establish new manufacturing facilities and trading division.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>*/}
       {/* Header Area End */}
 
 

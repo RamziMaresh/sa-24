@@ -8,11 +8,12 @@ import SafraLayout from "../../layouts/SafraLayout";
 import Link from "next/link";
 //
 import Swal from 'sweetalert2';
-
+import validator from 'validator'
 
 const CountrySelect = () => {
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState({});
+
 {/**      "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
  */}
   useEffect(() => {
@@ -66,14 +67,14 @@ const page = () => {
             setStatus('SUCCESS')
             Swal.fire({
               title:"Successfully Sent",
-              text:"Your message sent successfully to sfra support team, You got an alert in your email.",
+              text:"Your message sent successfully to sfra support team. Thank you!",
               icon:"success"
             })
           },
           (error) => {
             setStatus('FAILED... ', error.text)
             Swal.fire({
-              title:"Failed...!",
+              title:"Failed...! ",
               text:"Try again, or contact safra support team to assest you.",
               icon:"failed"
             })
@@ -84,6 +85,25 @@ const page = () => {
       e.target.reset()
     }
   };
+
+  const [emailError, setEmailError] = useState('')
+  const [phoneNum, setPhoneNum] = useState('')
+  const [valid, setValid] = useState(true)
+
+
+// Email Validation
+const validateEmail = (e) => {
+  var email = e.target.value
+
+  if (validator.isEmail(email)) {
+     setEmailError('')
+  } else {
+     setEmailError('Enter valid Email!')
+  }
+
+}
+
+// Phone number Validation
 
 
   return (
@@ -111,15 +131,12 @@ const page = () => {
               >
 
 
-                {status && renderAlert()}
                 <form
                   ref={form}
                   onSubmit={sendEmail}
                   className="contact-form"
                   name="contactForm"
                 >
-
-
                   <div className="row mt-30 ">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -141,6 +158,7 @@ const page = () => {
                       <div className="form-group">
                         <label>Email</label>
                         <input
+                        onChange={(e) => validateEmail(e)}
                           type="email"
                           autoComplete='off'
                           id="user_email"
@@ -150,9 +168,12 @@ const page = () => {
                           required
                           data-error="Please enter your Email"
                         />
+                              <span style={{ fontWeight: '', color: 'red' }}>{emailError}</span>
+
                         <div className="help-block with-errors" />
                       </div>
                     </div>
+                    
                     <div className="col-md-6">
                       <div className="form-group">
                         <label>Subject</label>
@@ -173,33 +194,20 @@ const page = () => {
                       <div className="form-group">
                         <label>Contact Number</label>
                         <input
+                          type="tel" 
+                          pattern="[0-9]*"
                           autoComplete='off'
-                          type="text"
                           id="user_phone"
                           name="user_phone"
                           className="form-control"
-                          placeholder="+000 000 000 "
+                          placeholder="966 000 000 0000"
                           required
-                          data-error="Please enter your Email"
                         />
+
                         <div className="help-block with-errors" />
                       </div>
-                    </div>
+                    </div >
 
-                    {/**      <CountrySelect /> 
-                     *                        <input 
-                                                                   autoComplete='off'
-                                                                   type="text"
-                                                                   id="user_country"
-                                                                   name="user_country"
-                                                                   className="form-control"
-                                                                   placeholder="Ex: Saudi Arabia"
-                                                                   required
-                                                                   data-error="Please enter your Name"
-                      />
-                     * 
-                     * 
-                    */}
                     <div className="col-md-12">
                       <div className="form-group">
                       <label>Country</label>

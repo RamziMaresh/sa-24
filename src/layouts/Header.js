@@ -415,14 +415,12 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
 {/** 
           <li className="dropdown">
             <div className="locales-mobile-btn">
-              <Locals />
+              <p>
             </div>
           </li>
 
 **/}
         </ul>
-
-
       )}
 
     </Fragment>

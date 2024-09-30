@@ -10,11 +10,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@next/env": "^14.2.13",
     "aos": "^2.3.4",
     "dotenv": "^16.4.5",
-    "i18next": "^23.11.3",
-    "i18next-browser-languagedetector": "^7.2.1",
-    "i18next-http-backend": "^2.5.1",
     "isotope-layout": "^3.0.6",
     "jss-rtl": "^0.3.0",
     "mdb-react-ui-kit": "^8.0.0",
@@ -33,6 +31,7 @@
     "react-swipeable": "^7.0.1",
     "react-visibility-sensor": "^5.1.1",
     "sweetalert2": "^11.14.0",
-    "swiper": "^11.1.12"
+    "swiper": "^11.1.12",
+    "validator": "^13.12.0"
   }
 }

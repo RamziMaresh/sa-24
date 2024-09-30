@@ -2,7 +2,7 @@ import SafraLayout from "../../layouts/SafraLayout";
 import PageBanner from "../../components/PageBanner";
 
 import Link from "next/link";
-const paint = () => {
+const Adhesives = () => {
     return (
         <SafraLayout>
             <PageBanner pageName={"Adhesives"} />
@@ -95,4 +95,4 @@ const paint = () => {
 
     );
 };
-export default paint;
+export default Adhesives;

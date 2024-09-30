@@ -3,7 +3,7 @@ import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 import { Nav, Tab } from "react-bootstrap";
 
-const page = () => {
+const About = () => {
   return (
     <SafraLayout>
       <PageBanner pageName={"About Us"} />
@@ -438,4 +438,4 @@ const page = () => {
     </SafraLayout>
   );
 };
-export default page;
+export default About;

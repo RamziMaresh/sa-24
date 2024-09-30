@@ -5,7 +5,6 @@ import niceSelect from "react-nice-select";
 import Footer from "./Footer";
 import Header from "./Header";
 //
-import "./i18next";
 import '@emailjs/browser';
 
 const SafraLayout = ({ children, header, footer, bodyClass, onePage }) => {

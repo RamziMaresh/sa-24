@@ -1,5 +1,4 @@
 import Aos from "aos";
-import '../layouts/i18next'
 import '@emailjs/browser';
 
 export const safraUtility = {

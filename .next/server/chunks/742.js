@@ -1,1 +1,0 @@
-"use strict";exports.id=742,exports.ids=[742],exports.modules={85742:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>a,__esModule:()=>r,default:()=>d});let o=(0,t(86843).createProxy)(String.raw`/Users/mac/Desktop/sa-it-up24/src/components/isotope/PackagedDetails.js`),{__esModule:r,$$typeof:a}=o,d=o.default}};

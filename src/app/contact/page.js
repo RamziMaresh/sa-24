@@ -200,7 +200,7 @@ const validateEmail = (e) => {
                           id="user_phone"
                           name="user_phone"
                           className="form-control"
-                          placeholder="966 000 000 0000"
+                          placeholder="+000-000-00000"
                           required
                         />
 

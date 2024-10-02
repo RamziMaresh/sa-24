@@ -1,1 +1,0 @@
-"use strict";exports.id=116,exports.ids=[116],exports.modules={90116:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>a,__esModule:()=>r,default:()=>d});let o=(0,t(86843).createProxy)(String.raw`/Users/mac/Desktop/sa-it-up24/src/components/isotope/TradingDetails.js`),{__esModule:r,$$typeof:a}=o,d=o.default}};

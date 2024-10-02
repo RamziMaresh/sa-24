@@ -57,7 +57,7 @@ const Index = () => {
       {/* Contact Area Start */}
       <section
         className="cta-area bgs-cover py-130 rpy-100"
-        style={{ backgroundImage: "url(assets/images/backgrounds/cta.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/backgrounds/ccta.jpg)" }}
       >
         <div className="container">
           <div className="row align-items-center justify-content-between">
@@ -72,7 +72,7 @@ const Index = () => {
                   <span className="subtitle d-block mb-10">
                     Safra Team
                   </span>
-                  <h3>We Are Ready To Serve You <br />And Answer Your Inquiries !</h3>
+                  <h3>We Are Ready To Serve You <br />and Answer Your Inquiries!</h3>
                 </div>
                 <Link legacyBehavior href="/contact">
                   <a className="theme-btn">

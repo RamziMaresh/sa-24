@@ -1,0 +1,1 @@
+"use strict";exports.id=139,exports.ids=[139],exports.modules={97139:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>a,__esModule:()=>r,default:()=>i});let o=(0,t(86843).createProxy)(String.raw`/Users/mac/Desktop/sa-it-up24/src/components/isotope/AromaticDetails.js`),{__esModule:r,$$typeof:a}=o,i=o.default}};

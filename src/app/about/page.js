@@ -248,12 +248,12 @@ const About = () => {
                         </li>
                         <p>
                           These will be achieved by exceeding their minimum expectations, both internal
-                          stakeholders (employees, business owners & investors) and external stakeholders
+                          stakeholders: (employees, shareholders & investors) and external stakeholders:
                           (customers & suppliers). This incredible challenge will be accomplished by beating cost
                           of capital and growing the business.
                         </p>
                         <li>
-                          <i className="fal fa-check" /> Cultivating Sustainability And Creating Value:
+                          <i className="fal fa-check" /> Cultivating Sustainability and Creating Value:
                         </li>
                         <p>
                           Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved

@@ -213,7 +213,7 @@ const About = () => {
                 >
                   <Nav.Item as={"li"}>
                     <Nav.Link as={"button"} eventKey="tabTwo1">
-                      Coraporate Purpose
+                      Corporate Purpose
                     </Nav.Link>
                   </Nav.Item>
 

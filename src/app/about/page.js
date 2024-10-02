@@ -213,14 +213,10 @@ const About = () => {
                 >
                   <Nav.Item as={"li"}>
                     <Nav.Link as={"button"} eventKey="tabTwo1">
-                      Vision
+                      Coraporate Purpose
                     </Nav.Link>
                   </Nav.Item>
-                  <Nav.Item as={"li"}>
-                    <Nav.Link as={"button"} eventKey="tabTwo2">
-                      Mission
-                    </Nav.Link>
-                  </Nav.Item>
+
 
                 </Nav>
               </div>
@@ -236,19 +232,19 @@ const About = () => {
                       data-aos-offset={50}
                     >
                       <p className="vision-teaxt-header">
-                        To be a world class hydrocarbon key player, maximizing stakeholders’ benefits, cultivating sustainability, creating value and disseminating knowledge.
+                        To be a world class key player in hydrocarbon field, maximizing stakeholders’ benefits, cultivating sustainability, and creating value.
                       </p>
 
                       <ul className="icon-list style-two my-35">
                         <li className="">
-                          <i className="fal fa-check" /> Being a World Class Hydrocarbon Key Player.
+                          <i className="fal fa-check" /> Being a World Class Key Player in Hydrocarbon Feild:
                         </li>
                         <p>
                           SAFRA will set a clear future state where all employees are engaged in a shared goal, having defined continuous improvement framework and exceptional process
                           standards. The company will work collaboratively both within its sector and its supply chain. It will benchmark itself against other world leaders.
                         </p>
                         <li>
-                          <i className="fal fa-check" /> Maximizing Stakeholders Benefits.
+                          <i className="fal fa-check" /> Maximizing Stakeholders’ Benefits:
                         </li>
                         <p>
                           These will be achieved by exceeding their minimum expectations, both internal
@@ -257,7 +253,7 @@ const About = () => {
                           of capital and growing the business.
                         </p>
                         <li>
-                          <i className="fal fa-check" /> Cultivating Sustainability, Creating Value, and Disseminating Knowledge.
+                          <i className="fal fa-check" /> Cultivating Sustainability And Creating Value:
                         </li>
                         <p>
                           Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved

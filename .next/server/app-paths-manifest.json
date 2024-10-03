@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
   "/about/page": "app/about/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

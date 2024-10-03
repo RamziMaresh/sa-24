@@ -232,18 +232,11 @@ const About = () => {
                       data-aos-offset={50}
                     >
                       <p className="vision-teaxt-header">
-                        To be a world class key player in hydrocarbon field, maximizing stakeholders’ benefits, cultivating sustainability, and creating value.
+                      Maximizing stakeholder benefits through world-class leadership in the hydrocarbon sector, fostered sustainability, created value, R&D and multinational culture
                       </p>
 
                       <ul className="icon-list style-two my-35">
-                        <li className="">
-                          <i className="fal fa-check" /> Being a World Class Key Player in Hydrocarbon Feild:
-                        </li>
-                        <p>
-                          SAFRA will set a clear future state where all employees are engaged in a shared goal, having defined continuous improvement framework and exceptional process
-                          standards. The company will work collaboratively both within its sector and its supply chain. It will benchmark itself against other world leaders.
-                        </p>
-                        <li>
+                      <li>
                           <i className="fal fa-check" /> Maximizing Stakeholders’ Benefits:
                         </li>
                         <p>
@@ -252,29 +245,30 @@ const About = () => {
                           (customers & suppliers). This incredible challenge will be accomplished by beating cost
                           of capital and growing the business.
                         </p>
-                        <li>
-                          <i className="fal fa-check" /> Cultivating Sustainability and Creating Value:
+                        <li className="">
+                          <i className="fal fa-check" /> World Class Leadership in the Hydrocarbon Field:
                         </li>
                         <p>
-                          Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved
-                          by pursuing three dimensional levels; environmental, economic and social. SAFRA’s sustainable growth will provide
-                          the basis for more investments and value creation for stakeholders in both short and long term.
-                          The company will totally be committed to achieve sustainable growth via its nurtured localized employees
-                          who will achieve exceptional standards of performance, responsible behavior,
-                          continuous learning and disseminating knowledge. <br />
-                          Employees and other stakeholders will have huge opportunity to be part of a successful
-                          enterprise. Moreover, SAFRA will emphasize on the importance of how its employees
-                          work with each other and how they behave. Employees empowerment will increasingly
-                          be emphasized for exceptional performance that will make the employees perform the
-                          best of their capabilities and in turn help SAFRA’s Vision turns into reality.
-                          Entrepreneurial drives, teamwork orientation, outstanding ethical behaviors, learning
-                          organization, and practical creativity are crucial to SAFRA’s success. Focus on
-                          customers is also essential so that the company constantly keep them at the center of
-                          its attention. The company will competitively anticipate and meet customers’ changing
-                          needs, aspirations and expectations from hydrocarbon products. It will serve its
-                          customers through its wealth of knowledge and operational experience and respond
-                          competitively to their needs through its diversified portfolio. quality hydrocarbon and
-                          petrochemical products.
+                        SAFRA will set a clear future state where all employees are engaged in a shared goal, having defined continuous improvement framework and exceptional process standards. 
+                        The company will work collaboratively both within its sector and its supply chain. It will benchmark itself against other world leaders.
+
+                        </p>
+                        <li>
+                          <i className="fal fa-check" /> Fostered Sustainability, Created Value, R&D and Multinational Culture:
+                        </li>
+                        <p>
+                        Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved by pursuing three dimensional levels; 
+                        environmental, economic and social. SAFRA’s sustainable growth will provide the basis for more investments and value creation for stakeholders in both 
+                        short and long term. The company will totally be committed to achieve sustainable growth via its employees who will achieve exceptional standards 
+                        of performance, responsible behavior, innovation, continuous learning, and knowledge dissemination. <br />
+                        Employees and other stakeholders will have huge opportunity to be part of a successful enterprise. Moreover, 
+                        SAFRA will emphasize on the importance of how its employees work with each other and how they behave. Employees empowerment will increasingly be emphasized for 
+                        exceptional performance that will make the employees perform the best of their capabilities and in turn help SAFRA’s Vision turns into reality. 
+                        Entrepreneurial drives, teamwork orientation, outstanding ethical behaviors, learning organization, and practical creativity are crucial to SAFRA’s success. 
+                        Focus on customers is also essential so that the company constantly keep them at the center of its attention. The company will 
+                        competitively anticipate and meet customers’ changing needs, aspirations and expectations from hydrocarbon products. It will serve its customers through its R&D, 
+                        wealth of knowledge, operational experience, multinational culture and respond competitively to their needs through its diversified portfolio,
+                        quality hydrocarbon and petrochemical products.
                         </p>
                         <p>
 

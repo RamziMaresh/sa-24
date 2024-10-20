@@ -1,11 +1,5 @@
 {
-  "/page": "app/page.js",
   "/about/page": "app/about/page.js",
-  "/blended-products/page": "app/blended-products/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/scm-marketing/page": "app/scm-marketing/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/aromatic-products/page": "app/aromatic-products/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

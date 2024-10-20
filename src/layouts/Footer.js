@@ -105,7 +105,7 @@ const DefaultFooter = () => {
                     </li>
                     <li>
                       <i className="fal fa-phone" />
-                      (+966) 4 396 8022
+                      (+966) 14 396 8022
                     </li>
                   </ul>
                 </div>

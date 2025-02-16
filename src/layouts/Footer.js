@@ -38,15 +38,14 @@ const DefaultFooter = () => {
                 </div>
               </div>
               <div className="logo-outer">
-                <div className="logo mb-20">
-                  <Link href="/">
+                <div className="logo">
                     <img
+                    className="logo-outer-2"
                       src="/assets/images/logos/saudi_made_logo_en.jpg"
                       width={200}
                       alt="Safra Logo"
                       title="Logo"
                     />
-                  </Link>
                 </div>
               </div>
 

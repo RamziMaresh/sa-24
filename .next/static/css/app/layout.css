@@ -7869,6 +7869,11 @@ a.theme-btn.style-four:hover {
 
 .main-header .logo-outer {
   flex: none;
+  
+}
+
+.logo-outer-2{
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -10554,7 +10559,7 @@ a.theme-btn.style-four:hover {
 /* Footer One */
 .main-footer.footer-one {
   background: rgb(14, 116, 144);
-  background: linear-gradient(90deg, rgba(14, 116, 144, 1) 0%, rgba(22, 78, 99, 1) 100%);
+  background: linear-gradient(90deg, rgba(15 118 110) 0%, rgba(22, 78, 99, 1) 100%);
   color: rgba(255, 255, 255, 0.45);
 }
 

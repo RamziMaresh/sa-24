@@ -3,12 +3,12 @@ import PageBanner from "../../components/PageBanner";
 
 import Link from "next/link";
 const page = () => {
-    return (
-        <SafraLayout>
-            <PageBanner pageName={"Products"} />
+  return (
+    <SafraLayout>
+      <PageBanner pageName={"Products"} />
 
 
-                  {/* Products Area Start */}
+      {/* Products Area Start */}
       <section
         className="tooltip-area-two bgs-cover rel pt-100 rpt-100"
       >
@@ -27,56 +27,57 @@ const page = () => {
                 </h4>
                 <hr />
                 <br />
-                </div>
+              </div>
 
-                <div className="blog-details-content ">
+              <div className="blog-details-content ">
 
                 <p>
-                                    SAFRA currently manufactures two product groups, Aliphatics (feed-stock of kerosene & hydrogen) and Aromatics (feed-stock of reformate) of 
-                                    superior quality to best fill the needs of all customers. It also undertakes the blending of various products to meet specific customers 
-                                    chemical and solvents requirements. The company produces Aliphatic and Aromatic solvents, serving industries such as Paints, Adhesives, 
-                                    Insecticides & Pesticides, Thinner, Ink, printing, Tannery, Resins, Industrial Cleaning and Maintenance, Spot Removing, Wood Protection and varnishes, Construction Chemicals, Oil Fields Chemicals, Bitumen Based Products, etc. Safra has got privilege of producing odorless (aromatic free) solvents 
-                                    for various applications especially oil-drilling, aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance.
-                                    </p>
-                                    <p>
-                                    SAFRA aims to enhance market leadership in its current products/services and establish new manufacturing 
-                                    facilities and trading divisions.
+                  SAFRA currently manufactures two product groups, Aliphatics (feed-stock of kerosene & hydrogen) and Aromatics (feed-stock of reformate) of
+                  superior quality to best fill the needs of all customers. It also undertakes the blending of various products to meet specific customers
+                  chemical and solvents requirements. The company produces Aliphatic and Aromatic solvents, serving industries such as Paints, Adhesives,
+                  Insecticides & Pesticides, Thinner, Ink, printing, Tannery, Resins, Industrial Cleaning and Maintenance, Spot Removing, Wood Protection and varnishes, Construction Chemicals, Oil Fields Chemicals, Bitumen Based Products, etc. Safra has got privilege of producing odorless (aromatic free) solvents
+                  for various applications especially oil-drilling, aerosol insecticide, agricultural pesticide, industrial cleaning and maintenance. <br />
+                  Safra aims to enhance market leadership in its current products/services and establish new manufacturing
+                  facilities and trading divisions.
+                </p>
 
-                                    </p>
 
-                                    <h6 className="pt-20">
-                                        <div>The major product groups of SAFRA comprise of the following:</div>
-                                    </h6>
-                                    <br />
+                <h6 className="pt-20">
+                  <div>The major product groups of SAFRA comprise of the following:</div>
+                </h6>
 
-                                    <a> <Link href="aliphatic-products" className="text-link">  - Aliphatics Solvents </Link>
-                                        <hr />
-                                    </a>
+                <div className="pb-20">
+                  <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                </div>
 
-                                    <a> <Link href="aromatic-products" className="text-link">  - Aromatics Solvents </Link>
-                                        <hr />
-                                    </a>
+                <a> <Link href="aliphatic-products" className="text-link">   - Aliphatics Solvents </Link>
+                  <hr />
+                </a>
 
-                                    <a> <Link href="chemplex-products" className="text-link">  - Chemplex Products </Link>
-                                        <hr />
-                                    </a>
+                <a> <Link href="aromatic-products" className="text-link">  - Aromatics Solvents </Link>
+                  <hr />
+                </a>
 
-                                    <a> <Link href="trading-products" className="text-link">  - Trading Products </Link>
-                                        <hr />
-                                    </a>
+                <a> <Link href="chemplex-products" className="text-link">  - Chemplex Products </Link>
+                  <hr />
+                </a>
 
-                                    <a> <Link href="blended-products" className="text-link">  - Blended Products </Link>
-                                    </a>
-                                    </div>
-                                    <br />
+                <a> <Link href="trading-products" className="text-link">  - Trading Products </Link>
+                  <hr />
+                </a>
+
+                <a> <Link href="blended-products" className="text-link">  - Blended Products </Link>
+                </a>
+              </div>
+              <br />
 
             </div>
           </div>
         </div>
       </section>
       {/* Products Area End */}
-        </SafraLayout>
+    </SafraLayout>
 
-    );
+  );
 };
 export default page;

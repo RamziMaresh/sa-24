@@ -2,9 +2,7 @@
   "/about/page": "app/about/page.js",
   "/scm-marketing/page": "app/scm-marketing/page.js",
   "/careers/page": "app/careers/page.js",
-  "/products/page": "app/products/page.js",
   "/page": "app/page.js",
-  "/chemplex-products/page": "app/chemplex-products/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/trading-products/page": "app/trading-products/page.js"
+  "/blended-products/page": "app/blended-products/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

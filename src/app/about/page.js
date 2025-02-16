@@ -311,13 +311,12 @@ const About = () => {
 
 
       {/* Values Area Start */}
-      <section className="feature-box-area pt-80 rpt-40 pb-40 rpb-20 rel z-1">
+      <section className="feature-box-area pt-40 rpt-40 pb-40 rpb-20 rel z-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-9 col-md-11">
               <div
                 className="section-title text-center mb-40"
-
               >
                 <h4>
                   Corporate <span>Values</span>

@@ -42,7 +42,7 @@ const DefaultFooter = () => {
                     <img
                     className="logo-outer-2"
                       src="/assets/images/logos/saudi_made_logo_en.jpg"
-                      width={200}
+                      width={150}
                       alt="Safra Logo"
                       title="Logo"
                     />

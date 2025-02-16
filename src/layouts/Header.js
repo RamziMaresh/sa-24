@@ -325,19 +325,19 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
           <Link href="products">{t('Products')}</Link>
           <ul style={activeLi("Services")}>
               <li>
-                <Link href="aliphatic-products">{t('Aliphatics')}</Link>
+                <Link href="aliphatic-products">{t('- Aliphatics')}</Link>
               </li>
               <li>
-                <Link href="aromatic-products">{t('Aromatics')}</Link>
+                <Link href="aromatic-products">{t('- Aromatics')}</Link>
               </li>
               <li>
-                <Link href="chemplex-products">{t('Chemplex')}</Link>
+                <Link href="chemplex-products">{t('- Chemplex')}</Link>
               </li>
               <li>
-                <Link href="trading-products">{t('Trading')}</Link>
+                <Link href="trading-products">{t('- Trading')}</Link>
               </li>
               <li>
-                <Link href="blended-products">{t('Blended')}</Link>
+                <Link href="blended-products">{t('- Blended')}</Link>
               </li>
               {/** 
               <li>

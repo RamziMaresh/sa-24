@@ -1,5 +1,10 @@
 {
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/scm-marketing/page": "app/scm-marketing/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/ink/page": "app/ink/page.js",
+  "/products/page": "app/products/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

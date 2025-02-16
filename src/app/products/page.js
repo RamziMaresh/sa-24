@@ -57,7 +57,7 @@ const page = () => {
                                         <hr />
                                     </a>
 
-                                    <a> <Link href="packaged-products" className="text-link">  - Chemplex Products </Link>
+                                    <a> <Link href="chemplex-products" className="text-link">  - Chemplex Products </Link>
                                         <hr />
                                     </a>
 

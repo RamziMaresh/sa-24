@@ -11,6 +11,9 @@ const Footer = ({ footer }) => {
 };
 export default Footer;
 
+const date = new Date()
+const currentYear = date.getFullYear()
+
 
 const DefaultFooter = () => {
   return (
@@ -34,19 +37,19 @@ const DefaultFooter = () => {
                   </Link>
                 </div>
               </div>
-
-              <div className="social-style-one ">
-                <a target="_blank" href="https://www.linkedin.com/company/safra/mycompany/">
-                  <i className="fab fa-linkedin" />
-                </a>
-                <a target="_blank" href="https://www.facebook.com/p/Safra-Co-Ltd-100063547352403/?locale=ar_AR">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="mailto:info@safraco.com" >
-                  <i className="far fa-envelope" />
-                </a>
-
+              <div className="logo-outer">
+                <div className="logo mb-20">
+                  <Link href="/">
+                    <img
+                      src="/assets/images/logos/saudi_made_logo_en.jpg"
+                      width={200}
+                      alt="Safra Logo"
+                      title="Logo"
+                    />
+                  </Link>
+                </div>
               </div>
+
             </div>
           </div>
 
@@ -114,13 +117,32 @@ const DefaultFooter = () => {
             </div>
           </div>
         </div>
+
+
         <div className="footer-bottom mt-30 py-15">
           <div className="row justify-content-center text-center">
-                <p>
-                  © 2024 All rights reserved | Safra Company Limited
-                </p>
-              </div>
-            </div>
+            <span>
+              © {date.getFullYear()} All rights reserved | Safra Company Limited
+            </span>
+
+
+            <div className="social-style-one justify-content-center text-center ">
+                <a target="_blank" href="https://www.linkedin.com/company/safra/mycompany/">
+                  <i className="fab fa-linkedin" />
+                </a>
+                <a target="_blank" href="https://www.facebook.com/p/Safra-Co-Ltd-100063547352403/?locale=ar_AR">
+                  <i className="fab fa-facebook-f" />
+                </a>
+                <a href="mailto:info@safraco.com" >
+                  <i className="far fa-envelope" />
+                </a>
+
+              </div> 
+          </div>
+
+
+ 
+        </div>
       </div>
     </footer>
   );

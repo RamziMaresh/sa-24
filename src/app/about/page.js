@@ -134,36 +134,30 @@ const About = () => {
               data-aos-offset={50}
             >
               <div className="section-title pb-20">
-                <h4 className="pb-20">
+                <h4 className="pb-0">
                   Leadership
                 </h4>
+                <div className="pb-20">
+                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+              </div>
                 <h5 className="pb-40">
                   Our board of directors drive our company, guide our strategy and lead our people
                 </h5>
               </div>
             </div>
-            <hr />
-
           </div>
-
         </div>
       </section>
       {/* Products Area End */}
 
 
 
-      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
-      >
+      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2">
         <div className="container">
           <div className="row justify-content-center">
             <div
-              className="section-title text-center"
-            >
+              className="section-title text-center">
               <h4>CEO Message</h4>
-
-              <div className="pb-20">
-                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-              </div>
             </div>
           </div>
         </div>

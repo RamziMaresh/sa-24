@@ -8,10 +8,8 @@ const page = () => {
     <SafraLayout>
       <PageBanner pageName={"SCM & Marketing"} />
       {/* News media section one start  */}
-      <section className="services-two-area-l pt-100 rpt-100 pb-10 rpb-   rel z-2">
+      <section className="services-two-area-l pt-100 rpt-60 pb-10 rpb-0 rel z-2">
         <div className="container">
-
-
           <div className="row justify-content-center pb-40">
             <div className="col-xl-9 col-lg-11">
               <div className="tag-share pt-0 pb-10">
@@ -35,7 +33,7 @@ const page = () => {
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-              </div>
+              </div> 
 
               <p>
                 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality
@@ -119,7 +117,7 @@ const page = () => {
       </section>
 
 
-      <section className="services-two-area-l pt-10 rpt-100 pb-10 rpb-   rel z-2">
+      <section className="services-two-area-l pt-10 rpt-0 pb-10 rpb-   rel z-2">
         <div className="container">
 
           <div className="row justify-content-center">

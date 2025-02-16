@@ -11508,10 +11508,11 @@ a.theme-btn.style-four:hover {
 }
 
 .locales-mobile-btn {
-  color: #001726;
-  background-color: var(--primary-color);
-  padding: 5px;
+  color: white;
+  border-radius: 15px;
+  background: linear-gradient(90deg, rgba(15 118 110) 0%, rgba(22, 78, 99, 1) 100%);
   text-align: center;
+  align-items: center;
 }
 
 .pdf-icon {

@@ -6,22 +6,18 @@ import Link from "next/link";
 import Banner from "../components/banner/Banner";
 
 const Index = () => {
-
   return (
     <SafraLayout>
       {/* Hero area start */}
       <section
-        className="hero-area bgs-cover rpy-200 overlay"
-      >
+        className="hero-area bgs-cover rpy-200 overlay">
         <Banner />
       </section>
       {/* Hero area End */}
 
       {/* HeaderStart pt-120*/}
       <section
-        className="tooltip-area bgs-cover rel pt-20 rpt-40"
-
-      >
+        className="tooltip-area bgs-cover rel pt-20 rpt-40">
         <div className="container">
           <div className="row justify-content-center">
             <div
@@ -35,8 +31,7 @@ const Index = () => {
                   Safra, A world Class Hydrocarbon Producer
                 </h5>
                 <p>
-
-                Since 1990, SAFRA is a manufacturer of hydrocarbon solvents having a fully automated refinery located at
+                  Since 1990, SAFRA is a manufacturer of hydrocarbon solvents having a fully automated refinery located at
                   Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah.
                   The company serves industries of paints, adhesives, insecticides & pesticides, thinner, alkyd resins,
                   industrial cleaning, maintenance solvents, spot removing, wood protection, varnishes, construction chemicals,

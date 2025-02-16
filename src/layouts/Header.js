@@ -5,7 +5,6 @@ import { Fragment, useState } from "react";
 import { Accordion } from "react-bootstrap";
 //
 
-
 import Locals from "../components/locales";
 import { useTranslation } from 'react-i18next';
 
@@ -322,8 +321,8 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <Link href="/about">{t('About Us')}</Link>
           </li>
           <li className="dropdown">
-          <Link href="products">{t('Products')}</Link>
-          <ul style={activeLi("Services")}>
+            <Link href="products">{t('Products')}</Link>
+            <ul style={activeLi("Services")}>
               <li>
                 <Link href="aliphatic-products">{t('- Aliphatics')}</Link>
               </li>
@@ -399,11 +398,9 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             </div>
           </li>
 
-
-
           <li className="dropdown">
-                <Link href="scm-marketing">{t('SCM & Marketing')}</Link>
-              </li>
+            <Link href="scm-marketing">{t('SCM & Marketing')}</Link>
+          </li>
           <li className="dropdown">
             <Link href="careers">{t('Careers')}</Link>
           </li>
@@ -411,18 +408,13 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
             <Link href="contact">{t('Contact Us')}</Link>
           </li>
 
-
-{/** 
           <li className="dropdown">
             <div className="locales-mobile-btn">
-              <p>
+              <i class="far fa fa-globe" ></i> AR
             </div>
           </li>
-
-**/}
         </ul>
       )}
-
     </Fragment>
 
   );

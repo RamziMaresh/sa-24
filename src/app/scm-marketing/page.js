@@ -3,6 +3,7 @@ import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 
+
 const page = () => {
   return (
     <SafraLayout>
@@ -12,13 +13,30 @@ const page = () => {
         <div className="container">
           <div className="row justify-content-center pb-40">
             <div className="col-xl-9 col-lg-11">
-              <div className="tag-share pt-0 pb-10">
+
+              <div className="tag-share pt-0 pb-0">
+                <h5>ISO 9001: 2015 (international organization for standardization)</h5>
+              </div>
+              <div className="pb-20">
+                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+              </div>
+              <p>
+                Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
+                It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
+              </p>
+
+              <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="theme-btn" target="_blank">
+                View Safra ISO Certificate  <i className="far fa-file-pdf" />
+              </Link>
+              <hr />
+
+
+              <div className="tag-share pt-20 pb-0">
                 <h5>Sales</h5>
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
-
               <p>
                 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
                 It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
@@ -28,13 +46,12 @@ const page = () => {
                 Using various packing such as new and reconditioned drums while adhering to global safety standards.
               </p>
               <hr />
-              <div className="tag-share pt-0 pb-10">
+              <div className="tag-share pt-20 pb-0">
                 <h5>Marketing</h5>
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
-              </div> 
-
+              </div>
               <p>
                 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality
                 of solvents and its distribution in the local, regional and international markets.
@@ -43,7 +60,6 @@ const page = () => {
 
             </div>
           </div>
-
         </div>
       </section>
 
@@ -66,20 +82,17 @@ const page = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="about-content-five mt-40 rmt-15"
+                className="about-content-five mt-0 rmt-15"
                 data-aos="fade-right"
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-
                 <div className="tag-share pt-0 pb-10">
                   <h5>Customer Service</h5>
                 </div>
                 <div className="pb-20">
                   <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
                 </div>
-
-
 
                 <p>
                   There are different ways of moving the materials; we move them via road tankers or trailers (Drums) to our local customer in the Kingdom or around GCC.
@@ -119,20 +132,16 @@ const page = () => {
 
       <section className="services-two-area-l pt-10 rpt-0 pb-10 rpb-   rel z-2">
         <div className="container">
-
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
-
               <div className="tag-share pt-0 pb-10">
                 <h5>Logistics</h5>
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
-
             </div>
           </div>
-
           <div className="row justify-content-center pb-40">
             <div className="col-xl-9 col-lg-11">
               <p>
@@ -151,7 +160,6 @@ const page = () => {
 
             </div>
           </div>
-
           <div className="container">
             <div
               className="image mt-40 text-center"
@@ -165,10 +173,10 @@ const page = () => {
               />
             </div>
           </div>
-
-
         </div>
       </section>
+
+
       {/* About Area End 
 
 

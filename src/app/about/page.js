@@ -21,6 +21,9 @@ const About = () => {
                 data-aos-offset={50}
               >
                 <h4>At a Glance</h4>
+                <div className="pb-20">
+                  <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                </div>
               </div>
             </div>
           </div>

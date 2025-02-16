@@ -13,7 +13,6 @@ const page = () => {
         <div className="container">
           <div className="row justify-content-center pb-40">
             <div className="col-xl-9 col-lg-11">
-
               <div className="tag-share pt-0 pb-0">
                 <h5>ISO 9001: 2015 (international organization for standardization)</h5>
               </div>
@@ -24,13 +23,9 @@ const page = () => {
                 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
                 It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
               </p>
-
               <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="theme-btn" target="_blank">
                 View Safra ISO Certificate  <i className="far fa-file-pdf" />
               </Link>
-              <hr />
-
-
               <div className="tag-share pt-20 pb-0">
                 <h5>Sales</h5>
               </div>
@@ -45,7 +40,6 @@ const page = () => {
                 ISO Tanks, road tankers, and road trailers in accordance with the requirements of our customers under International Shipping Code.
                 Using various packing such as new and reconditioned drums while adhering to global safety standards.
               </p>
-              <hr />
               <div className="tag-share pt-20 pb-0">
                 <h5>Marketing</h5>
               </div>
@@ -56,8 +50,6 @@ const page = () => {
                 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality
                 of solvents and its distribution in the local, regional and international markets.
               </p>
-              <hr />
-
             </div>
           </div>
         </div>

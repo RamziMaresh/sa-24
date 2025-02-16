@@ -96,7 +96,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          
+
 
             <div className="col-xl-4 col-md-6 col-sm-10">
               <div
@@ -123,42 +123,47 @@ const About = () => {
 
       {/* Products Area Start */}
       <section
-        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
+        className="tooltip-area-two bgs-cover rel pt-10 rpt-10"
       >
         <div className="container">
           <div className="row justify-content-center">
 
             <div
-              className="col-xl-9 col-lg-11 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 rmb-10 text-center"
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <div className="section-title pb-60">
-                <h4 className="pb-40">
+              <div className="section-title pb-20">
+                <h4 className="pb-20">
                   Leadership
                 </h4>
                 <h5 className="pb-40">
-                  Our Board of Directors drive our company, guide our strategy and lead our people.
+                  Our board of directors drive our company, guide our strategy and lead our people
                 </h5>
               </div>
-
             </div>
+            <hr />
+
           </div>
+
         </div>
       </section>
       {/* Products Area End */}
 
 
 
-      <section className="artificial-intelligence-area rel pt-0 rpt-30 pb-20 rpb-10 z-2"
+      <section className="artificial-intelligence-area rel pt-60 rpt-30 pb-20 rpb-10 z-2"
       >
         <div className="container">
           <div className="row justify-content-center">
             <div
               className="section-title text-center"
-
             >
               <h4>CEO Message</h4>
+
+              <div className="pb-20">
+                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+              </div>
             </div>
           </div>
         </div>
@@ -232,41 +237,41 @@ const About = () => {
                       data-aos-offset={50}
                     >
                       <p className="vision-teaxt-header text-center">
-                      Maximizing stakeholder benefits through world-class leadership in the hydrocarbon sector, fostered sustainability, captured value, R&D and multinational culture
+                        Maximizing stakeholder benefits through world-class leadership in the hydrocarbon sector, fostered sustainability, captured value, R&D and multinational culture
                       </p>
 
                       <ul className="icon-list style-two my-35">
-                      <li>
+                        <li>
                           <i className="fal fa-check" /> Maximizing Stakeholders’ Benefits:
                         </li>
                         <p>
-                        These will be achieved by exceeding their minimum expectations, both internal stakeholders: (employees, shareholders & investors) and external stakeholders: (customers & suppliers). 
-                        This incredible challenge will be accomplished by beating cost of capital and growing the business.
+                          These will be achieved by exceeding their minimum expectations, both internal stakeholders: (employees, shareholders & investors) and external stakeholders: (customers & suppliers).
+                          This incredible challenge will be accomplished by beating cost of capital and growing the business.
                         </p>
                         <li className="">
                           <i className="fal fa-check" /> World Class Leadership in the Hydrocarbon Field:
                         </li>
                         <p>
-                        SAFRA will set a clear future state where all employees are engaged in a shared goal, having defined continuous improvement framework and exceptional process standards. 
-                        The company will work collaboratively both within its sector and its supply chain. It will benchmark itself against other world leaders.
+                          SAFRA will set a clear future state where all employees are engaged in a shared goal, having defined continuous improvement framework and exceptional process standards.
+                          The company will work collaboratively both within its sector and its supply chain. It will benchmark itself against other world leaders.
                         </p>
                         <li>
                           <i className="fal fa-check" /> Fostered Sustainability, Captured Value, R&D and Multinational Culture:
                         </li>
                         <p>
-                        Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved by pursuing three dimensional 
-                        levels; environmental, economic and social. SAFRA’s sustainable growth will provide the basis for more investments and value capturing 
-                        for stakeholders in both short and long term. The company will totally be committed to achieve sustainable growth 
-                        via its employees who will achieve exceptional standards of performance, responsible behavior, innovation, continuous learning, and knowledge dissemination. <br />
-                        Employees and other stakeholders will have huge opportunity to be part of a successful enterprise. 
-                        Moreover, SAFRA will emphasize on the importance of how its employees work with each other and how they behave. 
-                        Employees empowerment will increasingly be emphasized for exceptional performance that will make the employees perform 
-                        the best of their capabilities and in turn help SAFRA’s Corporate Purpose turns into reality. Entrepreneurial drives, teamwork 
-                        orientation, outstanding ethical behaviors, learning organization, and practical creativity are crucial to SAFRA’s success. 
-                        Focus on customers is also essential so that the company constantly keep them at the center of its attention. 
-                        The company will competitively anticipate and meet customers’ changing needs, aspirations and expectations from hydrocarbon products. 
-                        It will serve its customers through its R&D, wealth of knowledge, operational experience, multinational culture and 
-                        respond competitively to their needs through its diversified portfolio, quality hydrocarbon and petrochemical products.
+                          Sustainability for SAFRA goes far beyond just climate protection as this objective will responsibly be achieved by pursuing three dimensional
+                          levels; environmental, economic and social. SAFRA’s sustainable growth will provide the basis for more investments and value capturing
+                          for stakeholders in both short and long term. The company will totally be committed to achieve sustainable growth
+                          via its employees who will achieve exceptional standards of performance, responsible behavior, innovation, continuous learning, and knowledge dissemination. <br />
+                          Employees and other stakeholders will have huge opportunity to be part of a successful enterprise.
+                          Moreover, SAFRA will emphasize on the importance of how its employees work with each other and how they behave.
+                          Employees empowerment will increasingly be emphasized for exceptional performance that will make the employees perform
+                          the best of their capabilities and in turn help SAFRA’s Corporate Purpose turns into reality. Entrepreneurial drives, teamwork
+                          orientation, outstanding ethical behaviors, learning organization, and practical creativity are crucial to SAFRA’s success.
+                          Focus on customers is also essential so that the company constantly keep them at the center of its attention.
+                          The company will competitively anticipate and meet customers’ changing needs, aspirations and expectations from hydrocarbon products.
+                          It will serve its customers through its R&D, wealth of knowledge, operational experience, multinational culture and
+                          respond competitively to their needs through its diversified portfolio, quality hydrocarbon and petrochemical products.
                         </p>
                         <p>
 
@@ -378,39 +383,36 @@ const About = () => {
 
       {/* Products Area Start */}
       <section
-        className="tooltip-area-two bgs-cover rel pt-60 rpt-100"
+        className="tooltip-area-two bgs-cover rel pt-60 rpt-60"
       >
         <div className="container">
           <div className="row justify-content-center">
 
             <div
-              className="col-xl-9 col-lg-11 rmb-80 text-center"
+              className="col-xl-9 col-lg-11 rmb-10 text-center"
               data-aos-duration={1500}
               data-aos-offset={50}
             >
+
               <div className="section-title pb-60">
-                <h4 className="pb-40">
+                <h4 className="">
                   Quality Consistency
                 </h4>
-                <h5 className="pb-40">
-                  Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products.
+                <div className="pb-20">
+                  <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                </div>
+                <h5 className="pb-0">
+                  Quality consistency is vital for us as we know there are no shortcuts when it comes to providing customers with consistent and reliable, quality products
                 </h5>
                 <div >
-                  <div
-                    className=""
-
-                  >
+                  <div className="">
                     <img
                       className="rounded-0"
                       src="assets/images/about/sustainability-1.svg"
                       alt="sustainability-1"
                     />
-
                   </div>
-
                 </div>
-
-
               </div>
 
             </div>

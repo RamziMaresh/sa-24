@@ -128,7 +128,6 @@ const page = () => {
               <div className="tag-share pt-0 pb-10">
                 <h5>Logistics</h5>
               </div>
-
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>

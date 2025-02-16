@@ -4792,7 +4792,7 @@ a.theme-btn.style-four:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.05;
+  opacity: 0.08;
   background: var(--primary-color);
 }
 
@@ -4861,7 +4861,7 @@ a.theme-btn.style-four:hover {
 }
 
 .iconic-box.style-seven:hover {
-  background: #EDC84F;
+  transform: scale(1.1);
 }
 
 .iconic-box.style-seven:hover .icon {

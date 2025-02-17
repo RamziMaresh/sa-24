@@ -4162,13 +4162,12 @@ a.theme-btn {
   -o-transition: 0.3s;
   transition: 0.3s;
   font-size: 18px;
-  font-weight: 600;
   text-align: center;
   padding: 5px 30px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

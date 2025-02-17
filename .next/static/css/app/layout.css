@@ -3889,11 +3889,10 @@ a.theme-btn {
   cursor: pointer;
   transition: 0.3s;
   font-size: 18px;
-  font-weight: 600;
   text-align: center;
   padding: 5px 30px;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   display: inline-flex;
   justify-content: center;
   font-family: var(--heading-font);

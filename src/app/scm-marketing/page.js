@@ -11,13 +11,10 @@ const page = () => {
       {/* News media section one start  */}
       <section className="services-two-area-l pt-100 rpt-60 pb-10 rpb-0 rel z-2">
         <div className="container">
-          <div className="row justify-content-center pb-40">
+          <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
               <div className="tag-share pt-0 pb-0">
-                <h5>ISO 9001: 2015 (international organization for standardization)</h5>
-              </div>
-              <div className="pb-20">
-                <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+                <h6>ISO 9001: 2015 (international organization for standardization)</h6>
               </div>
               <p>
                 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
@@ -26,11 +23,13 @@ const page = () => {
               <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="theme-btn" target="_blank">
                 View Safra ISO Certificate  <i className="far fa-file-pdf" />
               </Link>
-              <div className="tag-share pt-20 pb-0">
-                <h5>Sales</h5>
-              </div>
-              <div className="pb-20">
+
+              <div className="pb-20 pt-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+              </div>
+
+              <div className="tag-share pt-10 pb-0">
+                <h6>Sales</h6>
               </div>
               <p>
                 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
@@ -40,24 +39,27 @@ const page = () => {
                 ISO Tanks, road tankers, and road trailers in accordance with the requirements of our customers under International Shipping Code.
                 Using various packing such as new and reconditioned drums while adhering to global safety standards.
               </p>
-              <div className="tag-share pt-20 pb-0">
-                <h5>Marketing</h5>
-              </div>
-              <div className="pb-20">
+
+              <div className="pb-20 pt-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
+              </div>
+
+              <div className="tag-share pb-0">
+                <h6>Marketing</h6>
               </div>
               <p>
                 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality
                 of solvents and its distribution in the local, regional and international markets.
               </p>
             </div>
+            <hr />
           </div>
         </div>
       </section>
 
 
       {/* About Area Five Start */}
-      <section className="about-area-five pb-40 pt-40 rpb-40 rel z-1"
+      <section className="about-area-five pb-40 pt-0 rpb-40 rel z-1"
       >
         <div className="container">
           <div className="row gap-40 align-items-center">
@@ -79,7 +81,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <div className="tag-share pt-0 pb-10">
+                <div className="tag-share pt-10 pb-0">
                   <h5>Customer Service</h5>
                 </div>
                 <div className="pb-20">
@@ -127,7 +129,7 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
               <div className="tag-share pt-0 pb-10">
-                <h5>Logistics</h5>
+                <h6>Logistics</h6>
               </div>
               <div className="pb-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />

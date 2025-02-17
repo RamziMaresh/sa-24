@@ -4213,6 +4213,7 @@ a.theme-btn.style-two {
   background-image: -o-linear-gradient(right, var(--navyblue-color) 50%, var(--primary-color) 50%);
   background-image: linear-gradient(to left, var(--navyblue-color) 50%, var(--primary-color) 50%);
 }
+/* Details Btn 
 
 .theme-btn.style-three,
 a.theme-btn.style-three {
@@ -4243,7 +4244,6 @@ a.theme-btn.style-four:hover {
   color: white;
 }
 
-/* Details Btn */
 .details-btn {
   width: 65px;
   height: 65px;
@@ -4262,7 +4262,7 @@ a.theme-btn.style-four:hover {
   color: white;
   background: var(--heading-color);
 }
-
+*/
 /*******************************************************/
 /******************  ## Section Title *****************/
 /*******************************************************/
@@ -4527,7 +4527,7 @@ a.theme-btn.style-four:hover {
   top: 0;
   right: 0;
 }
-
+/*
 .iconic-box.style-two {
   background: rgba(226, 232, 240, 0.4);
   border: 1px solid rgba(226, 232, 240, 0.8);
@@ -4546,7 +4546,6 @@ a.theme-btn.style-four:hover {
   color: rgb(22 78 99);
 
 }
-
 
 
 .iconic-box.style-two p {
@@ -4769,6 +4768,7 @@ a.theme-btn.style-four:hover {
 .iconic-box.style-six:hover p {
   color: var(--base-color);
 }
+*/
 
 .iconic-box.style-seven {
   padding: 35px 40px 15px;
@@ -4881,7 +4881,7 @@ a.theme-btn.style-four:hover {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-
+/*
 .iconic-box.style-eight {
   background: #F8FAFC;
   padding: 10px;
@@ -5047,7 +5047,7 @@ a.theme-btn.style-four:hover {
   color: var(--base-color);
 }
 
-
+*/
 
 /*******************************************************/
 /******************** ## Fancy Box ********************/
@@ -5347,6 +5347,7 @@ a.theme-btn.style-four:hover {
 /*******************************************************/
 /********************  ## Courses  *******************/
 /*******************************************************/
+/*
 .course-nav li {
   z-index: 1;
   cursor: pointer;
@@ -5538,11 +5539,11 @@ a.theme-btn.style-four:hover {
 .course-item:hover .image .details-btn {
   opacity: 1;
 }
-
+*/
 /*******************************************************/
 /******************** ## Client Logo ********************/
 /*******************************************************/
-
+/*ß
 .client-logo-item.style-two a {
   opacity: 0.3;
   -webkit-filter: grayscale(1);
@@ -5623,7 +5624,7 @@ a.theme-btn.style-four:hover {
   margin-right: 25px;
   max-width: calc(50% - 50px);
 }
-
+*/
 /*******************************************************/
 /*******************  ## Testimonials ******************/
 /*******************************************************/
@@ -5638,8 +5639,6 @@ a.theme-btn.style-four:hover {
     padding: 25px;
   }
 }
-
-
 
 .testimonial-item .testi-footer .ratting i {
   width: 26px;
@@ -5656,6 +5655,7 @@ a.theme-btn.style-four:hover {
   color: var(--primary-color);
 }
 
+/*
 .testimonial-item.style-two {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -5706,8 +5706,8 @@ a.theme-btn.style-four:hover {
 .testi-slider-five .slick-dots li.slick-active {
   background: var(--heading-color);
 }
-
-/* Testimonials Right to Left Slider */
+*/
+/* Testimonials Right to Left Slider 
 .testi-slider-right .testimonial-item {
   max-width: 600px;
   margin-right: 50px;
@@ -5731,8 +5731,8 @@ a.theme-btn.style-four:hover {
     max-width: 300px;
   }
 }
-
-/* Testimonials Left To Right Slider */
+*/
+/* Testimonials Left To Right Slider 
 .testi-slider-left .testimonial-item {
   max-width: 600px;
   margin-left: 50px;
@@ -5758,8 +5758,8 @@ a.theme-btn.style-four:hover {
     max-width: 300px;
   }
 }
-
-/* Testimonials Three Slider */
+*/
+/* Testimonials Three Slider 
 .testi-slider-three {
   margin-left: -15px;
   margin-right: -15px;
@@ -5914,8 +5914,8 @@ a.theme-btn.style-four:hover {
   -ms-transform: scale(-1, 1) rotate(180deg);
   transform: scale(-1, 1) rotate(180deg);
 }
-
-/* Testimonials Four Slider */
+*/
+/* Testimonials Four Slider 
 .testi-slider-four {
   margin-left: -15px;
   margin-right: -15px;
@@ -6038,8 +6038,8 @@ a.theme-btn.style-four:hover {
   background-image: -o-linear-gradient(356deg, #B065E7 13.66%, #3157EF 81.89%);
   background-image: linear-gradient(94deg, #B065E7 13.66%, #3157EF 81.89%);
 }
-
-/* Testimonials Six Slider */
+*/
+/* Testimonials Six Slider 
 @media only screen and (min-width: 480px) {
   .testi-slider-six {
     padding-left: 55px;
@@ -6135,8 +6135,8 @@ a.theme-btn.style-four:hover {
 .testimonial-item-four .ratting i {
   font-size: 16px;
 }
-
-/* Testimonials Seven Slider */
+*/
+/* Testimonials Seven Slider 
 .testi-slider-seven {
   z-index: 1;
   position: relative;
@@ -6216,8 +6216,8 @@ a.theme-btn.style-four:hover {
   -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
 }
-
-/* Testimonials Eight Slider */
+*/
+/* Testimonials Eight Slider 
 @media only screen and (min-width: 576px) {
   .slick-initialized .testimonial-item-five {
     display: -webkit-box;
@@ -6322,8 +6322,8 @@ a.theme-btn.style-four:hover {
 .testimonial-item-five .author-description .author span {
   opacity: 0.55;
 }
-
-/* Home Seven */
+*/
+/* Home Seven 
 .testimonials-seven-content-part {
   max-width: 560px;
 }
@@ -6468,8 +6468,8 @@ a.theme-btn.style-four:hover {
     font-size: 14px;
   }
 }
-
-/* Testimonials Nine */
+*/
+/* Testimonials Nine 
 .testimonials-nine-area {
   background: -webkit-linear-gradient(207.99deg, #8F00FF 2.4%, rgba(252, 120, 11, 0.2) 66.08%, rgba(59, 11, 252, 0.8) 109.5%);
   background: -o-linear-gradient(207.99deg, #8F00FF 2.4%, rgba(252, 120, 11, 0.2) 66.08%, rgba(59, 11, 252, 0.8) 109.5%);
@@ -6491,8 +6491,8 @@ a.theme-btn.style-four:hover {
   top: 45%;
   right: 5%;
 }
-
-/* Home Eight */
+*/
+/* Home Eight 
 .testimonials-eight-shapes .shape {
   z-index: -1;
   max-width: 30%;
@@ -6509,11 +6509,13 @@ a.theme-btn.style-four:hover {
   top: 25%;
 }
 
+*/
 /* About Page 
 
 /*******************************************************/
 /********************** ## Blog **********************/
 /*******************************************************/
+/*
 .blog-meta {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6698,8 +6700,9 @@ a.theme-btn.style-four:hover {
     display: none;
   }
 }
+*/
 
-/* Blog Standard Area */
+/* Blog Standard Area 
 .blog-standard-item {
   margin-bottom: 50px;
 }
@@ -6756,8 +6759,8 @@ a.theme-btn.style-four:hover {
 .blog-standard-wrap {
   max-width: 770px;
 }
-
-/* Blog Details Area */
+*/
+/* Blog Details Area 
 .blog-details-content .image img {
   width: 100%;
   border-radius: 12px;
@@ -6827,8 +6830,8 @@ a.theme-btn.style-four:hover {
   color: var(--base-color);
   background: transparent;
 }
-
-/* Next Prev Blog */
+*/
+/* Next Prev Blog 
 .next-prev-blog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6844,8 +6847,8 @@ a.theme-btn.style-four:hover {
   max-width: 365px;
   margin-bottom: 30px;
 }
-
-/* Comments */
+*/
+/* Comments 
 @media only screen and (min-width: 376px) {
   .comment-title {
     font-size: 27px;
@@ -6973,8 +6976,8 @@ a.theme-btn.style-four:hover {
 .admin-comment .comment-body .content .social-icons a:hover {
   color: var(--primary-color);
 }
-
-/* Comment Form */
+*/
+/* Comment Form 
 .comment-form {
   padding: 40px 60px 50px;
 }
@@ -7005,7 +7008,7 @@ a.theme-btn.style-four:hover {
   background: white;
   padding: 18px 25px;
 }
-
+*/
 /*******************************************************/
 /********************** ## Tabs **********************/
 /*******************************************************/
@@ -7081,7 +7084,7 @@ a.theme-btn.style-four:hover {
 .advanced-tab li button.active {
   border-color: var(--primary-color);
 }
-
+/*
 .advanced-tab.style-two {
   border-bottom: 1.2px solid var(--border-color);
 }
@@ -7225,18 +7228,19 @@ a.theme-btn.style-four:hover {
 .tab-area-five .management-images {
   padding-left: 13%;
 }
+*/
 
-/* Home Nine */
+/* Home Nine 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .advanced-tab-area .content .section-title h2 {
     font-size: 40px;
   }
 }
-
+*/
 /*******************************************************/
 /******************* ## Forms Styles *******************/
 /*******************************************************/
-
+/*
 .nice-select {
   font-size: 16px;
   border-radius: 7px;
@@ -7269,8 +7273,8 @@ a.theme-btn.style-four:hover {
 .help-block.with-errors {
   color: yellow;
 }
-
-/* Sign Up/In */
+*/
+/* Sign Up/In 
 .sign-in-up-wrapper {
   padding: 0px;
   text-align: center;
@@ -7348,10 +7352,11 @@ a.theme-btn.style-four:hover {
 .sign-in-up-wrapper .forgot-password a {
   color: var(--primary-color);
 }
-
+*/
 /*******************************************************/
 /********************  ## Tooltips  *******************/
 /*******************************************************/
+/*
 .tooltip-item {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -7657,8 +7662,8 @@ a.theme-btn.style-four:hover {
   right: 19%;
   bottom: 35%;
 }
-
-/* Tooltip Section One */
+*/
+/* Tooltip Section One 
 .tooltip-shapes .shape {
   z-index: -1;
   max-width: 10%;
@@ -7693,10 +7698,11 @@ a.theme-btn.style-four:hover {
   -webkit-animation: leftRightOne 10s infinite;
   animation: leftRightOne 10s infinite;
 }
-
+*/
 /*******************************************************/
 /****************** ## Work Process ******************/
 /*******************************************************/
+/*
 .work-process-item {
   text-align: center;
   margin-bottom: 45px;
@@ -7743,7 +7749,7 @@ a.theme-btn.style-four:hover {
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
     transform: translate(-50%);
-    /**background-image: url(../images/shapes/work-process-arrow.png); **/
+    background-image: url(../images/shapes/work-process-arrow.png); 
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -7777,10 +7783,11 @@ a.theme-btn.style-four:hover {
   animation: down-up-two 5s infinite;
 }
 
-
+*/
 /*******************************************************/
 /***************** ## Feature Image Box *****************/
 /*******************************************************/
+/*
 .feature-image-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7863,8 +7870,8 @@ a.theme-btn.style-four:hover {
 .feature-image-box.style-two .icon-list li i {
   color: var(--heading-color);
 }
-
-/* Home Eight */
+*/
+/* Home Eight 
 .feature-image-box-two {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7953,10 +7960,11 @@ a.theme-btn.style-four:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
+*/
 /*******************************************************/
 /*************** ## Marquee Iconic Box ***************/
 /*******************************************************/
+/*
 .iconic-slider-right .slick-list {
   padding-top: 30px !important;
 }
@@ -8148,10 +8156,11 @@ a.theme-btn.style-four:hover {
     margin-top: -5px;
   }
 }
-
+*/
 /*******************************************************/
 /********************  ## Accordion *******************/
 /*******************************************************/
+/*
 .accordion-item {
   z-index: 1;
   border: none;
@@ -8368,8 +8377,8 @@ a.theme-btn.style-four:hover {
 .faq-images-part .image img {
   border-radius: 12px;
 }
-
-/* FAQ Page */
+*/
+/* FAQ Page 
 .faq-page .accordion-item .accordion-button {
   background: var(--lighter-color);
 }
@@ -8385,7 +8394,7 @@ a.theme-btn.style-four:hover {
   border-left-color: var(--border-color);
   border-right-color: var(--border-color);
 }
-
+*/
 /*******************************************************/
 /********************** ## Error **********************/
 /*******************************************************/
@@ -8454,6 +8463,7 @@ a.theme-btn.style-four:hover {
 /*******************************************************/
 /******************* ## Header style *******************/
 /*******************************************************/
+
 .main-header {
   position: relative;
   left: 0px;
@@ -8919,7 +8929,7 @@ a.theme-btn.style-four:hover {
   background: F8FAFC;
 }
 
-/* Header Search */
+/* Header Search 
 .nav-search {
   font-size: 16px;
   position: relative;
@@ -8987,8 +8997,9 @@ a.theme-btn.style-four:hover {
   background: transparent;
   padding: 15px 20px 15px 0;
 }
+*/
 
-/** hidden-sidebar * */
+/** hidden-sidebar 
 .menu-sidebar>button {
   background: transparent;
 }
@@ -9058,8 +9069,8 @@ a.theme-btn.style-four:hover {
   color: #ffffff;
   margin-bottom: 35px;
 }
-
-/*Appointment Form */
+*/
+/*Appointment Form 
 .hidden-bar .appointment-form {
   position: relative;
 }
@@ -9296,12 +9307,12 @@ a.theme-btn.style-four:hover {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
-/* Header Style Two */
+*/
+/* Header Style Two 
 .main-header.style-two .main-logo {
   max-width: 40%;
 }
-
+*/
 /* Sidebar Menu */
 .sidebar-menu li {
   color: white;
@@ -9503,7 +9514,7 @@ a.theme-btn.style-four:hover {
   }
 }
 
-/* Hero Section Two */
+/* Hero Section Two 
 .hero-area-two {
   z-index: 1;
   overflow: hidden;
@@ -9636,8 +9647,8 @@ a.theme-btn.style-four:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-/* Hero Section Three */
+*/
+/* Hero Section Three 
 .hero-three-image {
   border-radius: 12px;
 }
@@ -9647,8 +9658,8 @@ a.theme-btn.style-four:hover {
     margin-right: -25%;
   }
 }
-
-/* Hero Shapes */
+*/
+/* Hero Shapes 
 .hero-shapes .shape {
   z-index: -1;
   position: absolute;
@@ -9667,8 +9678,8 @@ a.theme-btn.style-four:hover {
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
 }
-
-/* Hero Section Five */
+*/
+/* Hero Section Five 
 .hero-bg-wave-shapes {
   position: absolute;
   left: 0;
@@ -9738,8 +9749,8 @@ a.theme-btn.style-four:hover {
 .hero-image-area.style-two img {
   border-radius: 30px 30px 0 0;
 }
-
-/* Hero Section Six */
+*/
+/* Hero Section Six 
 .hero-area-six .hero-bg-shapes {
   position: absolute;
   left: 0;
@@ -9780,8 +9791,8 @@ a.theme-btn.style-four:hover {
 .hero-area-six .hero-content.style-five h1 span {
   color: var(--primary-color);
 }
-
-/* Hero Seven */
+*/
+/* Hero Seven 
 @media only screen and (min-width: 1300px) and (max-width: 1599px) {
   .hero-content.style-seven h1 {
     font-size: 64px;
@@ -9810,8 +9821,8 @@ a.theme-btn.style-four:hover {
     margin-right: -30px;
   }
 }
-
-/* Hero Eight * */
+*/
+/* Hero Eight * 
 .hero-area-eight:after {
   position: absolute;
   right: 0;
@@ -9820,7 +9831,7 @@ a.theme-btn.style-four:hover {
   content: '';
   width: 26%;
   height: 100%;
-  /** background: url(../images/hero/hero-eight-bg.png);**/
+  background: url(../images/hero/hero-eight-bg.png);
 }
 
 .hero-area-eight:before {
@@ -9925,8 +9936,8 @@ a.theme-btn.style-four:hover {
     max-width: 50%;
   }
 }
-
-/* Hero Nine * */
+*/
+/* Hero Nine *
 .hero-nine-shapes {
   position: absolute;
   left: 0;
@@ -10112,10 +10123,11 @@ a.theme-btn.style-four:hover {
   top: 52%;
   right: -3%;
 }
-
+ */
 /*******************************************************/
 /******************* ## Page Banner *******************/
 /*******************************************************/
+/*
 .banner-inner h1 {
   margin-bottom: 30px;
 
@@ -10237,7 +10249,7 @@ a.theme-btn.style-four:hover {
   content: "\f105";
   font-family: "Font Awesome 5 Pro";
 }
-
+ */
 /*******************************************************/
 /******************* ## About Area ********************/
 /*******************************************************/
@@ -10475,7 +10487,7 @@ a.theme-btn.style-four:hover {
   }
 }
 
-/* About Four */
+/* About Four
 .about-four-images {
   max-width: 515px;
 }
@@ -10560,8 +10572,8 @@ a.theme-btn.style-four:hover {
   background: -o-linear-gradient(356deg, rgba(176, 101, 231, 0.1) 13.66%, rgba(49, 87, 239, 0.1) 81.89%);
   background: linear-gradient(94deg, rgba(176, 101, 231, 0.1) 13.66%, rgba(49, 87, 239, 0.1) 81.89%);
 }
-
-/* About Five */
+ */
+/* About Five 
 .about-images-five img {
   max-width: 50%;
   border-radius: 15px;
@@ -10583,10 +10595,9 @@ a.theme-btn.style-four:hover {
 .numbered-boxes .numbered-box.style-two {
   margin-bottom: 20px;
 }
+*/
 
-
-
-/* Home Six */
+/* Home Six
 .ai-content .subtitle {
   font-weight: 600;
   margin-bottom: 5px;
@@ -10606,7 +10617,7 @@ a.theme-btn.style-four:hover {
 .ai-content .theme-btn.style-three:hover {
   color: white;
 }
-
+ */
 /* Home Seven 
 .about-seven-images {
   padding: 45px;
@@ -10778,12 +10789,12 @@ a.theme-btn.style-four:hover {
 }
   */
 
-/* About Page */
+/* About Page 
 .data-analytics-content {
   max-width: 755px;
 }
-
-/* Services Page */
+*/
+/* Services Page 
 .about-images-service-page {
   position: relative;
 }
@@ -10859,8 +10870,8 @@ a.theme-btn.style-four:hover {
 .about-images-service-page .logo img {
   max-width: 55%;
 }
-
-/* Service Details */
+*/
+/* Service Details 
 .service-mamagement-content .feature-icon-box.style-two {
   padding: 0;
   -webkit-box-shadow: none;
@@ -10892,8 +10903,8 @@ a.theme-btn.style-four:hover {
     font-size: 15px;
   }
 }
-
-/* Team Page */
+*/
+/* Team Page 
 .innovation-dedication-content {
   max-width: 520px;
 }
@@ -10941,7 +10952,7 @@ a.theme-btn.style-four:hover {
     border-radius: 10px;
   }
 }
-
+*/
 /*******************************************************/
 /******************* ## Contact Area ********************/
 /*******************************************************/
@@ -11070,7 +11081,7 @@ a.theme-btn.style-four:hover {
   border: 1px solid rgba(15, 17, 15, 0.07);
 }
 
-/* Cart Page */
+/* Cart Page 
 .shoping-table table,
 .shoping-cart-total table {
   width: 100%;
@@ -11159,7 +11170,7 @@ a.theme-btn.style-four:hover {
 .discount-wrapper input {
   width: 200px;
 }
-
+*/
 
 /*******************************************************/
 /****************** ## Videos Area ********************/
@@ -11416,7 +11427,7 @@ a.theme-btn.style-four:hover {
 /* Footer One */
 .main-footer.footer-one {
   background: rgb(14, 116, 144);
-  background: linear-gradient(90deg, rgba(15 118 110) 0%, rgba(22, 78, 99, 1) 100%);
+  background: linear-gradient(90deg, rgba(14 116 144) 0%, rgba(22 78 99) 100%);
   color: rgba(255, 255, 255, 0.45);
 }
 

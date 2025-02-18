@@ -1,10 +1,11 @@
 {
   "/page": "app/page.js",
   "/scm-marketing/page": "app/scm-marketing/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/careers/page": "app/careers/page.js",
-  "/household-products/page": "app/household-products/page.js",
   "/trading-products/page": "app/trading-products/page.js",
-  "/not-found": "app/not-found.js",
-  "/about/page": "app/about/page.js"
+  "/about/page": "app/about/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js",
+  "/products/page": "app/products/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/contact/page": "app/contact/page.js"
 }

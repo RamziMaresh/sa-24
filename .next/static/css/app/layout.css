@@ -685,13 +685,15 @@ input[type=radio] {
 .preloader .custom-loader {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: transparent;
-  border: 1px solid var(--primary-color);
-  border-top: 2px solid var(--primary-color);
-  border-bottom: 2px solid #987C1F;
+  border: 3px solid var(--primary-color);
+  border-top: 2px solid rgb(15 118 110);
+  border-bottom: 2px solid rgb(15 118 110);
   animation: 1s preloader linear infinite;
+  padding: 20px;
 }
+
 
 /* Pagination */
 .pagination {
@@ -10651,7 +10653,7 @@ a.theme-btn.style-four:hover {
   border: 1px solid rgba(15, 17, 15, 0.07);
 }
 
-/* Cart Page 
+/* Chemplex Page table */
 .shoping-table table,
 .shoping-cart-total table {
   width: 100%;
@@ -10699,7 +10701,6 @@ a.theme-btn.style-four:hover {
   }
 
   .shoping-table tr {
-    display: -ms-grid;
     display: grid;
   }
 
@@ -10713,8 +10714,6 @@ a.theme-btn.style-four:hover {
 }
 
 .quantity-input {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -10740,7 +10739,7 @@ a.theme-btn.style-four:hover {
 .discount-wrapper input {
   width: 200px;
 }
-*/
+
 
 /*******************************************************/
 /****************** ## Videos Area ********************/

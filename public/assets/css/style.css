@@ -10213,7 +10213,7 @@ a.theme-btn.style-four:hover {
     font-size: 16px;
   }
 }
-
+ */
 .breadcrumb .breadcrumb-item {
   padding: 0;
   font-size: 20px;
@@ -10249,7 +10249,7 @@ a.theme-btn.style-four:hover {
   content: "\f105";
   font-family: "Font Awesome 5 Pro";
 }
- */
+
 /*******************************************************/
 /******************* ## About Area ********************/
 /*******************************************************/
@@ -11427,7 +11427,7 @@ a.theme-btn.style-four:hover {
 /* Footer One */
 .main-footer.footer-one {
   background: rgb(14, 116, 144);
-  background: linear-gradient(90deg, rgba(14 116 144) 0%, rgba(22 78 99) 100%);
+  background: linear-gradient(90deg, rgba(21 94 117) 0%, rgba(22 78 99) 100%);
   color: rgba(255, 255, 255, 0.45);
 }
 
@@ -11587,7 +11587,7 @@ video {
 }
 .content-banner h3{
   text-align: center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
   padding-bottom: 20px;
 }
 

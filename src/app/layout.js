@@ -13,8 +13,19 @@ import '@emailjs/browser';
 
 export const metadata = {
   title: {
-    template: "Safra - Safra provides better solutions",
-    default: "Safra - Safra provides better solutions", // a default is required when creating a template
+    template: "Safra Company Limited - Safra provides better solutions",
+    default: "Safra Company Limited - Safra provides better solutions", // a default is required when creating a template
+    description: "Since 1990, Safra is a manufacturer of hydrocarbon solvents having a fully automated refinery located at Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah. ",
+
+  },
+  title_two: {
+    template: "About us",
+    default: "Safra Company Limited - Safra provides better solutions", 
+    description:"The production capacity of SAFRA refinery is continuously expanding to meet increasing demand for products while keeping pace with the latest technological developments and simultaneously meeting...",
+  },
+  title_two: {
+    template: "Contact Us",
+    default: "Contact", 
   },
   description: "Since 1990, Safra is a manufacturer of hydrocarbon solvents having a fully automated refinery located at Yanbu Industrial City on the west coast of Saudi Arabia, and corporate office at Jeddah. ",
 };

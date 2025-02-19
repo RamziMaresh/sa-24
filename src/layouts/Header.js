@@ -62,15 +62,13 @@ const DefaultHeader = ({ onePage }) => {
               {/* Main Menu End*/}
             </div>
 
-            {/* Menu Button
-                          <Locals />
-
-            
-            */}
-
+            {/* Menu Button */}
             <div className="menu-btns ms-lg-auto d-none d-xl-flex">
-
+              <Locals /> 
+              
             </div>
+
+
           </div>
         </div>
       </div>
@@ -109,7 +107,7 @@ const HeaderNotFound = ({ onePage }) => {
 
             {/* Menu Button */}
             <div className="menu-btns ms-lg-auto d-none d-xl-flex">
-              {/** <Locals />*/}
+              <Locals />
             </div>
           </div>
         </div>
@@ -184,11 +182,6 @@ const Nav = ({
                   <li>
                     <Link href="blended-products">{t('Blended')}</Link>
                   </li>
-                  {/** 
-                  <li>
-                    <Link href="products-details">{t('SPECS And MSDS')}</Link>
-                  </li>
-                  */}
                 </ul>
                 <div className="dropdown-btn">
                   &nbsp;<span className="far fa-angle-down" />
@@ -313,9 +306,7 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
           <li className="dropdown">
             <a href="/">{t('Home')}</a>
             <ul style={activeLi("home")}>
-
             </ul>
-
           </li>
           <li className="dropdown">
             <Link href="/about">{t('About Us')}</Link>
@@ -338,11 +329,6 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
               <li>
                 <Link href="blended-products">{t('- Blended')}</Link>
               </li>
-              {/** 
-              <li>
-                <Link href="products-details">{t('SPECS & MSDS')}</Link>
-              </li>
-              */}
             </ul>
             <div
               className="dropdown-btn"

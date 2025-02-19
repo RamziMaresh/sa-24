@@ -14,9 +14,10 @@ const Locals = () => {
 
     return (
         <div className="nav-locales">
+
                 <button
                     type="button"
-                    onClick={handleChangeLanguage}
+                    //onClick={handleChangeLanguage}
                     className='btn-locales'
                 >
                     <i className="far fa-globe" ></i>

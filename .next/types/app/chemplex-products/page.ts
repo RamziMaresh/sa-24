@@ -1,8 +1,8 @@
-// File: /Users/mac/Desktop/sa-it-up24/src/app/scm-marketing/page.js
-import * as entry from '../../../../src/app/scm-marketing/page.js'
+// File: /Users/mac/Desktop/sa-it-up24/src/app/chemplex-products/page.js
+import * as entry from '../../../../src/app/chemplex-products/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/scm-marketing/page.js')
+type TEntry = typeof import('../../../../src/app/chemplex-products/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

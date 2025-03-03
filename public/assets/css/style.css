@@ -32,7 +32,7 @@ body {
   font-family: var(--base-font);
   --base-font: "Roboto Condensed", sans-serif;;
   --heading-font: "Roboto Condensed", sans-serif;;
-  --primary-color: rgb(14 116 144);
+  --primary-color: #2c7a7b;
   --secondary-color: #FEC458;
   --heading-color: #001726;
   --base-color: #696969;

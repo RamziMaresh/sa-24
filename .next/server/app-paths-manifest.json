@@ -1,5 +1,9 @@
 {
   "/page": "app/page.js",
+  "/scm-marketing/page": "app/scm-marketing/page.js",
+  "/contact/page": "app/contact/page.js",
   "/blended-products/page": "app/blended-products/page.js",
+  "/about/page": "app/about/page.js",
+  "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

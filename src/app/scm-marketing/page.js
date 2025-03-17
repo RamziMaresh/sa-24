@@ -16,9 +16,9 @@ const page = () => {
               <div className="tag-share pt-0 pb-0">
                 <h6>ISO 9001: 2015 (international organization for standardization)</h6>
               </div>
+              
               <p>
-                Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
-                It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
+                <b>Breif of iso from Marketing</b>
               </p>
               <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="theme-btn" target="_blank">
                 View Safra ISO Certificate  <i className="far fa-file-pdf" />

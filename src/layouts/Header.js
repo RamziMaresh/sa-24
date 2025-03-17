@@ -176,9 +176,7 @@ const Nav = ({
                   <li>
                     <Link href="chemplex-products">{t('Chemplex')}</Link>
                   </li>
-                  <li>
-                    <Link href="trading-products">{t('Trading')}</Link>
-                  </li>
+
                   <li>
                     <Link href="blended-products">{t('Blended')}</Link>
                   </li>
@@ -322,9 +320,6 @@ const MobileMenu = ({ sidebar, onePage, menus }) => {
               </li>
               <li>
                 <Link href="chemplex-products">{t('- Chemplex')}</Link>
-              </li>
-              <li>
-                <Link href="trading-products">{t('- Trading')}</Link>
               </li>
               <li>
                 <Link href="blended-products">{t('- Blended')}</Link>

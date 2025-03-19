@@ -37,7 +37,7 @@ const DefaultFooter = () => {
                   </Link>
                 </div>
               </div>
-              <div className="logo-outer">
+              <div className="logo-outer text-center">
                 <div className="logo">
                     <img
                     className="logo-outer-2"

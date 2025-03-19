@@ -3,7 +3,6 @@ import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 
-
 const page = () => {
   return (
     <SafraLayout>
@@ -16,11 +15,15 @@ const page = () => {
               <div className="tag-share pt-0 pb-0">
                 <h6>ISO 9001: 2015 (international organization for standardization)</h6>
               </div>
-              
-              <p>
-                <b>Breif of iso from Marketing</b>
+
+              <p className="tag-share2">
+                ISO 9001: 2015 is an internationally recognized standard for quality management systems (QMS), ensuring our commitment
+                to delivering high-quality products and services. By adhering to ISO 9001:2015, we continually improve our processes,
+                enhance customer satisfaction, and foster a culture of excellence. Our dedication to these standards reflects our mission
+                to meet and exceed customer expectations while ensuring operational efficiency and compliance.
               </p>
-              <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="theme-btn" target="_blank">
+
+              <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="" target="_blank">
                 View Safra ISO Certificate  <i className="far fa-file-pdf" />
               </Link>
 

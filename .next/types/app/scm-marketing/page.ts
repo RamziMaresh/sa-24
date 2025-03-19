@@ -1,4 +1,4 @@
-// File: /Users/mac/Desktop/sa-it-up24/src/app/scm-marketing/page.js
+// File: /Users/mac/Desktop/safra2025/src/app/scm-marketing/page.js
 import * as entry from '../../../../src/app/scm-marketing/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

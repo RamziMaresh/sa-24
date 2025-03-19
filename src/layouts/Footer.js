@@ -25,7 +25,7 @@ const DefaultFooter = () => {
             <div
               className="footer-widget widget-about"
             >
-              <div className="logo-outer">
+              <div className="logo-outer text-center">
                 <div className="logo mb-20">
                   <Link href="/">
                     <img

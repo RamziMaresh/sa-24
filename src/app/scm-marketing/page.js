@@ -34,7 +34,7 @@ const page = () => {
               <div className="tag-share pt-10 pb-0">
                 <h6>Sales</h6>
               </div>
-              <p>
+              <p className="tag-share2">
                 Safra meets the requirements of wide spectrum of market segments by producing high quality solvents in the most modern and fully automated plant.
                 It’s expertise in understanding the needs and dynamics of local and regional industrial markets further attributes to serve better than competitors.
                 <br />
@@ -50,7 +50,7 @@ const page = () => {
               <div className="tag-share pb-0">
                 <h6>Marketing</h6>
               </div>
-              <p>
+              <p className="tag-share2">
                 Safra aims to further fulfill the needs of customers with higher levels of satisfaction by producing the best quality
                 of solvents and its distribution in the local, regional and international markets.
               </p>
@@ -141,12 +141,12 @@ const page = () => {
           </div>
           <div className="row justify-content-center pb-40">
             <div className="col-xl-9 col-lg-11">
-              <p>
+              <p className="tag-share2">
                 We have added a full-fledged logistics department to our customer service team
                 to achieve on-time delivery and to ensure our objective of meeting the various
                 packaging mode requirements of customers.
               </p>
-              <p>
+              <p className="tag-share2">
                 We have secured long-term agreements with some of the best service providers
                 in the international logistic markets, who give our requirements the utmost
                 priority, in line with our strict performance evaluation techniques.

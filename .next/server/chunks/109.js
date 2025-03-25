@@ -1,0 +1,1 @@
+"use strict";exports.id=109,exports.ids=[109],exports.modules={37109:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>a,__esModule:()=>r,default:()=>i});let o=(0,t(86843).createProxy)(String.raw`/Users/mac/Desktop/safra2025/src/components/isotope/AliphaticDetails.js`),{__esModule:r,$$typeof:a}=o,i=o.default}};

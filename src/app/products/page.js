@@ -62,10 +62,6 @@ const page = () => {
                   <hr />
                 </a>
 
-                <a> <Link href="trading-products" className="text-link">  - Trading Products </Link>
-                  <hr />
-                </a>
-
                 <a> <Link href="blended-products" className="text-link">  - Blended Products </Link>
                 </a>
               </div>

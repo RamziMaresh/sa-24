@@ -40,8 +40,6 @@ const page = () => {
                 />
               </div>
 
-
-
               <div className="pb-20 pt-20">
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
@@ -202,7 +200,8 @@ const page = () => {
         </div>
       </section>
 */}
-    </SafraLayout>
+    </SafraLayout >
   );
 };
 export default page;
+

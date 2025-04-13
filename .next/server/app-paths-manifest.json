@@ -1,7 +1,8 @@
 {
   "/page": "app/page.js",
-  "/careers/page": "app/careers/page.js",
   "/scm-marketing/page": "app/scm-marketing/page.js",
-  "/not-found": "app/not-found.js",
+  "/about/page": "app/about/page.js",
+  "/aliphatic-products/page": "app/aliphatic-products/page.js",
+  "/chemplex-products/page": "app/chemplex-products/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js"
 }

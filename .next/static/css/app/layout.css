@@ -6279,4 +6279,57 @@ background: linear-gradient(90deg, rgba(14,116,144,1) 0%, rgba(22,78,99,1) 100%)
   color: rgb(14,116,144);
 }
 
+/*
+default style for popup
 
+*/
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #d7d7d7;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  border-radius: 5px;
+}
+
+.popup-arrow {
+  filter: drop-shadow(0 -3px 3px rgba(0, 0, 0, 0.16));
+  color: #fff;
+  stroke-width: 2px;
+  stroke: #d7d7d7;
+  stroke-dasharray: 30px;
+  stroke-dashoffset: -54px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+*{
+  text-align: center;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.popup{
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 15px;
+}
+.popup-header{
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 15px;
+  border-bottom: 1px solid black;
+}

@@ -1,9 +1,10 @@
 "use client";
-import Link from "next/link";
 import PageBanner from "../../components/PageBanner";
 import SafraLayout from "../../layouts/SafraLayout";
 //
 
+
+import PopUp from "@/src/components/popup/Popup";
 const page = () => {
   return (
     <SafraLayout>
@@ -21,11 +22,17 @@ const page = () => {
                 ISO 9001: 2015 is an internationally recognized standard for quality management systems (QMS), ensuring our commitment
                 to delivering high-quality products and services. By adhering to ISO 9001:2015, we continually improve our processes,
                 enhance customer satisfaction, and foster a culture of excellence. Our dedication to these standards reflects our mission
-                to meet and exceed customer expectations while ensuring operational efficiency and compliance
+                to meet and exceed customer expectations while ensuring operational efficiency and compliance.
+                {/* 
                 <Link href="/assets/images/pdfs/iso/iso_safra_2024.pdf" className="text-center" target="_blank">
                   . <i className="fa fa-file-pdf pdf-icon"></i>
                 </Link>
+                */}
               </p>
+
+              <div className="">
+              <PopUp />
+              </div>
 
               <div
                 className="image mt-40 text-center"
@@ -44,6 +51,7 @@ const page = () => {
                 <img src="assets/images/logos/BarBot.jpg" alt="safra-line" width={400} />
               </div>
 
+              
               <div className="tag-share pt-10 pb-0">
                 <h6>Sales</h6>
               </div>

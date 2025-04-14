@@ -6794,7 +6794,7 @@ default style for popup
 }
 .popup{
   width: 100%;
-  background-color: lightgray;
+  background-color: #f3f4f6;
   border-radius: 15px;
 }
 .popup-header{

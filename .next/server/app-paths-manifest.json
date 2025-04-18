@@ -1,4 +1,6 @@
 {
+  "/scm-marketing/page": "app/scm-marketing/page.js",
   "/page": "app/page.js",
-  "/scm-marketing/page": "app/scm-marketing/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

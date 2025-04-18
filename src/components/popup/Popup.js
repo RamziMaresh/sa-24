@@ -19,7 +19,7 @@ function PopUp() {
                                     <h4 onClick={closePopup}>X</h4>
                                 </div>
 
-                                <div className="pb-20 pt-20">
+                                <div className="pb-20 pt-20 text-center">
                                     <img src="assets/images/iso/Iso_Image_safra.png" alt="safra-line" width={400}/>
                                 </div>
 

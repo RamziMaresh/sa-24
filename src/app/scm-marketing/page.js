@@ -14,11 +14,11 @@ const page = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-11">
-              <div className="tag-share pt-0 pb-0 text-center">
+              <div className="tag-share pt-0 pb-">
                 <h5>ISO 9001: 2015 (international organization for standardization)</h5>
               </div>
 
-              <p className="tag-share2 text-center">
+              <p className="tag-share2">
                 ISO 9001: 2015 is an internationally recognized standard for quality management systems (QMS), ensuring our commitment
                 to delivering high-quality products and services. By adhering to ISO 9001:2015, we continually improve our processes,
                 enhance customer satisfaction, and foster a culture of excellence. Our dedication to these standards reflects our mission

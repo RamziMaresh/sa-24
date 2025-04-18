@@ -121,10 +121,11 @@ const DefaultFooter = () => {
         <div className="footer-bottom mt-30 py-15">
           <div className="row justify-content-center text-center">
             <span>
-              © {date.getFullYear()} All rights reserved | Safra Company Limited.  v.1.2
+              © {date.getFullYear()} All rights reserved | Safra Company Limited.
             </span>
-
-
+            <span>
+              <Link href="" >Terms of Use |</Link> <Link href="">Privacy Policy</Link> | v.1.3
+            </span>
             <div className="social-style-one justify-content-center text-center ">
                 <a target="_blank" href="https://www.linkedin.com/company/safra/mycompany/">
                   <i className="fab fa-linkedin" />

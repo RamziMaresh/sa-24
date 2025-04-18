@@ -6312,9 +6312,6 @@ default style for popup
   bottom: 0;
 }
 
-*{
-  text-align: center;
-}
 
 .main{
   height: 100%;
@@ -6322,7 +6319,7 @@ default style for popup
   top: 0;
 }
 .popup{
-  width: 100%;
+  width: 50%;
   background-color: #f3f4f6;
   border-radius: 15px;
 }

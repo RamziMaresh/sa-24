@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = ({ footer }) => {
   switch (footer) {
@@ -126,6 +127,13 @@ const DefaultFooter = () => {
             <span>
               <Link href="" >Terms of Use |</Link> <Link href="">Privacy Policy</Link> | v.1.3
             </span>
+
+            <div className="scrool-top">
+            <ScrollToTop smooth c color="black" viewBox="0 0 256 256" className="scrool-top"/>
+            </div>
+
+
+
             <div className="social-style-one justify-content-center text-center ">
                 <a target="_blank" href="https://www.linkedin.com/company/safra/mycompany/">
                   <i className="fab fa-linkedin" />

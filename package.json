@@ -27,6 +27,7 @@
     "react-nice-select": "^1.0.6",
     "react-pdf": "^9.2.1",
     "react-player": "^2.14.1",
+    "react-scroll-to-top": "^3.1.0",
     "react-select": "^5.8.0",
     "react-simple-image-slider": "^2.4.1",
     "react-slick": "^0.30.2",
